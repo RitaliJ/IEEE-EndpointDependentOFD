@@ -1,0 +1,999 @@
+=== Experiment Timeline ===
+Seed: 42   Horizon: 15   Warmup: 5
+
+  t=   0.0  ↓ ARRIVE       order #888 → branch 126.59128 (dist=?)
+             ✓ READY        order #888
+             → ASSIGN       driver #5 ← [#888] → branch 126.59128 (dist=?)
+  t=   0.1  ↓ ARRIVE       order #912 → branch 126.57256 (dist=?)
+             ✓ READY        order #912
+  t=   0.1  ↓ ARRIVE       order #914 → branch 126.55547 (dist=?)
+             ✓ READY        order #914
+  t=   0.1  ↓ ARRIVE       order #974 → branch 126.57692 (dist=?)
+             ✓ READY        order #974
+  t=   0.1  ↓ ARRIVE       order #1054 → branch 126.51824 (dist=?)
+             ✓ READY        order #1054
+  t=   0.2  ↓ ARRIVE       order #1064 → branch 126.51646 (dist=?)
+             ✓ READY        order #1064
+  t=   0.2  ↓ ARRIVE       order #1043 → branch 126.53454 (dist=?)
+             ✓ READY        order #1043
+  t=   0.2  ↓ ARRIVE       order #1050 → branch 126.55462 (dist=?)
+             ✓ READY        order #1050
+  t=   0.2  ↓ ARRIVE       order #978 → branch 126.55234 (dist=?)
+             ✓ READY        order #978
+  t=   0.2  ↓ ARRIVE       order #1052 → branch 126.53281 (dist=?)
+             ✓ READY        order #1052
+  t=   0.2  ↓ ARRIVE       order #895 → branch 126.57331 (dist=?)
+             ✓ READY        order #895
+  t=   0.2  ↓ ARRIVE       order #1016 → branch 126.52019 (dist=?)
+             ✓ READY        order #1016
+  t=   0.3  ↓ ARRIVE       order #1030 → branch 126.54552 (dist=?)
+             ✓ READY        order #1030
+  t=   0.3  ↓ ARRIVE       order #853 → branch 126.56936 (dist=?)
+             ✓ READY        order #853
+  t=   0.3  ↓ ARRIVE       order #882 → branch 126.57373 (dist=?)
+             ✓ READY        order #882
+  t=   0.3  ↓ ARRIVE       order #918 → branch 126.55656 (dist=?)
+             ✓ READY        order #918
+  t=   0.4  ↓ ARRIVE       order #991 → branch 126.55848 (dist=?)
+             ✓ READY        order #991
+  t=   0.4  ↓ ARRIVE       order #1033 → branch 126.59343 (dist=?)
+             ✓ READY        order #1033
+  t=   0.4  ↓ ARRIVE       order #983 → branch 126.56508 (dist=?)
+             ✓ READY        order #983
+  t=   0.4  ↓ ARRIVE       order #997 → branch 126.5521 (dist=?)
+             ✓ READY        order #997
+  t=   0.4  ↓ ARRIVE       order #900 → branch 126.55491 (dist=?)
+             ✓ READY        order #900
+  t=   0.4  ↓ ARRIVE       order #1048 → branch 126.47365 (dist=?)
+             ✓ READY        order #1048
+  t=   0.4  ↓ ARRIVE       order #896 → branch 126.59144 (dist=?)
+             ✓ READY        order #896
+  t=   0.4  ↓ ARRIVE       order #1031 → branch 126.56259 (dist=?)
+             ✓ READY        order #1031
+  t=   0.4  ↓ ARRIVE       order #1053 → branch 126.51636 (dist=?)
+             ✓ READY        order #1053
+  t=   0.4  ↓ ARRIVE       order #980 → branch 126.55107 (dist=?)
+             ✓ READY        order #980
+  t=   0.5  ↓ ARRIVE       order #875 → branch 126.56338 (dist=?)
+             ✓ READY        order #875
+  t=   0.5  ↓ ARRIVE       order #881 → branch 126.56356 (dist=?)
+             ✓ READY        order #881
+  t=   0.5  ↓ ARRIVE       order #967 → branch 126.5689 (dist=?)
+             ✓ READY        order #967
+  t=   0.5  ↓ ARRIVE       order #1034 → branch 126.47467 (dist=?)
+             ✓ READY        order #1034
+  t=   0.5  ↓ ARRIVE       order #958 → branch 126.59406 (dist=?)
+             ✓ READY        order #958
+  t=   0.5  ↓ ARRIVE       order #963 → branch 126.56791 (dist=?)
+             ✓ READY        order #963
+  t=   0.5  ↓ ARRIVE       order #992 → branch 126.52946 (dist=?)
+             ✓ READY        order #992
+  t=   0.5  ↓ ARRIVE       order #854 → branch 126.56761 (dist=?)
+             ✓ READY        order #854
+  t=   0.5  ↓ ARRIVE       order #993 → branch 126.53146 (dist=?)
+             ✓ READY        order #993
+  t=   0.5  ↓ ARRIVE       order #1059 → branch 126.51634 (dist=?)
+             ✓ READY        order #1059
+  t=   0.6  ↓ ARRIVE       order #1026 → branch 126.51639 (dist=?)
+             ✓ READY        order #1026
+  t=   0.6  ↓ ARRIVE       order #876 → branch 126.5679 (dist=?)
+             ✓ READY        order #876
+  t=   0.6  ↓ ARRIVE       order #915 → branch 126.55683 (dist=?)
+             ✓ READY        order #915
+  t=   0.6  ↓ ARRIVE       order #939 → branch 126.5223 (dist=?)
+             ✓ READY        order #939
+  t=   0.6  ↓ ARRIVE       order #976 → branch 126.57424 (dist=?)
+             ✓ READY        order #976
+  t=   0.6  ↓ ARRIVE       order #908 → branch 126.58744 (dist=?)
+             ✓ READY        order #908
+  t=   0.6  ↓ ARRIVE       order #1047 → branch 126.47766 (dist=?)
+             ✓ READY        order #1047
+  t=   0.6  ↓ ARRIVE       order #901 → branch 126.55054 (dist=?)
+             ✓ READY        order #901
+  t=   0.6  ↓ ARRIVE       order #883 → branch 126.5794 (dist=?)
+             ✓ READY        order #883
+  t=   0.7  ↓ ARRIVE       order #855 → branch 126.59231 (dist=?)
+             ✓ READY        order #855
+  t=   0.7  ↓ ARRIVE       order #909 → branch 126.5859 (dist=?)
+             ✓ READY        order #909
+  t=   0.7  ↓ ARRIVE       order #871 → branch 126.57933 (dist=?)
+             ✓ READY        order #871
+  t=   0.7  ↓ ARRIVE       order #988 → branch 126.55241 (dist=?)
+             ✓ READY        order #988
+  t=   0.7  ↓ ARRIVE       order #1013 → branch 126.5501 (dist=?)
+             ✓ READY        order #1013
+  t=   0.7  ↓ ARRIVE       order #1061 → branch 126.52552 (dist=?)
+             ✓ READY        order #1061
+  t=   0.7  ↓ ARRIVE       order #1062 → branch 126.5314 (dist=?)
+             ✓ READY        order #1062
+  t=   0.8  ↓ ARRIVE       order #977 → branch 126.57485 (dist=?)
+             ✓ READY        order #977
+  t=   0.8  ↓ ARRIVE       order #899 → branch 126.55549 (dist=?)
+             ✓ READY        order #899
+  t=   0.9  ↓ ARRIVE       order #1014 → branch 126.5549 (dist=?)
+             ✓ READY        order #1014
+  t=   0.9  ↓ ARRIVE       order #1035 → branch 126.47443 (dist=?)
+             ✓ READY        order #1035
+  t=   0.9  ↓ ARRIVE       order #994 → branch 126.53178 (dist=?)
+             ↓ ARRIVE       order #1036 → branch 126.47386 (dist=?)
+             ✓ READY        order #994
+             ✓ READY        order #1036
+  t=   0.9  ↓ ARRIVE       order #1055 → branch 126.52074 (dist=?)
+             ✓ READY        order #1055
+  t=   0.9  ↓ ARRIVE       order #869 → branch 126.57815 (dist=?)
+             ✓ READY        order #869
+  t=   0.9  ↓ ARRIVE       order #1005 → branch 126.53062 (dist=?)
+             ✓ READY        order #1005
+  t=   0.9  ↓ ARRIVE       order #1037 → branch 126.51946 (dist=?)
+             ✓ READY        order #1037
+  t=   1.0  ↓ ARRIVE       order #923 → branch 126.57155 (dist=?)
+             ✓ READY        order #923
+  t=   1.0  ↓ ARRIVE       order #982 → branch 126.56812 (dist=?)
+             ✓ READY        order #982
+  t=   1.0  ↓ ARRIVE       order #998 → branch 126.54535 (dist=?)
+             ✓ READY        order #998
+  t=   1.0  ↓ ARRIVE       order #1049 → branch 126.52022 (dist=?)
+             ✓ READY        order #1049
+  t=   1.0  ↓ ARRIVE       order #872 → branch 126.58856 (dist=?)
+             ✓ READY        order #872
+  t=   1.0  ↓ ARRIVE       order #984 → branch 126.57 (dist=?)
+             ✓ READY        order #984
+  t=   1.0  ↓ ARRIVE       order #1060 → branch 126.51554 (dist=?)
+             ✓ READY        order #1060
+  t=   1.1  ↓ ARRIVE       order #986 → branch 126.55097 (dist=?)
+             ✓ READY        order #986
+  t=   1.1  ↓ ARRIVE       order #941 → branch 126.60464 (dist=?)
+             ✓ READY        order #941
+  t=   1.1  ↓ ARRIVE       order #919 → branch 126.59407 (dist=?)
+             ✓ READY        order #919
+  t=   1.1  ↓ ARRIVE       order #1063 → branch 126.535 (dist=?)
+             ✓ READY        order #1063
+  t=   1.1  ↓ ARRIVE       order #910 → branch 126.58936 (dist=?)
+             ✓ READY        order #910
+  t=   1.1  ↓ ARRIVE       order #911 → branch 126.57497 (dist=?)
+             ✓ READY        order #911
+  t=   1.2  ↓ ARRIVE       order #1058 → branch 126.52124 (dist=?)
+             ✓ READY        order #1058
+  t=   1.2  ↓ ARRIVE       order #924 → branch 126.5651 (dist=?)
+             ✓ READY        order #924
+  t=   1.3  ↓ ARRIVE       order #985 → branch 126.56952 (dist=?)
+             ✓ READY        order #985
+  t=   1.3  ↓ ARRIVE       order #884 → branch 126.57449 (dist=?)
+             ✓ READY        order #884
+  t=   1.3  ↓ ARRIVE       order #916 → branch 126.56954 (dist=?)
+             ✓ READY        order #916
+  t=   1.3  ↓ ARRIVE       order #959 → branch 126.57818 (dist=?)
+             ✓ READY        order #959
+  t=   1.3  ↓ ARRIVE       order #1044 → branch 126.51763 (dist=?)
+             ✓ READY        order #1044
+  t=   1.4  ↓ ARRIVE       order #902 → branch 126.55202 (dist=?)
+             ✓ READY        order #902
+  t=   1.4  ↓ ARRIVE       order #1015 → branch 126.55437 (dist=?)
+             ✓ READY        order #1015
+  t=   1.4  ↓ ARRIVE       order #989 → branch 126.57004 (dist=?)
+             ✓ READY        order #989
+  t=   1.4  ↓ ARRIVE       order #877 → branch 126.59323 (dist=?)
+             ✓ READY        order #877
+  t=   1.5  ↓ ARRIVE       order #942 → branch 126.53687 (dist=?)
+             ✓ READY        order #942
+  t=   1.5  ↓ ARRIVE       order #979 → branch 126.57779 (dist=?)
+             ✓ READY        order #979
+  t=   1.5  ↓ ARRIVE       order #1051 → branch 126.5046 (dist=?)
+             ✓ READY        order #1051
+  t=   1.5  ↓ ARRIVE       order #943 → branch 126.59634 (dist=?)
+             ✓ READY        order #943
+  t=   1.5  ↓ ARRIVE       order #907 → branch 126.55267 (dist=?)
+             ✓ READY        order #907
+  t=   1.6  ↓ ARRIVE       order #880 → branch 126.55711 (dist=?)
+             ✓ READY        order #880
+  t=   1.6  ↓ ARRIVE       order #964 → branch 126.56603 (dist=?)
+             ✓ READY        order #964
+  t=   1.6  ↓ ARRIVE       order #870 → branch 126.5807 (dist=?)
+             ✓ READY        order #870
+  t=   1.6  ↓ ARRIVE       order #1007 → branch 126.53142 (dist=?)
+             ✓ READY        order #1007
+  t=   1.6  ↓ ARRIVE       order #955 → branch 126.54291 (dist=?)
+             ✓ READY        order #955
+  t=   1.6  ↓ ARRIVE       order #856 → branch 126.5872 (dist=?)
+             ✓ READY        order #856
+  t=   1.6  ↓ ARRIVE       order #885 → branch 126.59332 (dist=?)
+             ✓ READY        order #885
+  t=   1.6  ↓ ARRIVE       order #917 → branch 126.57163 (dist=?)
+             ✓ READY        order #917
+  t=   1.6  ↓ ARRIVE       order #930 → branch 126.55512 (dist=?)
+             ✓ READY        order #930
+  t=   1.7  ↓ ARRIVE       order #889 → branch 126.59568 (dist=?)
+             ✓ READY        order #889
+  t=   1.8  ↓ ARRIVE       order #913 → branch 126.57821 (dist=?)
+             ✓ READY        order #913
+  t=   1.8  ↓ ARRIVE       order #873 → branch 126.56807 (dist=?)
+             ✓ READY        order #873
+  t=   1.8  ↓ ARRIVE       order #975 → branch 126.56538 (dist=?)
+             ✓ READY        order #975
+  t=   1.8  ↓ ARRIVE       order #944 → branch 126.55511 (dist=?)
+             ✓ READY        order #944
+  t=   1.9  ↓ ARRIVE       order #886 → branch 126.58434 (dist=?)
+             ✓ READY        order #886
+  t=   1.9  ↓ ARRIVE       order #965 → branch 126.56573 (dist=?)
+             ✓ READY        order #965
+  t=   1.9  ↓ ARRIVE       order #890 → branch 126.57472 (dist=?)
+             ✓ READY        order #890
+  t=   2.0  ↓ ARRIVE       order #906 → branch 126.58452 (dist=?)
+             ✓ READY        order #906
+  t=   2.1  ↓ ARRIVE       order #960 → branch 126.57222 (dist=?)
+             ✓ READY        order #960
+  t=   2.1  ↓ ARRIVE       order #961 → branch 126.52389 (dist=?)
+             ✓ READY        order #961
+  t=   2.1  ↓ ARRIVE       order #1017 → branch 126.51787 (dist=?)
+             ✓ READY        order #1017
+  t=   2.1  ↓ ARRIVE       order #966 → branch 126.56952 (dist=?)
+             ✓ READY        order #966
+  t=   2.1  ↓ ARRIVE       order #1006 → branch 126.52761 (dist=?)
+             ✓ READY        order #1006
+  t=   2.2  ↓ ARRIVE       order #903 → branch 126.55817 (dist=?)
+             ✓ READY        order #903
+  t=   2.2  ↓ ARRIVE       order #956 → branch 126.56705 (dist=?)
+             ✓ READY        order #956
+  t=   2.2  ↓ ARRIVE       order #940 → branch 126.56778 (dist=?)
+             ✓ READY        order #940
+  t=   2.2  ↓ ARRIVE       order #857 → branch 126.59326 (dist=?)
+             ✓ READY        order #857
+  t=   2.3  ↓ ARRIVE       order #920 → branch 126.55374 (dist=?)
+             ✓ READY        order #920
+  t=   2.3  ↓ ARRIVE       order #1010 → branch 126.55451 (dist=?)
+             ✓ READY        order #1010
+  t=   2.3  ↓ ARRIVE       order #874 → branch 126.5879 (dist=?)
+             ✓ READY        order #874
+  t=   2.3  ↓ ARRIVE       order #1045 → branch 126.55426 (dist=?)
+             ✓ READY        order #1045
+  t=   2.3  ↓ ARRIVE       order #1057 → branch 126.52388 (dist=?)
+             ✓ READY        order #1057
+  t=   2.3  ↓ ARRIVE       order #946 → branch 126.60099 (dist=?)
+             ✓ READY        order #946
+  t=   2.4  ↓ ARRIVE       order #1018 → branch 126.52445 (dist=?)
+             ✓ READY        order #1018
+  t=   2.4  ↓ ARRIVE       order #878 → branch 126.59081 (dist=?)
+             ✓ READY        order #878
+  t=   2.4  ↓ ARRIVE       order #887 → branch 126.59224 (dist=?)
+             ✓ READY        order #887
+  t=   2.4  ↓ ARRIVE       order #1056 → branch 126.55219 (dist=?)
+             ✓ READY        order #1056
+  t=   2.5  ↓ ARRIVE       order #947 → branch 126.57084 (dist=?)
+             ✓ READY        order #947
+  t=   2.5  ↓ ARRIVE       order #1019 → branch 126.53185 (dist=?)
+             ✓ READY        order #1019
+  t=   2.6  ↓ ARRIVE       order #968 → branch 126.56935 (dist=?)
+             ✓ READY        order #968
+  t=   2.6  ↓ ARRIVE       order #962 → branch 126.578 (dist=?)
+             ✓ READY        order #962
+  t=   2.6  ↓ ARRIVE       order #948 → branch 126.56267 (dist=?)
+             ✓ READY        order #948
+  t=   2.6  ↓ ARRIVE       order #879 → branch 126.59103 (dist=?)
+             ✓ READY        order #879
+  t=   2.7  ↓ ARRIVE       order #945 → branch 126.5874 (dist=?)
+             ✓ READY        order #945
+  t=   2.8  ↓ ARRIVE       order #921 → branch 126.57516 (dist=?)
+             ✓ READY        order #921
+  t=   2.8  ↓ ARRIVE       order #1046 → branch 126.52855 (dist=?)
+             ✓ READY        order #1046
+  t=   2.8  ↓ ARRIVE       order #1020 → branch 126.51783 (dist=?)
+             ✓ READY        order #1020
+  t=   2.9  ↓ ARRIVE       order #1027 → branch 126.52056 (dist=?)
+             ✓ READY        order #1027
+  t=   2.9  ↓ ARRIVE       order #1042 → branch 126.52061 (dist=?)
+             ✓ READY        order #1042
+  t=   2.9  ↓ ARRIVE       order #995 → branch 126.51507 (dist=?)
+             ✓ READY        order #995
+  t=   2.9  ↓ ARRIVE       order #858 → branch 126.58823 (dist=?)
+             ✓ READY        order #858
+  t=   2.9  ↓ ARRIVE       order #1032 → branch 126.55183 (dist=?)
+             ✓ READY        order #1032
+  t=   3.0  ↓ ARRIVE       order #957 → branch 126.54311 (dist=?)
+             ✓ READY        order #957
+  t=   3.0  ↓ ARRIVE       order #891 → branch 126.58332 (dist=?)
+             ✓ READY        order #891
+  t=   3.0  ↓ ARRIVE       order #897 → branch 126.55181 (dist=?)
+             ✓ READY        order #897
+  t=   3.1  ↓ ARRIVE       order #892 → branch 126.587 (dist=?)
+             ✓ READY        order #892
+  t=   3.1  ↓ ARRIVE       order #922 → branch 126.58935 (dist=?)
+             ✓ READY        order #922
+  t=   3.1  ↓ ARRIVE       order #1065 → branch 126.51567 (dist=?)
+             ✓ READY        order #1065
+  t=   3.2  ↓ ARRIVE       order #990 → branch 126.58386 (dist=?)
+             ↓ ARRIVE       order #1038 → branch 126.51316 (dist=?)
+             ✓ READY        order #990
+             ✓ READY        order #1038
+  t=   3.2  ↓ ARRIVE       order #1028 → branch 126.51582 (dist=?)
+             ✓ READY        order #1028
+  t=   3.3  ↓ ARRIVE       order #1029 → branch 126.51667 (dist=?)
+             ✓ READY        order #1029
+  t=   3.3  ↓ ARRIVE       order #898 → branch 126.56162 (dist=?)
+             ✓ READY        order #898
+  t=   3.4  ↓ ARRIVE       order #931 → branch 126.55734 (dist=?)
+             ✓ READY        order #931
+  t=   3.4  ↓ ARRIVE       order #932 → branch 126.56838 (dist=?)
+             ✓ READY        order #932
+  t=   3.6  ↓ ARRIVE       order #859 → branch 126.59156 (dist=?)
+             ✓ READY        order #859
+  t=   3.7  ↓ ARRIVE       order #925 → branch 126.56875 (dist=?)
+             ✓ READY        order #925
+  t=   3.7  ↓ ARRIVE       order #969 → branch 126.56951 (dist=?)
+             ✓ READY        order #969
+  t=   3.9  ↓ ARRIVE       order #933 → branch 126.54769 (dist=?)
+             ✓ READY        order #933
+  t=   4.1  ↓ ARRIVE       order #1039 → branch 126.5238 (dist=?)
+             ✓ READY        order #1039
+  t=   4.2  ↓ ARRIVE       order #893 → branch 126.56646 (dist=?)
+             ✓ READY        order #893
+  t=   4.5  ↓ ARRIVE       order #999 → branch 126.54875 (dist=?)
+             ✓ READY        order #999
+  t=   4.5  ↓ ARRIVE       order #1008 → branch 126.5319 (dist=?)
+             ✓ READY        order #1008
+  t=   4.5  ↓ ARRIVE       order #1021 → branch 126.52817 (dist=?)
+             ✓ READY        order #1021
+  t=   4.5  ↓ ARRIVE       order #926 → branch 126.568 (dist=?)
+             ✓ READY        order #926
+  t=   4.7  ↓ ARRIVE       order #1009 → branch 126.51539 (dist=?)
+             ✓ READY        order #1009
+  t=   4.7  ↓ ARRIVE       order #981 → branch 126.52183 (dist=?)
+             ✓ READY        order #981
+  t=   4.8  ↓ ARRIVE       order #1000 → branch 126.54451 (dist=?)
+             ✓ READY        order #1000
+  t=   4.8  ↓ ARRIVE       order #970 → branch 126.57313 (dist=?)
+             ✓ READY        order #970
+  t=   4.8  ↓ ARRIVE       order #927 → branch 126.56596 (dist=?)
+             ✓ READY        order #927
+  t=   4.8  ↓ ARRIVE       order #996 → branch 126.51948 (dist=?)
+             ✓ READY        order #996
+  t=   4.9  ↓ ARRIVE       order #860 → branch 126.57114 (dist=?)
+             ✓ READY        order #860
+  t=   5.1  ↓ ARRIVE       order #987 → branch 126.56235 (dist=?)
+             ✓ READY        order #987
+  t=   5.1  ▶ PICKUP       driver #5 at restaurant #50
+  t=   5.3  ↓ ARRIVE       order #894 → branch 126.5954 (dist=?)
+             ✓ READY        order #894
+  t=   5.3  ↓ ARRIVE       order #1022 → branch 126.51708 (dist=?)
+             ✓ READY        order #1022
+  t=   5.3  ↓ ARRIVE       order #1023 → branch 126.52696 (dist=?)
+             ✓ READY        order #1023
+  t=   5.4  ↓ ARRIVE       order #861 → branch 126.57161 (dist=?)
+             ✓ READY        order #861
+  t=   5.5  ↓ ARRIVE       order #949 → branch 126.5691 (dist=?)
+             ✓ READY        order #949
+  t=   5.6  ↓ ARRIVE       order #928 → branch 126.57257 (dist=?)
+             ✓ READY        order #928
+  t=   5.7  ↓ ARRIVE       order #904 → branch 126.57166 (dist=?)
+             ✓ READY        order #904
+  t=   6.1  ↓ ARRIVE       order #971 → branch 126.56307 (dist=?)
+             ✓ READY        order #971
+  t=   6.1  ↓ ARRIVE       order #934 → branch 126.60478 (dist=?)
+             ✓ READY        order #934
+             → ASSIGN       driver #5 ← [#855, #856, #857, #858, #859] → branch 126.59231 (dist=?)
+             ★ DELIVER      order #888 → branch 126.59128 (dist=?)  [flow=6.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=   6.1  ↓ ARRIVE       order #935 → branch 126.55103 (dist=?)
+             ✓ READY        order #935
+  t=   6.6  ↓ ARRIVE       order #862 → branch 126.5889 (dist=?)
+             ✓ READY        order #862
+  t=   6.7  ↓ ARRIVE       order #1011 → branch 126.55348 (dist=?)
+             ✓ READY        order #1011
+  t=   6.8  ↓ ARRIVE       order #1024 → branch 126.51569 (dist=?)
+             ✓ READY        order #1024
+  t=   6.9  ↓ ARRIVE       order #1040 → branch 126.51853 (dist=?)
+             ✓ READY        order #1040
+  t=   7.0  ↓ ARRIVE       order #1041 → branch 126.52408 (dist=?)
+             ✓ READY        order #1041
+  t=   7.1  ▶ PICKUP       driver #5 at restaurant #52
+  t=   7.3  ↓ ARRIVE       order #1012 → branch 126.54817 (dist=?)
+             ✓ READY        order #1012
+  t=   7.3  ↓ ARRIVE       order #1025 → branch 126.51275 (dist=?)
+             ✓ READY        order #1025
+  t=   7.5  ↓ ARRIVE       order #936 → branch 126.54583 (dist=?)
+             ✓ READY        order #936
+  t=   7.5  ↓ ARRIVE       order #929 → branch 126.57273 (dist=?)
+             ✓ READY        order #929
+  t=   7.7  ↓ ARRIVE       order #1001 → branch 126.59211 (dist=?)
+             ✓ READY        order #1001
+  t=   7.8  ↓ ARRIVE       order #863 → branch 126.59377 (dist=?)
+             ✓ READY        order #863
+  t=   7.9  ↓ ARRIVE       order #1002 → branch 126.54905 (dist=?)
+             ✓ READY        order #1002
+  t=   8.1  ↓ ARRIVE       order #972 → branch 126.55904 (dist=?)
+             ✓ READY        order #972
+  t=   8.1  ↓ ARRIVE       order #950 → branch 126.57232 (dist=?)
+             ✓ READY        order #950
+  t=   8.1  ★ DELIVER      order #855 → branch 126.59231 (dist=?)  [flow=7.5]
+  t=   8.2  ↓ ARRIVE       order #864 → branch 126.58362 (dist=?)
+             ✓ READY        order #864
+  t=   8.3  ↓ ARRIVE       order #865 → branch 126.5916 (dist=?)
+             ✓ READY        order #865
+  t=   8.6  ↓ ARRIVE       order #905 → branch 126.5692 (dist=?)
+             ✓ READY        order #905
+  t=   9.0  ↓ ARRIVE       order #937 → branch 126.5944 (dist=?)
+             ✓ READY        order #937
+  t=   9.1  ★ DELIVER      order #856 → branch 126.5872 (dist=?)  [flow=7.5]
+  t=  10.1  ★ DELIVER      order #857 → branch 126.59326 (dist=?)  [flow=7.9]
+  t=  10.3  ↓ ARRIVE       order #1003 → branch 126.52065 (dist=?)
+             ✓ READY        order #1003
+  t=  10.4  ↓ ARRIVE       order #866 → branch 126.59275 (dist=?)
+             ✓ READY        order #866
+  t=  10.5  ↓ ARRIVE       order #867 → branch 126.59218 (dist=?)
+             ✓ READY        order #867
+  t=  10.5  ↓ ARRIVE       order #973 → branch 126.55506 (dist=?)
+             ✓ READY        order #973
+  t=  10.8  ↓ ARRIVE       order #1004 → branch 126.52115 (dist=?)
+             ✓ READY        order #1004
+  t=  11.1  ★ DELIVER      order #858 → branch 126.58823 (dist=?)  [flow=8.2]
+  t=  11.7  ↓ ARRIVE       order #868 → branch 126.59157 (dist=?)
+             ✓ READY        order #868
+  t=  12.1  → ASSIGN       driver #5 ← [#897, #898] → branch 126.55181 (dist=?)
+             ★ DELIVER      order #859 → branch 126.59156 (dist=?)  [flow=8.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  12.3  ↓ ARRIVE       order #938 → branch 126.57582 (dist=?)
+             ✓ READY        order #938
+  t=  12.5  ↓ ARRIVE       order #951 → branch 126.55093 (dist=?)
+             ✓ READY        order #951
+  t=  12.6  ↓ ARRIVE       order #952 → branch 126.53636 (dist=?)
+             ✓ READY        order #952
+  t=  13.1  ▶ PICKUP       driver #5 at restaurant #44
+  t=  13.4  ↓ ARRIVE       order #953 → branch 126.55171 (dist=?)
+             ✓ READY        order #953
+  t=  14.1  ★ DELIVER      order #897 → branch 126.55181 (dist=?)  [flow=11.1]
+  t=  14.9  ↓ ARRIVE       order #954 → branch 126.57171 (dist=?)
+             ✓ READY        order #954
+  t=  15.1  → ASSIGN       driver #5 ← [#900, #901] → branch 126.55491 (dist=?)
+             ★ DELIVER      order #898 → branch 126.56162 (dist=?)  [flow=11.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  16.1  ▶ PICKUP       driver #5 at restaurant #47
+  t=  17.1  ★ DELIVER      order #900 → branch 126.55491 (dist=?)  [flow=16.7]
+  t=  18.1  → ASSIGN       driver #5 ← [#854, #860, #861, #862, #863, #864, #865, #866, #867, #868] → branch 126.56761 (dist=?)
+             ★ DELIVER      order #901 → branch 126.55054 (dist=?)  [flow=17.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  19.1  ▶ PICKUP       driver #5 at restaurant #52
+  t=  24.2  ★ DELIVER      order #854 → branch 126.56761 (dist=?)  [flow=23.7]
+  t=  25.2  ★ DELIVER      order #860 → branch 126.57114 (dist=?)  [flow=20.3]
+  t=  26.2  ★ DELIVER      order #861 → branch 126.57161 (dist=?)  [flow=20.8]
+  t=  27.2  ★ DELIVER      order #862 → branch 126.5889 (dist=?)  [flow=20.6]
+  t=  28.2  ★ DELIVER      order #863 → branch 126.59377 (dist=?)  [flow=20.4]
+  t=  29.2  ★ DELIVER      order #864 → branch 126.58362 (dist=?)  [flow=21.0]
+  t=  30.2  ★ DELIVER      order #865 → branch 126.5916 (dist=?)  [flow=21.9]
+  t=  31.2  ★ DELIVER      order #866 → branch 126.59275 (dist=?)  [flow=20.8]
+  t=  32.2  ★ DELIVER      order #867 → branch 126.59218 (dist=?)  [flow=21.7]
+  t=  33.2  → ASSIGN       driver #5 ← [#967, #968, #969, #970, #972, #973] → branch 126.5689 (dist=?)
+             ★ DELIVER      order #868 → branch 126.59157 (dist=?)  [flow=21.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  35.7  ▶ PICKUP       driver #5 at restaurant #64
+  t=  36.7  ★ DELIVER      order #967 → branch 126.5689 (dist=?)  [flow=36.3]
+  t=  37.7  ★ DELIVER      order #968 → branch 126.56935 (dist=?)  [flow=35.2]
+  t=  38.7  ★ DELIVER      order #969 → branch 126.56951 (dist=?)  [flow=35.1]
+  t=  39.7  ★ DELIVER      order #970 → branch 126.57313 (dist=?)  [flow=35.0]
+  t=  40.7  ★ DELIVER      order #972 → branch 126.55904 (dist=?)  [flow=32.7]
+  t=  41.7  → ASSIGN       driver #5 ← [#924, #925, #926, #927, #928, #929] → branch 126.5651 (dist=?)
+             ★ DELIVER      order #973 → branch 126.55506 (dist=?)  [flow=31.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  42.7  ▶ PICKUP       driver #5 at restaurant #69
+  t=  43.7  ★ DELIVER      order #924 → branch 126.5651 (dist=?)  [flow=42.6]
+  t=  44.7  ★ DELIVER      order #925 → branch 126.56875 (dist=?)  [flow=41.1]
+  t=  45.7  ★ DELIVER      order #926 → branch 126.568 (dist=?)  [flow=41.2]
+  t=  46.7  ★ DELIVER      order #927 → branch 126.56596 (dist=?)  [flow=42.0]
+  t=  47.7  ★ DELIVER      order #928 → branch 126.57257 (dist=?)  [flow=42.2]
+  t=  48.7  → ASSIGN       driver #5 ← [#963, #964, #965, #966] → branch 126.56791 (dist=?)
+             ★ DELIVER      order #929 → branch 126.57273 (dist=?)  [flow=41.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  49.7  ▶ PICKUP       driver #5 at restaurant #61
+  t=  50.7  ★ DELIVER      order #963 → branch 126.56791 (dist=?)  [flow=50.2]
+  t=  51.7  ★ DELIVER      order #964 → branch 126.56603 (dist=?)  [flow=50.2]
+  t=  52.7  ★ DELIVER      order #965 → branch 126.56573 (dist=?)  [flow=50.8]
+  t=  53.7  → ASSIGN       driver #5 ← [#930, #931, #935, #936] → branch 126.55512 (dist=?)
+             ★ DELIVER      order #966 → branch 126.56952 (dist=?)  [flow=51.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  54.7  ▶ PICKUP       driver #5 at restaurant #67
+  t=  55.7  ★ DELIVER      order #930 → branch 126.55512 (dist=?)  [flow=54.1]
+  t=  56.7  ★ DELIVER      order #931 → branch 126.55734 (dist=?)  [flow=53.4]
+  t=  57.7  ★ DELIVER      order #935 → branch 126.55103 (dist=?)  [flow=51.6]
+  t=  58.7  → ASSIGN       driver #5 ← [#948, #950, #951, #953] → branch 126.56267 (dist=?)
+             ★ DELIVER      order #936 → branch 126.54583 (dist=?)  [flow=51.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  59.7  ▶ PICKUP       driver #5 at restaurant #73
+  t=  60.7  ★ DELIVER      order #948 → branch 126.56267 (dist=?)  [flow=58.2]
+  t=  61.7  ★ DELIVER      order #950 → branch 126.57232 (dist=?)  [flow=53.6]
+  t=  62.7  ★ DELIVER      order #951 → branch 126.55093 (dist=?)  [flow=50.3]
+  t=  63.7  → ASSIGN       driver #5 ← [#976, #977] → branch 126.57424 (dist=?)
+             ★ DELIVER      order #953 → branch 126.55171 (dist=?)  [flow=50.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  64.7  ▶ PICKUP       driver #5 at restaurant #55
+  t=  65.7  ★ DELIVER      order #976 → branch 126.57424 (dist=?)  [flow=65.1]
+  t=  66.7  → ASSIGN       driver #5 ← [#916, #917] → branch 126.56954 (dist=?)
+             ★ DELIVER      order #977 → branch 126.57485 (dist=?)  [flow=66.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  67.7  ▶ PICKUP       driver #5 at restaurant #60
+  t=  68.7  ★ DELIVER      order #916 → branch 126.56954 (dist=?)  [flow=67.4]
+  t=  69.7  → ASSIGN       driver #5 ← [#984, #985] → branch 126.57 (dist=?)
+             ★ DELIVER      order #917 → branch 126.57163 (dist=?)  [flow=68.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  70.7  ▶ PICKUP       driver #5 at restaurant #66
+  t=  71.7  ★ DELIVER      order #984 → branch 126.57 (dist=?)  [flow=70.7]
+  t=  72.7  → ASSIGN       driver #5 ← [#955, #957] → branch 126.54291 (dist=?)
+             ★ DELIVER      order #985 → branch 126.56952 (dist=?)  [flow=71.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  73.7  ▶ PICKUP       driver #5 at restaurant #72
+  t=  74.7  ★ DELIVER      order #955 → branch 126.54291 (dist=?)  [flow=73.1]
+  t=  75.7  → ASSIGN       driver #5 ← [#918, #920] → branch 126.55656 (dist=?)
+             ★ DELIVER      order #957 → branch 126.54311 (dist=?)  [flow=72.7]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  76.7  ▶ PICKUP       driver #5 at restaurant #75
+  t=  77.7  ★ DELIVER      order #918 → branch 126.55656 (dist=?)  [flow=77.4]
+  t=  78.7  → ASSIGN       driver #5 ← [#946, #947, #949, #954] → branch 126.60099 (dist=?)
+             ★ DELIVER      order #920 → branch 126.55374 (dist=?)  [flow=76.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  79.7  ▶ PICKUP       driver #5 at restaurant #73
+  t=  82.3  ★ DELIVER      order #946 → branch 126.60099 (dist=?)  [flow=80.0]
+  t=  83.3  ★ DELIVER      order #947 → branch 126.57084 (dist=?)  [flow=80.8]
+  t=  84.3  ★ DELIVER      order #949 → branch 126.5691 (dist=?)  [flow=78.8]
+  t=  85.3  → ASSIGN       driver #5 ← [#932, #934, #938] → branch 126.56838 (dist=?)
+             ★ DELIVER      order #954 → branch 126.57171 (dist=?)  [flow=70.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  87.8  ▶ PICKUP       driver #5 at restaurant #67
+  t=  90.4  ★ DELIVER      order #932 → branch 126.56838 (dist=?)  [flow=87.0]
+  t=  91.4  ★ DELIVER      order #934 → branch 126.60478 (dist=?)  [flow=85.3]
+  t=  92.4  → ASSIGN       driver #5 ← [#986] → branch 126.55097 (dist=?)
+             ★ DELIVER      order #938 → branch 126.57582 (dist=?)  [flow=80.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  93.4  ▶ PICKUP       driver #5 at restaurant #81
+  t=  95.9  → ASSIGN       driver #5 ← [#940] → branch 126.56778 (dist=?)
+             ★ DELIVER      order #986 → branch 126.55097 (dist=?)  [flow=94.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  96.9  ▶ PICKUP       driver #5 at restaurant #54
+  t=  97.9  → ASSIGN       driver #5 ← [#960] → branch 126.57222 (dist=?)
+             ★ DELIVER      order #940 → branch 126.56778 (dist=?)  [flow=95.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t=  98.9  ▶ PICKUP       driver #5 at restaurant #56
+  t=  99.9  → ASSIGN       driver #5 ← [#987] → branch 126.56235 (dist=?)
+             ★ DELIVER      order #960 → branch 126.57222 (dist=?)  [flow=97.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 100.9  ▶ PICKUP       driver #5 at restaurant #57
+  t= 101.9  → ASSIGN       driver #5 ← [#975] → branch 126.56538 (dist=?)
+             ★ DELIVER      order #987 → branch 126.56235 (dist=?)  [flow=96.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 102.9  ▶ PICKUP       driver #5 at restaurant #58
+  t= 103.9  → ASSIGN       driver #5 ← [#988] → branch 126.55241 (dist=?)
+             ★ DELIVER      order #975 → branch 126.56538 (dist=?)  [flow=102.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 104.9  ▶ PICKUP       driver #5 at restaurant #59
+  t= 105.9  → ASSIGN       driver #5 ← [#944] → branch 126.55511 (dist=?)
+             ★ DELIVER      order #988 → branch 126.55241 (dist=?)  [flow=105.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 106.9  ▶ PICKUP       driver #5 at restaurant #62
+  t= 107.9  → ASSIGN       driver #5 ← [#978] → branch 126.55234 (dist=?)
+             ★ DELIVER      order #944 → branch 126.55511 (dist=?)  [flow=106.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 108.9  ▶ PICKUP       driver #5 at restaurant #63
+  t= 109.9  → ASSIGN       driver #5 ← [#982] → branch 126.56812 (dist=?)
+             ★ DELIVER      order #978 → branch 126.55234 (dist=?)  [flow=109.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 110.9  ▶ PICKUP       driver #5 at restaurant #68
+  t= 111.9  → ASSIGN       driver #5 ← [#989] → branch 126.57004 (dist=?)
+             ★ DELIVER      order #982 → branch 126.56812 (dist=?)  [flow=111.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 112.9  ▶ PICKUP       driver #5 at restaurant #71
+  t= 113.9  → ASSIGN       driver #5 ← [#980] → branch 126.55107 (dist=?)
+             ★ DELIVER      order #989 → branch 126.57004 (dist=?)  [flow=112.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 114.9  ▶ PICKUP       driver #5 at restaurant #74
+  t= 115.9  → ASSIGN       driver #5 ← [#958, #962] → branch 126.59406 (dist=?)
+             ★ DELIVER      order #980 → branch 126.55107 (dist=?)  [flow=115.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 116.9  ▶ PICKUP       driver #5 at restaurant #56
+  t= 119.5  ★ DELIVER      order #958 → branch 126.59406 (dist=?)  [flow=119.0]
+  t= 120.5  → ASSIGN       driver #5 ← [#921, #922] → branch 126.57516 (dist=?)
+             ★ DELIVER      order #962 → branch 126.578 (dist=?)  [flow=117.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 123.0  ▶ PICKUP       driver #5 at restaurant #75
+  t= 125.6  ★ DELIVER      order #921 → branch 126.57516 (dist=?)  [flow=122.8]
+  t= 126.6  → ASSIGN       driver #5 ← [#997, #998, #999, #1000, #1002] → branch 126.5521 (dist=?)
+             ★ DELIVER      order #922 → branch 126.58935 (dist=?)  [flow=123.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 130.9  ▶ PICKUP       driver #5 at restaurant #25
+  t= 131.9  ★ DELIVER      order #997 → branch 126.5521 (dist=?)  [flow=131.6]
+  t= 132.9  ★ DELIVER      order #998 → branch 126.54535 (dist=?)  [flow=131.9]
+  t= 133.9  ★ DELIVER      order #999 → branch 126.54875 (dist=?)  [flow=129.5]
+  t= 134.9  ★ DELIVER      order #1000 → branch 126.54451 (dist=?)  [flow=130.2]
+  t= 135.9  → ASSIGN       driver #5 ← [#1010, #1011, #1012] → branch 126.55451 (dist=?)
+             ★ DELIVER      order #1002 → branch 126.54905 (dist=?)  [flow=128.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 136.9  ▶ PICKUP       driver #5 at restaurant #11
+  t= 137.9  ★ DELIVER      order #1010 → branch 126.55451 (dist=?)  [flow=135.6]
+  t= 138.9  ★ DELIVER      order #1011 → branch 126.55348 (dist=?)  [flow=132.2]
+  t= 139.9  → ASSIGN       driver #5 ← [#1030, #1031, #1032] → branch 126.54552 (dist=?)
+             ★ DELIVER      order #1012 → branch 126.54817 (dist=?)  [flow=132.7]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 140.9  ▶ PICKUP       driver #5 at restaurant #17
+  t= 141.9  ★ DELIVER      order #1030 → branch 126.54552 (dist=?)  [flow=141.6]
+  t= 142.9  ★ DELIVER      order #1031 → branch 126.56259 (dist=?)  [flow=142.5]
+  t= 143.9  → ASSIGN       driver #5 ← [#1013, #1014, #1015] → branch 126.5501 (dist=?)
+             ★ DELIVER      order #1032 → branch 126.55183 (dist=?)  [flow=141.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 144.9  ▶ PICKUP       driver #5 at restaurant #19
+  t= 145.9  ★ DELIVER      order #1013 → branch 126.5501 (dist=?)  [flow=145.2]
+  t= 146.9  ★ DELIVER      order #1014 → branch 126.5549 (dist=?)  [flow=146.1]
+  t= 147.9  → ASSIGN       driver #5 ← [#1018, #1022] → branch 126.52445 (dist=?)
+             ★ DELIVER      order #1015 → branch 126.55437 (dist=?)  [flow=146.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 148.9  ▶ PICKUP       driver #5 at restaurant #2
+  t= 149.9  ★ DELIVER      order #1018 → branch 126.52445 (dist=?)  [flow=147.6]
+  t= 150.9  → ASSIGN       driver #5 ← [#991, #993] → branch 126.55848 (dist=?)
+             ★ DELIVER      order #1022 → branch 126.51708 (dist=?)  [flow=145.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 151.9  ▶ PICKUP       driver #5 at restaurant #9
+  t= 152.9  ★ DELIVER      order #991 → branch 126.55848 (dist=?)  [flow=152.6]
+  t= 153.9  → ASSIGN       driver #5 ← [#1043, #1045] → branch 126.53454 (dist=?)
+             ★ DELIVER      order #993 → branch 126.53146 (dist=?)  [flow=153.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 154.9  ▶ PICKUP       driver #5 at restaurant #14
+  t= 155.9  ★ DELIVER      order #1043 → branch 126.53454 (dist=?)  [flow=155.8]
+  t= 156.9  → ASSIGN       driver #5 ← [#1027, #1028] → branch 126.52056 (dist=?)
+             ★ DELIVER      order #1045 → branch 126.55426 (dist=?)  [flow=154.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 157.9  ▶ PICKUP       driver #5 at restaurant #21
+  t= 158.9  ★ DELIVER      order #1027 → branch 126.52056 (dist=?)  [flow=156.0]
+  t= 159.9  → ASSIGN       driver #5 ← [#1037, #1040] → branch 126.51946 (dist=?)
+             ★ DELIVER      order #1028 → branch 126.51582 (dist=?)  [flow=156.7]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 160.9  ▶ PICKUP       driver #5 at restaurant #23
+  t= 161.9  ★ DELIVER      order #1037 → branch 126.51946 (dist=?)  [flow=161.0]
+  t= 162.9  → ASSIGN       driver #5 ← [#1016, #1017, #1019, #1020, #1021, #1023, #1024, #1025] → branch 126.52019 (dist=?)
+             ★ DELIVER      order #1040 → branch 126.51853 (dist=?)  [flow=156.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 163.9  ▶ PICKUP       driver #5 at restaurant #2
+  t= 169.4  ★ DELIVER      order #1016 → branch 126.52019 (dist=?)  [flow=169.1]
+  t= 170.4  ★ DELIVER      order #1017 → branch 126.51787 (dist=?)  [flow=168.2]
+  t= 171.4  ★ DELIVER      order #1019 → branch 126.53185 (dist=?)  [flow=168.8]
+  t= 172.4  ★ DELIVER      order #1020 → branch 126.51783 (dist=?)  [flow=169.5]
+  t= 173.4  ★ DELIVER      order #1021 → branch 126.52817 (dist=?)  [flow=168.9]
+  t= 174.4  ★ DELIVER      order #1023 → branch 126.52696 (dist=?)  [flow=169.0]
+  t= 175.4  ★ DELIVER      order #1024 → branch 126.51569 (dist=?)  [flow=168.6]
+  t= 176.4  → ASSIGN       driver #5 ← [#981] → branch 126.52183 (dist=?)
+             ★ DELIVER      order #1025 → branch 126.51275 (dist=?)  [flow=169.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 177.4  ▶ PICKUP       driver #5 at restaurant #82
+  t= 178.4  → ASSIGN       driver #5 ← [#943, #945] → branch 126.59634 (dist=?)
+             ★ DELIVER      order #981 → branch 126.52183 (dist=?)  [flow=173.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 182.1  ▶ PICKUP       driver #5 at restaurant #62
+  t= 186.4  ★ DELIVER      order #943 → branch 126.59634 (dist=?)  [flow=184.9]
+  t= 187.4  → ASSIGN       driver #5 ← [#1033] → branch 126.59343 (dist=?)
+             ★ DELIVER      order #945 → branch 126.5874 (dist=?)  [flow=184.7]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 188.4  ▶ PICKUP       driver #5 at restaurant #80
+  t= 189.4  → ASSIGN       driver #5 ← [#914, #915] → branch 126.55547 (dist=?)
+             ★ DELIVER      order #1033 → branch 126.59343 (dist=?)  [flow=189.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 193.8  ▶ PICKUP       driver #5 at restaurant #60
+  t= 198.4  ★ DELIVER      order #914 → branch 126.55547 (dist=?)  [flow=198.3]
+  t= 199.4  → ASSIGN       driver #5 ← [#1050] → branch 126.55462 (dist=?)
+             ★ DELIVER      order #915 → branch 126.55683 (dist=?)  [flow=198.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 200.4  ▶ PICKUP       driver #5 at restaurant #6
+  t= 201.4  → ASSIGN       driver #5 ← [#1042] → branch 126.52061 (dist=?)
+             ★ DELIVER      order #1050 → branch 126.55462 (dist=?)  [flow=201.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 202.4  ▶ PICKUP       driver #5 at restaurant #7
+  t= 203.4  → ASSIGN       driver #5 ← [#1063] → branch 126.535 (dist=?)
+             ★ DELIVER      order #1042 → branch 126.52061 (dist=?)  [flow=200.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 204.4  ▶ PICKUP       driver #5 at restaurant #18
+  t= 205.4  → ASSIGN       driver #5 ← [#1056] → branch 126.55219 (dist=?)
+             ★ DELIVER      order #1063 → branch 126.535 (dist=?)  [flow=204.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 206.4  ▶ PICKUP       driver #5 at restaurant #27
+  t= 207.4  → ASSIGN       driver #5 ← [#992, #994, #995, #996] → branch 126.52946 (dist=?)
+             ★ DELIVER      order #1056 → branch 126.55219 (dist=?)  [flow=204.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 208.4  ▶ PICKUP       driver #5 at restaurant #9
+  t= 213.8  ★ DELIVER      order #992 → branch 126.52946 (dist=?)  [flow=213.3]
+  t= 214.8  ★ DELIVER      order #994 → branch 126.53178 (dist=?)  [flow=213.9]
+  t= 215.8  ★ DELIVER      order #995 → branch 126.51507 (dist=?)  [flow=212.9]
+  t= 216.8  → ASSIGN       driver #5 ← [#974] → branch 126.57692 (dist=?)
+             ★ DELIVER      order #996 → branch 126.51948 (dist=?)  [flow=212.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 220.5  ▶ PICKUP       driver #5 at restaurant #58
+  t= 223.1  → ASSIGN       driver #5 ← [#941] → branch 126.60464 (dist=?)
+             ★ DELIVER      order #974 → branch 126.57692 (dist=?)  [flow=222.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 225.6  ▶ PICKUP       driver #5 at restaurant #62
+  t= 228.2  → ASSIGN       driver #5 ← [#971] → branch 126.56307 (dist=?)
+             ★ DELIVER      order #941 → branch 126.60464 (dist=?)  [flow=227.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 230.7  ▶ PICKUP       driver #5 at restaurant #64
+  t= 233.3  → ASSIGN       driver #5 ← [#983] → branch 126.56508 (dist=?)
+             ★ DELIVER      order #971 → branch 126.56307 (dist=?)  [flow=227.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 235.8  ▶ PICKUP       driver #5 at restaurant #65
+  t= 238.4  → ASSIGN       driver #5 ← [#923] → branch 126.57155 (dist=?)
+             ★ DELIVER      order #983 → branch 126.56508 (dist=?)  [flow=238.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 240.9  ▶ PICKUP       driver #5 at restaurant #69
+  t= 243.4  → ASSIGN       driver #5 ← [#979] → branch 126.57779 (dist=?)
+             ★ DELIVER      order #923 → branch 126.57155 (dist=?)  [flow=242.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 246.0  ▶ PICKUP       driver #5 at restaurant #70
+  t= 248.5  → ASSIGN       driver #5 ← [#956] → branch 126.56705 (dist=?)
+             ★ DELIVER      order #979 → branch 126.57779 (dist=?)  [flow=247.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 251.1  ▶ PICKUP       driver #5 at restaurant #72
+  t= 253.6  → ASSIGN       driver #5 ← [#875] → branch 126.56338 (dist=?)
+             ★ DELIVER      order #956 → branch 126.56705 (dist=?)  [flow=251.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 258.7  ▶ PICKUP       driver #5 at restaurant #32
+  t= 259.7  → ASSIGN       driver #5 ← [#881] → branch 126.56356 (dist=?)
+             ★ DELIVER      order #875 → branch 126.56338 (dist=?)  [flow=259.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 260.7  ▶ PICKUP       driver #5 at restaurant #34
+  t= 261.7  → ASSIGN       driver #5 ← [#880] → branch 126.55711 (dist=?)
+             ★ DELIVER      order #881 → branch 126.56356 (dist=?)  [flow=261.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 262.7  ▶ PICKUP       driver #5 at restaurant #36
+  t= 263.7  → ASSIGN       driver #5 ← [#899] → branch 126.55549 (dist=?)
+             ★ DELIVER      order #880 → branch 126.55711 (dist=?)  [flow=262.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 264.7  ▶ PICKUP       driver #5 at restaurant #38
+  t= 265.7  → ASSIGN       driver #5 ← [#885] → branch 126.59332 (dist=?)
+             ★ DELIVER      order #899 → branch 126.55549 (dist=?)  [flow=264.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 266.7  ▶ PICKUP       driver #5 at restaurant #46
+  t= 267.7  → ASSIGN       driver #5 ← [#902] → branch 126.55202 (dist=?)
+             ★ DELIVER      order #885 → branch 126.59332 (dist=?)  [flow=266.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 268.7  ▶ PICKUP       driver #5 at restaurant #48
+  t= 269.7  → ASSIGN       driver #5 ← [#874] → branch 126.5879 (dist=?)
+             ★ DELIVER      order #902 → branch 126.55202 (dist=?)  [flow=268.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 270.7  ▶ PICKUP       driver #5 at restaurant #49
+  t= 271.7  → ASSIGN       driver #5 ← [#903] → branch 126.55817 (dist=?)
+             ★ DELIVER      order #874 → branch 126.5879 (dist=?)  [flow=269.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 272.7  ▶ PICKUP       driver #5 at restaurant #51
+  t= 273.7  → ASSIGN       driver #5 ← [#882, #883, #884, #886, #887] → branch 126.57373 (dist=?)
+             ★ DELIVER      order #903 → branch 126.55817 (dist=?)  [flow=271.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 274.7  ▶ PICKUP       driver #5 at restaurant #46
+  t= 279.8  ★ DELIVER      order #882 → branch 126.57373 (dist=?)  [flow=279.5]
+  t= 280.8  ★ DELIVER      order #883 → branch 126.5794 (dist=?)  [flow=280.2]
+  t= 281.8  ★ DELIVER      order #884 → branch 126.57449 (dist=?)  [flow=280.5]
+  t= 282.8  ★ DELIVER      order #886 → branch 126.58434 (dist=?)  [flow=281.0]
+  t= 283.8  → ASSIGN       driver #5 ← [#889, #890, #891, #892, #894] → branch 126.59568 (dist=?)
+             ★ DELIVER      order #887 → branch 126.59224 (dist=?)  [flow=281.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 288.9  ▶ PICKUP       driver #5 at restaurant #50
+  t= 294.0  ★ DELIVER      order #889 → branch 126.59568 (dist=?)  [flow=292.3]
+  t= 295.0  ★ DELIVER      order #890 → branch 126.57472 (dist=?)  [flow=293.1]
+  t= 296.0  ★ DELIVER      order #891 → branch 126.58332 (dist=?)  [flow=293.0]
+  t= 297.0  ★ DELIVER      order #892 → branch 126.587 (dist=?)  [flow=293.9]
+  t= 298.0  → ASSIGN       driver #5 ← [#1007, #1008, #1009] → branch 126.53142 (dist=?)
+             ★ DELIVER      order #894 → branch 126.5954 (dist=?)  [flow=292.7]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 302.3  ▶ PICKUP       driver #5 at restaurant #15
+  t= 307.8  ★ DELIVER      order #1007 → branch 126.53142 (dist=?)  [flow=306.2]
+  t= 308.8  ★ DELIVER      order #1008 → branch 126.5319 (dist=?)  [flow=304.3]
+  t= 309.8  → ASSIGN       driver #5 ← [#1038, #1039, #1041] → branch 126.51316 (dist=?)
+             ★ DELIVER      order #1009 → branch 126.51539 (dist=?)  [flow=305.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 315.2  ▶ PICKUP       driver #5 at restaurant #23
+  t= 320.6  ★ DELIVER      order #1038 → branch 126.51316 (dist=?)  [flow=317.5]
+  t= 321.6  ★ DELIVER      order #1039 → branch 126.5238 (dist=?)  [flow=317.6]
+  t= 322.6  → ASSIGN       driver #5 ← [#939] → branch 126.5223 (dist=?)
+             ★ DELIVER      order #1041 → branch 126.52408 (dist=?)  [flow=315.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 326.3  ▶ PICKUP       driver #5 at restaurant #54
+  t= 330.0  → ASSIGN       driver #5 ← [#961] → branch 126.52389 (dist=?)
+             ★ DELIVER      order #939 → branch 126.5223 (dist=?)  [flow=329.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 333.7  ▶ PICKUP       driver #5 at restaurant #56
+  t= 337.4  → ASSIGN       driver #5 ← [#942] → branch 126.53687 (dist=?)
+             ★ DELIVER      order #961 → branch 126.52389 (dist=?)  [flow=335.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 341.1  ▶ PICKUP       driver #5 at restaurant #62
+  t= 344.8  → ASSIGN       driver #5 ← [#933] → branch 126.54769 (dist=?)
+             ★ DELIVER      order #942 → branch 126.53687 (dist=?)  [flow=343.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 348.5  ▶ PICKUP       driver #5 at restaurant #67
+  t= 352.2  → ASSIGN       driver #5 ← [#952] → branch 126.53636 (dist=?)
+             ★ DELIVER      order #933 → branch 126.54769 (dist=?)  [flow=348.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 355.9  ▶ PICKUP       driver #5 at restaurant #73
+  t= 359.6  → ASSIGN       driver #5 ← [#959] → branch 126.57818 (dist=?)
+             ★ DELIVER      order #952 → branch 126.53636 (dist=?)  [flow=347.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 363.3  ▶ PICKUP       driver #5 at restaurant #56
+  t= 367.7  → ASSIGN       driver #5 ← [#937] → branch 126.5944 (dist=?)
+             ★ DELIVER      order #959 → branch 126.57818 (dist=?)  [flow=366.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 372.0  ▶ PICKUP       driver #5 at restaurant #67
+  t= 376.4  → ASSIGN       driver #5 ← [#990] → branch 126.58386 (dist=?)
+             ★ DELIVER      order #937 → branch 126.5944 (dist=?)  [flow=367.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 380.8  ▶ PICKUP       driver #5 at restaurant #71
+  t= 385.2  → ASSIGN       driver #5 ← [#919] → branch 126.59407 (dist=?)
+             ★ DELIVER      order #990 → branch 126.58386 (dist=?)  [flow=382.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 389.5  ▶ PICKUP       driver #5 at restaurant #75
+  t= 393.9  → ASSIGN       driver #5 ← [#1052, #1053] → branch 126.53281 (dist=?)
+             ★ DELIVER      order #919 → branch 126.59407 (dist=?)  [flow=392.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 402.9  ▶ PICKUP       driver #5 at restaurant #3
+  t= 408.3  ★ DELIVER      order #1052 → branch 126.53281 (dist=?)  [flow=408.1]
+  t= 409.3  → ASSIGN       driver #5 ← [#1005, #1006] → branch 126.53062 (dist=?)
+             ★ DELIVER      order #1053 → branch 126.51636 (dist=?)  [flow=408.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 414.7  ▶ PICKUP       driver #5 at restaurant #12
+  t= 420.1  ★ DELIVER      order #1005 → branch 126.53062 (dist=?)  [flow=419.2]
+  t= 421.1  → ASSIGN       driver #5 ← [#1044, #1046] → branch 126.51763 (dist=?)
+             ★ DELIVER      order #1006 → branch 126.52761 (dist=?)  [flow=419.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 426.6  ▶ PICKUP       driver #5 at restaurant #14
+  t= 432.0  ★ DELIVER      order #1044 → branch 126.51763 (dist=?)  [flow=430.6]
+  t= 433.0  → ASSIGN       driver #5 ← [#1026, #1029] → branch 126.51639 (dist=?)
+             ★ DELIVER      order #1046 → branch 126.52855 (dist=?)  [flow=430.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 438.4  ▶ PICKUP       driver #5 at restaurant #21
+  t= 443.8  ★ DELIVER      order #1026 → branch 126.51639 (dist=?)  [flow=443.3]
+  t= 444.8  → ASSIGN       driver #5 ← [#1003, #1004] → branch 126.52065 (dist=?)
+             ★ DELIVER      order #1029 → branch 126.51667 (dist=?)  [flow=441.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 450.3  ▶ PICKUP       driver #5 at restaurant #25
+  t= 455.7  ★ DELIVER      order #1003 → branch 126.52065 (dist=?)  [flow=445.4]
+  t= 456.7  → ASSIGN       driver #5 ← [#1035, #1036] → branch 126.47443 (dist=?)
+             ★ DELIVER      order #1004 → branch 126.52115 (dist=?)  [flow=445.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 465.0  ▶ PICKUP       driver #5 at restaurant #76
+  t= 466.0  ★ DELIVER      order #1035 → branch 126.47443 (dist=?)  [flow=465.1]
+  t= 467.0  → ASSIGN       driver #5 ← [#1034] → branch 126.47467 (dist=?)
+             ★ DELIVER      order #1036 → branch 126.47386 (dist=?)  [flow=466.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 468.0  ▶ PICKUP       driver #5 at restaurant #77
+  t= 469.0  → ASSIGN       driver #5 ← [#1047] → branch 126.47766 (dist=?)
+             ★ DELIVER      order #1034 → branch 126.47467 (dist=?)  [flow=468.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 470.0  ▶ PICKUP       driver #5 at restaurant #78
+  t= 471.0  → ASSIGN       driver #5 ← [#1048] → branch 126.47365 (dist=?)
+             ★ DELIVER      order #1047 → branch 126.47766 (dist=?)  [flow=470.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 472.0  ▶ PICKUP       driver #5 at restaurant #79
+  t= 473.0  → ASSIGN       driver #5 ← [#877, #878, #879] → branch 126.59323 (dist=?)
+             ★ DELIVER      order #1048 → branch 126.47365 (dist=?)  [flow=472.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 476.1  ▶ PICKUP       driver #5 at restaurant #30
+  t= 481.2  ★ DELIVER      order #877 → branch 126.59323 (dist=?)  [flow=479.7]
+  t= 482.2  ★ DELIVER      order #878 → branch 126.59081 (dist=?)  [flow=479.8]
+  t= 483.2  → ASSIGN       driver #5 ← [#909, #910] → branch 126.5859 (dist=?)
+             ★ DELIVER      order #879 → branch 126.59103 (dist=?)  [flow=480.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 488.3  ▶ PICKUP       driver #5 at restaurant #42
+  t= 493.3  ★ DELIVER      order #909 → branch 126.5859 (dist=?)  [flow=492.6]
+  t= 494.3  → ASSIGN       driver #5 ← [#876] → branch 126.5679 (dist=?)
+             ★ DELIVER      order #910 → branch 126.58936 (dist=?)  [flow=493.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 499.4  ▶ PICKUP       driver #5 at restaurant #30
+  t= 502.3  → ASSIGN       driver #5 ← [#873] → branch 126.56807 (dist=?)
+             ★ DELIVER      order #876 → branch 126.5679 (dist=?)  [flow=501.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 505.2  ▶ PICKUP       driver #5 at restaurant #49
+  t= 508.1  → ASSIGN       driver #5 ← [#893] → branch 126.56646 (dist=?)
+             ★ DELIVER      order #873 → branch 126.56807 (dist=?)  [flow=506.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 511.0  ▶ PICKUP       driver #5 at restaurant #50
+  t= 513.9  → ASSIGN       driver #5 ← [#905] → branch 126.5692 (dist=?)
+             ★ DELIVER      order #893 → branch 126.56646 (dist=?)  [flow=509.7]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 516.8  ▶ PICKUP       driver #5 at restaurant #51
+  t= 519.7  → ASSIGN       driver #5 ← [#907] → branch 126.55267 (dist=?)
+             ★ DELIVER      order #905 → branch 126.5692 (dist=?)  [flow=511.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 522.6  ▶ PICKUP       driver #5 at restaurant #53
+  t= 525.5  → ASSIGN       driver #5 ← [#1059] → branch 126.51634 (dist=?)
+             ★ DELIVER      order #907 → branch 126.55267 (dist=?)  [flow=524.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 526.5  ▶ PICKUP       driver #5 at restaurant #1
+  t= 531.9  → ASSIGN       driver #5 ← [#1058] → branch 126.52124 (dist=?)
+             ★ DELIVER      order #1059 → branch 126.51634 (dist=?)  [flow=531.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 537.3  ▶ PICKUP       driver #5 at restaurant #4
+  t= 542.8  → ASSIGN       driver #5 ← [#1062] → branch 126.5314 (dist=?)
+             ★ DELIVER      order #1058 → branch 126.52124 (dist=?)  [flow=541.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 548.2  ▶ PICKUP       driver #5 at restaurant #5
+  t= 553.6  → ASSIGN       driver #5 ← [#1049] → branch 126.52022 (dist=?)
+             ★ DELIVER      order #1062 → branch 126.5314 (dist=?)  [flow=552.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 559.0  ▶ PICKUP       driver #5 at restaurant #8
+  t= 564.5  → ASSIGN       driver #5 ← [#1057] → branch 126.52388 (dist=?)
+             ★ DELIVER      order #1049 → branch 126.52022 (dist=?)  [flow=563.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 569.9  ▶ PICKUP       driver #5 at restaurant #10
+  t= 575.3  → ASSIGN       driver #5 ← [#1054] → branch 126.51824 (dist=?)
+             ★ DELIVER      order #1057 → branch 126.52388 (dist=?)  [flow=573.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 580.7  ▶ PICKUP       driver #5 at restaurant #13
+  t= 586.2  → ASSIGN       driver #5 ← [#1065] → branch 126.51567 (dist=?)
+             ★ DELIVER      order #1054 → branch 126.51824 (dist=?)  [flow=586.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 591.6  ▶ PICKUP       driver #5 at restaurant #16
+  t= 597.0  → ASSIGN       driver #5 ← [#1060] → branch 126.51554 (dist=?)
+             ★ DELIVER      order #1065 → branch 126.51567 (dist=?)  [flow=593.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 602.4  ▶ PICKUP       driver #5 at restaurant #20
+  t= 607.9  → ASSIGN       driver #5 ← [#1064] → branch 126.51646 (dist=?)
+             ★ DELIVER      order #1060 → branch 126.51554 (dist=?)  [flow=606.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 613.3  ▶ PICKUP       driver #5 at restaurant #22
+  t= 618.7  → ASSIGN       driver #5 ← [#1061] → branch 126.52552 (dist=?)
+             ★ DELIVER      order #1064 → branch 126.51646 (dist=?)  [flow=618.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 624.1  ▶ PICKUP       driver #5 at restaurant #24
+  t= 629.6  → ASSIGN       driver #5 ← [#1051] → branch 126.5046 (dist=?)
+             ★ DELIVER      order #1061 → branch 126.52552 (dist=?)  [flow=628.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 635.0  ▶ PICKUP       driver #5 at restaurant #26
+  t= 640.4  → ASSIGN       driver #5 ← [#1055] → branch 126.52074 (dist=?)
+             ★ DELIVER      order #1051 → branch 126.5046 (dist=?)  [flow=638.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 645.8  ▶ PICKUP       driver #5 at restaurant #27
+  t= 651.2  → ASSIGN       driver #5 ← [#869] → branch 126.57815 (dist=?)
+             ★ DELIVER      order #1055 → branch 126.52074 (dist=?)  [flow=650.3]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 659.5  ▶ PICKUP       driver #5 at restaurant #28
+  t= 664.6  → ASSIGN       driver #5 ← [#911] → branch 126.57497 (dist=?)
+             ★ DELIVER      order #869 → branch 126.57815 (dist=?)  [flow=663.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 669.7  ▶ PICKUP       driver #5 at restaurant #29
+  t= 674.7  → ASSIGN       driver #5 ← [#912] → branch 126.57256 (dist=?)
+             ★ DELIVER      order #911 → branch 126.57497 (dist=?)  [flow=673.6]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 679.8  ▶ PICKUP       driver #5 at restaurant #31
+  t= 684.9  → ASSIGN       driver #5 ← [#906] → branch 126.58452 (dist=?)
+             ★ DELIVER      order #912 → branch 126.57256 (dist=?)  [flow=684.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 690.0  ▶ PICKUP       driver #5 at restaurant #33
+  t= 695.1  → ASSIGN       driver #5 ← [#870] → branch 126.5807 (dist=?)
+             ★ DELIVER      order #906 → branch 126.58452 (dist=?)  [flow=693.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 700.2  ▶ PICKUP       driver #5 at restaurant #35
+  t= 705.3  → ASSIGN       driver #5 ← [#896] → branch 126.59144 (dist=?)
+             ★ DELIVER      order #870 → branch 126.5807 (dist=?)  [flow=703.7]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 710.4  ▶ PICKUP       driver #5 at restaurant #37
+  t= 715.5  → ASSIGN       driver #5 ← [#871] → branch 126.57933 (dist=?)
+             ★ DELIVER      order #896 → branch 126.59144 (dist=?)  [flow=715.1]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 720.5  ▶ PICKUP       driver #5 at restaurant #39
+  t= 725.6  → ASSIGN       driver #5 ← [#908] → branch 126.58744 (dist=?)
+             ★ DELIVER      order #871 → branch 126.57933 (dist=?)  [flow=724.9]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 730.7  ▶ PICKUP       driver #5 at restaurant #40
+  t= 735.8  → ASSIGN       driver #5 ← [#895] → branch 126.57331 (dist=?)
+             ★ DELIVER      order #908 → branch 126.58744 (dist=?)  [flow=735.2]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 740.9  ▶ PICKUP       driver #5 at restaurant #41
+  t= 746.0  → ASSIGN       driver #5 ← [#913] → branch 126.57821 (dist=?)
+             ★ DELIVER      order #895 → branch 126.57331 (dist=?)  [flow=745.8]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 751.1  ▶ PICKUP       driver #5 at restaurant #43
+  t= 756.2  → ASSIGN       driver #5 ← [#853] → branch 126.56936 (dist=?)
+             ★ DELIVER      order #913 → branch 126.57821 (dist=?)  [flow=754.4]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 761.3  ▶ PICKUP       driver #5 at restaurant #45
+  t= 766.4  → ASSIGN       driver #5 ← [#872] → branch 126.58856 (dist=?)
+             ★ DELIVER      order #853 → branch 126.56936 (dist=?)  [flow=766.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 771.4  ▶ PICKUP       driver #5 at restaurant #49
+  t= 776.5  → ASSIGN       driver #5 ← [#904] → branch 126.57166 (dist=?)
+             ★ DELIVER      order #872 → branch 126.58856 (dist=?)  [flow=775.5]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 781.6  ▶ PICKUP       driver #5 at restaurant #51
+  t= 786.7  → ASSIGN       driver #5 ← [#1001] → branch 126.59211 (dist=?)
+             ★ DELIVER      order #904 → branch 126.57166 (dist=?)  [flow=781.0]
+             ◉ IDLE         driver #5 idle at (126, 43)
+  t= 791.1  ▶ PICKUP       driver #5 at restaurant #25
+  t= 800.0  ★ DELIVER      order #1001 → branch 126.59211 (dist=?)  [flow=792.3]
+             ◉ IDLE         driver #5 idle at (126, 43)

@@ -1,0 +1,992 @@
+[
+  {
+    "driver_id": 1,
+    "curr_zone_id": 33,
+    "curr_pt": [
+      121.1831,
+      36.7696
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 2,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 3,
+    "curr_zone_id": 32,
+    "curr_pt": [
+      121.1034,
+      37.4776
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 4,
+    "curr_zone_id": 20,
+    "curr_pt": [
+      121.20561428571429,
+      36.76351428571429
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 5,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 6,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 7,
+    "curr_zone_id": 1,
+    "curr_pt": [
+      119.94936428571428,
+      37.15419285714285
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 8,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.82408333333335,
+      37.29331666666667
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 9,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 10,
+    "curr_zone_id": 20,
+    "curr_pt": [
+      121.20561428571429,
+      36.76351428571429
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 11,
+    "curr_zone_id": 9,
+    "curr_pt": [
+      121.2828894736842,
+      37.48177368421052
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 12,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 13,
+    "curr_zone_id": 12,
+    "curr_pt": [
+      121.5809,
+      37.391600000000004
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 14,
+    "curr_zone_id": 1,
+    "curr_pt": [
+      119.94936428571428,
+      37.15419285714285
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 15,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.3537,
+      37.4076
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 16,
+    "curr_zone_id": 2,
+    "curr_pt": [
+      121.2655,
+      37.5273
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 17,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.8001,
+      37.7679
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 18,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 19,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.3537,
+      37.4076
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 20,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.3537,
+      37.4076
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 21,
+    "curr_zone_id": 33,
+    "curr_pt": [
+      121.1831,
+      36.7696
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 22,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 23,
+    "curr_zone_id": 1,
+    "curr_pt": [
+      119.94936428571428,
+      37.15419285714285
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 24,
+    "curr_zone_id": 1,
+    "curr_pt": [
+      119.94936428571428,
+      37.15419285714285
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 25,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.82408333333335,
+      37.29331666666667
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 26,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 27,
+    "curr_zone_id": 5,
+    "curr_pt": [
+      120.33646666666667,
+      37.64118666666666
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 28,
+    "curr_zone_id": 32,
+    "curr_pt": [
+      121.1034,
+      37.4776
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 29,
+    "curr_zone_id": 5,
+    "curr_pt": [
+      120.33646666666667,
+      37.64118666666666
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 30,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.9605,
+      37.1858
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 31,
+    "curr_zone_id": 12,
+    "curr_pt": [
+      121.5809,
+      37.391600000000004
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 32,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.82408333333335,
+      37.29331666666667
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 33,
+    "curr_zone_id": 6,
+    "curr_pt": [
+      121.33859999999999,
+      37.5462
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 34,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 35,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 36,
+    "curr_zone_id": 5,
+    "curr_pt": [
+      120.33646666666667,
+      37.64118666666666
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 37,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.3537,
+      37.4076
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 38,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.82408333333335,
+      37.29331666666667
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 39,
+    "curr_zone_id": 15,
+    "curr_pt": [
+      121.3803447368421,
+      37.41105263157895
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 40,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 41,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 42,
+    "curr_zone_id": 24,
+    "curr_pt": [
+      120.85512857142858,
+      37.78725000000001
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 43,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 44,
+    "curr_zone_id": 12,
+    "curr_pt": [
+      121.5809,
+      37.391600000000004
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 45,
+    "curr_zone_id": 1,
+    "curr_pt": [
+      119.94936428571428,
+      37.15419285714285
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 46,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 47,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.3537,
+      37.4076
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 48,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.9605,
+      37.1858
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 49,
+    "curr_zone_id": 12,
+    "curr_pt": [
+      121.5809,
+      37.391600000000004
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 50,
+    "curr_zone_id": 23,
+    "curr_pt": [
+      121.4338,
+      37.5126
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 51,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.9605,
+      37.1858
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 52,
+    "curr_zone_id": 32,
+    "curr_pt": [
+      121.1034,
+      37.4776
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 53,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 54,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.9605,
+      37.1858
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 55,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.8001,
+      37.7679
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 56,
+    "curr_zone_id": 20,
+    "curr_pt": [
+      121.20561428571429,
+      36.76351428571429
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 57,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 58,
+    "curr_zone_id": 10,
+    "curr_pt": [
+      121.3670875,
+      37.5428
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 59,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 60,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 61,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.3537,
+      37.4076
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 62,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.3537,
+      37.4076
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 63,
+    "curr_zone_id": 1,
+    "curr_pt": [
+      119.94936428571428,
+      37.15419285714285
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 64,
+    "curr_zone_id": 5,
+    "curr_pt": [
+      120.33646666666667,
+      37.64118666666666
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 65,
+    "curr_zone_id": 10,
+    "curr_pt": [
+      121.3670875,
+      37.5428
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 66,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 67,
+    "curr_zone_id": 6,
+    "curr_pt": [
+      121.33859999999999,
+      37.5462
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 68,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.9605,
+      37.1858
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 69,
+    "curr_zone_id": 5,
+    "curr_pt": [
+      120.33646666666667,
+      37.64118666666666
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 70,
+    "curr_zone_id": 33,
+    "curr_pt": [
+      121.1831,
+      36.7696
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 71,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.82408333333335,
+      37.29331666666667
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 72,
+    "curr_zone_id": 5,
+    "curr_pt": [
+      120.33646666666667,
+      37.64118666666666
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 73,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 74,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.82408333333335,
+      37.29331666666667
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 75,
+    "curr_zone_id": 1,
+    "curr_pt": [
+      119.94936428571428,
+      37.15419285714285
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 76,
+    "curr_zone_id": 12,
+    "curr_pt": [
+      121.5809,
+      37.391600000000004
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 77,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.82408333333335,
+      37.29331666666667
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 78,
+    "curr_zone_id": 1,
+    "curr_pt": [
+      119.94936428571428,
+      37.15419285714285
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 79,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 80,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 81,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.9605,
+      37.1858
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 82,
+    "curr_zone_id": 5,
+    "curr_pt": [
+      120.33646666666667,
+      37.64118666666666
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 83,
+    "curr_zone_id": 20,
+    "curr_pt": [
+      121.20561428571429,
+      36.76351428571429
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 84,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 85,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 86,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.4942,
+      37.435125
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 87,
+    "curr_zone_id": 18,
+    "curr_pt": [
+      120.5215,
+      37.63176
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 88,
+    "curr_zone_id": 33,
+    "curr_pt": [
+      121.1831,
+      36.7696
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 89,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.9605,
+      37.1858
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 90,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.82408333333335,
+      37.29331666666667
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 91,
+    "curr_zone_id": 32,
+    "curr_pt": [
+      121.1034,
+      37.4776
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 92,
+    "curr_zone_id": 20,
+    "curr_pt": [
+      121.20561428571429,
+      36.76351428571429
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 93,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 94,
+    "curr_zone_id": 20,
+    "curr_pt": [
+      121.20561428571429,
+      36.76351428571429
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 95,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41486315789473,
+      37.38592105263158
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 96,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 97,
+    "curr_zone_id": 5,
+    "curr_pt": [
+      120.33646666666667,
+      37.64118666666666
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 98,
+    "curr_zone_id": 18,
+    "curr_pt": [
+      120.5215,
+      37.63176
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  },
+  {
+    "driver_id": 99,
+    "curr_zone_id": 8,
+    "curr_pt": [
+      120.65857391304347,
+      36.95732608695652
+    ],
+    "dest_pt": null,
+    "dest_zone_id": null
+  }
+]

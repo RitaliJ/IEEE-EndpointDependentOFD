@@ -1,0 +1,3623 @@
+[
+  {
+    "order_id": 6178,
+    "restaurant_id": 45,
+    "destination_zone_id": 6,
+    "destination": [
+      126.56936,
+      43.83943
+    ],
+    "arrival_time": 0.6044278041620684,
+    "prep_time": 0,
+    "prep_ready_time": 0.6044278041620684,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 104.77065442545425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6179,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.56761,
+      43.83926
+    ],
+    "arrival_time": 1.5910778306508302,
+    "prep_time": 0,
+    "prep_ready_time": 1.5910778306508302,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 115.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6180,
+    "restaurant_id": 52,
+    "destination_zone_id": 2,
+    "destination": [
+      126.59231,
+      43.85451
+    ],
+    "arrival_time": 2.124636489028244,
+    "prep_time": 0,
+    "prep_ready_time": 2.124636489028244,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 110.09462465734812,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6181,
+    "restaurant_id": 52,
+    "destination_zone_id": 2,
+    "destination": [
+      126.5872,
+      43.86066
+    ],
+    "arrival_time": 2.6513211036532565,
+    "prep_time": 0,
+    "prep_ready_time": 2.6513211036532565,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 111.09462465734812,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6182,
+    "restaurant_id": 52,
+    "destination_zone_id": 2,
+    "destination": [
+      126.59326,
+      43.86152
+    ],
+    "arrival_time": 5.8706370925967715,
+    "prep_time": 0,
+    "prep_ready_time": 5.8706370925967715,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 112.09462465734812,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6183,
+    "restaurant_id": 52,
+    "destination_zone_id": 2,
+    "destination": [
+      126.58823,
+      43.86311
+    ],
+    "arrival_time": 6.444868189504835,
+    "prep_time": 0,
+    "prep_ready_time": 6.444868189504835,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 113.09462465734812,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6184,
+    "restaurant_id": 52,
+    "destination_zone_id": 2,
+    "destination": [
+      126.59156,
+      43.86045
+    ],
+    "arrival_time": 6.909989396708786,
+    "prep_time": 0,
+    "prep_ready_time": 6.909989396708786,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 114.09462465734812,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6185,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57114,
+      43.84353
+    ],
+    "arrival_time": 8.689482064580986,
+    "prep_time": 0,
+    "prep_ready_time": 8.689482064580986,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 116.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6186,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57161,
+      43.84158
+    ],
+    "arrival_time": 9.995274255508784,
+    "prep_time": 0,
+    "prep_ready_time": 9.995274255508784,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 117.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6187,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.5889,
+      43.83818
+    ],
+    "arrival_time": 10.17352067001162,
+    "prep_time": 0,
+    "prep_ready_time": 10.17352067001162,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 118.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6188,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59377,
+      43.84361
+    ],
+    "arrival_time": 11.359260852806178,
+    "prep_time": 0,
+    "prep_ready_time": 11.359260852806178,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 119.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6189,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.58362,
+      43.84182
+    ],
+    "arrival_time": 12.165971179616376,
+    "prep_time": 0,
+    "prep_ready_time": 12.165971179616376,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 120.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6190,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.5916,
+      43.84231
+    ],
+    "arrival_time": 15.16185022679905,
+    "prep_time": 0,
+    "prep_ready_time": 15.16185022679905,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 121.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6191,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59275,
+      43.84111
+    ],
+    "arrival_time": 16.5259533132682,
+    "prep_time": 0,
+    "prep_ready_time": 16.5259533132682,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 122.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6192,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59218,
+      43.84225
+    ],
+    "arrival_time": 18.17903548658379,
+    "prep_time": 0,
+    "prep_ready_time": 18.17903548658379,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 123.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6193,
+    "restaurant_id": 52,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59157,
+      43.84161
+    ],
+    "arrival_time": 19.578703348059832,
+    "prep_time": 0,
+    "prep_ready_time": 19.578703348059832,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 124.94901346749425,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6194,
+    "restaurant_id": 28,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57815,
+      43.84226
+    ],
+    "arrival_time": 0.33273765921828197,
+    "prep_time": 0,
+    "prep_ready_time": 0.33273765921828197,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 9.999859316516165,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6195,
+    "restaurant_id": 35,
+    "destination_zone_id": 6,
+    "destination": [
+      126.5807,
+      43.84155
+    ],
+    "arrival_time": 0.5743311660522697,
+    "prep_time": 0,
+    "prep_ready_time": 0.5743311660522697,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 16.684441917694155,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6196,
+    "restaurant_id": 39,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57933,
+      43.84283
+    ],
+    "arrival_time": 4.985609121282022,
+    "prep_time": 0,
+    "prep_ready_time": 4.985609121282022,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 94.5283042825186,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6197,
+    "restaurant_id": 49,
+    "destination_zone_id": 6,
+    "destination": [
+      126.58856,
+      43.84344
+    ],
+    "arrival_time": 0.15237957899766794,
+    "prep_time": 0,
+    "prep_ready_time": 0.15237957899766794,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 107.77986950969891,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6198,
+    "restaurant_id": 49,
+    "destination_zone_id": 1,
+    "destination": [
+      126.56807,
+      43.84589
+    ],
+    "arrival_time": 0.2897658250143408,
+    "prep_time": 0,
+    "prep_ready_time": 0.2897658250143408,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 105.19877105661006,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6199,
+    "restaurant_id": 49,
+    "destination_zone_id": 2,
+    "destination": [
+      126.5879,
+      43.86036
+    ],
+    "arrival_time": 2.5970335915211904,
+    "prep_time": 0,
+    "prep_ready_time": 2.5970335915211904,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 103.07648273609817,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6200,
+    "restaurant_id": 32,
+    "destination_zone_id": 2,
+    "destination": [
+      126.56338,
+      43.86693
+    ],
+    "arrival_time": 3.141233671529116,
+    "prep_time": 0,
+    "prep_ready_time": 3.141233671529116,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 12.59526239667416,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6201,
+    "restaurant_id": 30,
+    "destination_zone_id": 1,
+    "destination": [
+      126.5679,
+      43.84686
+    ],
+    "arrival_time": 0.1241508966090273,
+    "prep_time": 0,
+    "prep_ready_time": 0.1241508966090273,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 8.999859316516165,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6202,
+    "restaurant_id": 30,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59323,
+      43.83956
+    ],
+    "arrival_time": 0.12444494564841875,
+    "prep_time": 0,
+    "prep_ready_time": 0.12444494564841875,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 14.33328512603274,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6203,
+    "restaurant_id": 30,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59081,
+      43.84145
+    ],
+    "arrival_time": 1.815195611670292,
+    "prep_time": 0,
+    "prep_ready_time": 1.815195611670292,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 15.33328512603274,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6204,
+    "restaurant_id": 30,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59103,
+      43.84154
+    ],
+    "arrival_time": 3.2018801979403566,
+    "prep_time": 0,
+    "prep_ready_time": 3.2018801979403566,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 16.33328512603274,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6205,
+    "restaurant_id": 36,
+    "destination_zone_id": 2,
+    "destination": [
+      126.55711,
+      43.87054
+    ],
+    "arrival_time": 3.3694353187346655,
+    "prep_time": 0,
+    "prep_ready_time": 3.3694353187346655,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 14.59526239667416,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6206,
+    "restaurant_id": 34,
+    "destination_zone_id": 2,
+    "destination": [
+      126.56356,
+      43.86723
+    ],
+    "arrival_time": 0.014826194758110287,
+    "prep_time": 0,
+    "prep_ready_time": 0.014826194758110287,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 3.9106797954961703,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6207,
+    "restaurant_id": 46,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57373,
+      43.84622
+    ],
+    "arrival_time": 0.0253991469624385,
+    "prep_time": 0,
+    "prep_ready_time": 0.0253991469624385,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 105.29765569062096,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6208,
+    "restaurant_id": 46,
+    "destination_zone_id": 6,
+    "destination": [
+      126.5794,
+      43.84462
+    ],
+    "arrival_time": 0.8928328287261468,
+    "prep_time": 0,
+    "prep_ready_time": 0.8928328287261468,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 106.29765569062096,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6209,
+    "restaurant_id": 46,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57449,
+      43.84147
+    ],
+    "arrival_time": 0.9808131211387836,
+    "prep_time": 0,
+    "prep_ready_time": 0.9808131211387836,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 107.29765569062096,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6210,
+    "restaurant_id": 46,
+    "destination_zone_id": 2,
+    "destination": [
+      126.59332,
+      43.86163
+    ],
+    "arrival_time": 1.2380683174020461,
+    "prep_time": 0,
+    "prep_ready_time": 1.2380683174020461,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 101.07648273609817,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6211,
+    "restaurant_id": 46,
+    "destination_zone_id": 6,
+    "destination": [
+      126.58434,
+      43.8422
+    ],
+    "arrival_time": 1.7409756087159602,
+    "prep_time": 0,
+    "prep_ready_time": 1.7409756087159602,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 108.29765569062096,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6212,
+    "restaurant_id": 46,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59224,
+      43.83951
+    ],
+    "arrival_time": 3.5469247636151615,
+    "prep_time": 0,
+    "prep_ready_time": 3.5469247636151615,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 109.29765569062096,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6213,
+    "restaurant_id": 50,
+    "destination_zone_id": 2,
+    "destination": [
+      126.59128,
+      43.86182
+    ],
+    "arrival_time": 0.09403056162236144,
+    "prep_time": 0,
+    "prep_ready_time": 0.09403056162236144,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 104.6174838035386,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6214,
+    "restaurant_id": 50,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59568,
+      43.843
+    ],
+    "arrival_time": 0.3590933659956946,
+    "prep_time": 0,
+    "prep_ready_time": 0.3590933659956946,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 109.17357339252845,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6215,
+    "restaurant_id": 50,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57472,
+      43.84217
+    ],
+    "arrival_time": 1.5408010758421367,
+    "prep_time": 0,
+    "prep_ready_time": 1.5408010758421367,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 110.17357339252845,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6216,
+    "restaurant_id": 50,
+    "destination_zone_id": 6,
+    "destination": [
+      126.58332,
+      43.84588
+    ],
+    "arrival_time": 2.2466481946534747,
+    "prep_time": 0,
+    "prep_ready_time": 2.2466481946534747,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 111.17357339252845,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6217,
+    "restaurant_id": 50,
+    "destination_zone_id": 6,
+    "destination": [
+      126.587,
+      43.83913
+    ],
+    "arrival_time": 2.762117223058369,
+    "prep_time": 0,
+    "prep_ready_time": 2.762117223058369,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 112.17357339252845,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6218,
+    "restaurant_id": 50,
+    "destination_zone_id": 1,
+    "destination": [
+      126.56646,
+      43.84394
+    ],
+    "arrival_time": 4.297100125091648,
+    "prep_time": 0,
+    "prep_ready_time": 4.297100125091648,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 106.97233633683624,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6219,
+    "restaurant_id": 50,
+    "destination_zone_id": 6,
+    "destination": [
+      126.5954,
+      43.8421
+    ],
+    "arrival_time": 4.363399610902899,
+    "prep_time": 0,
+    "prep_ready_time": 4.363399610902899,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 113.17357339252845,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6220,
+    "restaurant_id": 41,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57331,
+      43.84484
+    ],
+    "arrival_time": 1.5473686628874181,
+    "prep_time": 0,
+    "prep_ready_time": 1.5473686628874181,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 96.21373793485199,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6221,
+    "restaurant_id": 37,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59144,
+      43.84724
+    ],
+    "arrival_time": 1.6608679999967553,
+    "prep_time": 0,
+    "prep_ready_time": 1.6608679999967553,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 20.684441917694155,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6222,
+    "restaurant_id": 44,
+    "destination_zone_id": 2,
+    "destination": [
+      126.55181,
+      43.87362
+    ],
+    "arrival_time": 0.1365973493716803,
+    "prep_time": 0,
+    "prep_ready_time": 0.1365973493716803,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 98.07648273609817,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6223,
+    "restaurant_id": 44,
+    "destination_zone_id": 2,
+    "destination": [
+      126.56162,
+      43.86963
+    ],
+    "arrival_time": 0.3839702588537943,
+    "prep_time": 0,
+    "prep_ready_time": 0.3839702588537943,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 99.07648273609817,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6224,
+    "restaurant_id": 38,
+    "destination_zone_id": 2,
+    "destination": [
+      126.55549,
+      43.87036
+    ],
+    "arrival_time": 0.7847329422482869,
+    "prep_time": 0,
+    "prep_ready_time": 0.7847329422482869,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 88.51233094663891,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6225,
+    "restaurant_id": 47,
+    "destination_zone_id": 2,
+    "destination": [
+      126.55491,
+      43.87308
+    ],
+    "arrival_time": 0.18917596032696898,
+    "prep_time": 0,
+    "prep_ready_time": 0.18917596032696898,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 101.6174838035386,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6226,
+    "restaurant_id": 47,
+    "destination_zone_id": 2,
+    "destination": [
+      126.55054,
+      43.87427
+    ],
+    "arrival_time": 0.804001987156949,
+    "prep_time": 0,
+    "prep_ready_time": 0.804001987156949,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 102.6174838035386,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6227,
+    "restaurant_id": 48,
+    "destination_zone_id": 2,
+    "destination": [
+      126.55202,
+      43.87
+    ],
+    "arrival_time": 2.964187749458024,
+    "prep_time": 0,
+    "prep_ready_time": 2.964187749458024,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 101.69068998867891,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6228,
+    "restaurant_id": 51,
+    "destination_zone_id": 2,
+    "destination": [
+      126.55817,
+      43.86505
+    ],
+    "arrival_time": 0.017287984959139892,
+    "prep_time": 0,
+    "prep_ready_time": 0.017287984959139892,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 105.58280074612418,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6229,
+    "restaurant_id": 51,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57166,
+      43.84127
+    ],
+    "arrival_time": 0.8113113041379895,
+    "prep_time": 0,
+    "prep_ready_time": 0.8113113041379895,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 111.67198026714418,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6230,
+    "restaurant_id": 51,
+    "destination_zone_id": 1,
+    "destination": [
+      126.5692,
+      43.84219
+    ],
+    "arrival_time": 2.357474010990873,
+    "prep_time": 0,
+    "prep_ready_time": 2.357474010990873,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 108.51333740427667,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6231,
+    "restaurant_id": 33,
+    "destination_zone_id": 6,
+    "destination": [
+      126.58452,
+      43.84007
+    ],
+    "arrival_time": 1.3252550648911932,
+    "prep_time": 0,
+    "prep_ready_time": 1.3252550648911932,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 16.684441917694155,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6232,
+    "restaurant_id": 53,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55267,
+      43.85791
+    ],
+    "arrival_time": 1.3190820712862081,
+    "prep_time": 0,
+    "prep_ready_time": 1.3190820712862081,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 113.76404353831236,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6233,
+    "restaurant_id": 40,
+    "destination_zone_id": 6,
+    "destination": [
+      126.58744,
+      43.84664
+    ],
+    "arrival_time": 2.59418946381873,
+    "prep_time": 0,
+    "prep_ready_time": 2.59418946381873,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 94.60151046765891,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6234,
+    "restaurant_id": 42,
+    "destination_zone_id": 6,
+    "destination": [
+      126.5859,
+      43.84725
+    ],
+    "arrival_time": 0.9681352331042417,
+    "prep_time": 0,
+    "prep_ready_time": 0.9681352331042417,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 96.99521435048845,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6235,
+    "restaurant_id": 42,
+    "destination_zone_id": 6,
+    "destination": [
+      126.58936,
+      43.83895
+    ],
+    "arrival_time": 1.7390432745128346,
+    "prep_time": 0,
+    "prep_ready_time": 1.7390432745128346,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 97.99521435048845,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6236,
+    "restaurant_id": 29,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57497,
+      43.84017
+    ],
+    "arrival_time": 0.05163165441737245,
+    "prep_time": 0,
+    "prep_ready_time": 0.05163165441737245,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 11.1931852367981,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6237,
+    "restaurant_id": 31,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57256,
+      43.83968
+    ],
+    "arrival_time": 0.7482541911713335,
+    "prep_time": 0,
+    "prep_ready_time": 0.7482541911713335,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 14.33328512603274,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6238,
+    "restaurant_id": 43,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57821,
+      43.83781
+    ],
+    "arrival_time": 0.49189472334041046,
+    "prep_time": 0,
+    "prep_ready_time": 0.49189472334041046,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 98.49362122510418,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6239,
+    "restaurant_id": 60,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55547,
+      43.83253
+    ],
+    "arrival_time": 0.7547624058040968,
+    "prep_time": 0,
+    "prep_ready_time": 0.7547624058040968,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 26.821856117862506,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6240,
+    "restaurant_id": 60,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55683,
+      43.83223
+    ],
+    "arrival_time": 5.468128277843382,
+    "prep_time": 0,
+    "prep_ready_time": 5.468128277843382,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 27.821856117862506,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6241,
+    "restaurant_id": 60,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56954,
+      43.80697
+    ],
+    "arrival_time": 6.139576452891285,
+    "prep_time": 0,
+    "prep_ready_time": 6.139576452891285,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 23.233101684926904,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6242,
+    "restaurant_id": 60,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57163,
+      43.81161
+    ],
+    "arrival_time": 6.2402908185238575,
+    "prep_time": 0,
+    "prep_ready_time": 6.2402908185238575,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 24.233101684926904,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6243,
+    "restaurant_id": 75,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55656,
+      43.80459
+    ],
+    "arrival_time": 0.17728301353393058,
+    "prep_time": 0,
+    "prep_ready_time": 0.17728301353393058,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 46.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6244,
+    "restaurant_id": 75,
+    "destination_zone_id": 5,
+    "destination": [
+      126.59407,
+      43.77877
+    ],
+    "arrival_time": 0.6466031918513876,
+    "prep_time": 0,
+    "prep_ready_time": 0.6466031918513876,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 50.89833183139925,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6245,
+    "restaurant_id": 75,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55374,
+      43.78752
+    ],
+    "arrival_time": 1.1288518749691114,
+    "prep_time": 0,
+    "prep_ready_time": 1.1288518749691114,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 47.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6246,
+    "restaurant_id": 75,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57516,
+      43.82789
+    ],
+    "arrival_time": 3.1564176357929266,
+    "prep_time": 0,
+    "prep_ready_time": 3.1564176357929266,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 49.5148566847498,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6247,
+    "restaurant_id": 75,
+    "destination_zone_id": 6,
+    "destination": [
+      126.58935,
+      43.82855
+    ],
+    "arrival_time": 6.051081827891473,
+    "prep_time": 0,
+    "prep_ready_time": 6.051081827891473,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 50.5148566847498,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6248,
+    "restaurant_id": 69,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57155,
+      43.83227
+    ],
+    "arrival_time": 0.931233740632608,
+    "prep_time": 0,
+    "prep_ready_time": 0.931233740632608,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 39.17714774664992,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6249,
+    "restaurant_id": 69,
+    "destination_zone_id": 3,
+    "destination": [
+      126.5651,
+      43.82957
+    ],
+    "arrival_time": 1.156382136627777,
+    "prep_time": 0,
+    "prep_ready_time": 1.156382136627777,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 36.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6250,
+    "restaurant_id": 69,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56875,
+      43.81819
+    ],
+    "arrival_time": 1.2003901343570562,
+    "prep_time": 0,
+    "prep_ready_time": 1.2003901343570562,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 37.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6251,
+    "restaurant_id": 69,
+    "destination_zone_id": 3,
+    "destination": [
+      126.568,
+      43.81671
+    ],
+    "arrival_time": 1.9092235924195924,
+    "prep_time": 0,
+    "prep_ready_time": 1.9092235924195924,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 38.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6252,
+    "restaurant_id": 69,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56596,
+      43.81629
+    ],
+    "arrival_time": 2.5579407687773785,
+    "prep_time": 0,
+    "prep_ready_time": 2.5579407687773785,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 39.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6253,
+    "restaurant_id": 69,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57257,
+      43.80768
+    ],
+    "arrival_time": 3.501609012955332,
+    "prep_time": 0,
+    "prep_ready_time": 3.501609012955332,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 40.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6254,
+    "restaurant_id": 69,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57273,
+      43.82093
+    ],
+    "arrival_time": 6.318539259105133,
+    "prep_time": 0,
+    "prep_ready_time": 6.318539259105133,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 41.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6255,
+    "restaurant_id": 67,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55512,
+      43.80586
+    ],
+    "arrival_time": 3.691978546373303,
+    "prep_time": 0,
+    "prep_ready_time": 3.691978546373303,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 32.62848797941717,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6256,
+    "restaurant_id": 67,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55734,
+      43.80863
+    ],
+    "arrival_time": 4.450623989199526,
+    "prep_time": 0,
+    "prep_ready_time": 4.450623989199526,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 33.62848797941717,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6257,
+    "restaurant_id": 67,
+    "destination_zone_id": 6,
+    "destination": [
+      126.56838,
+      43.83237
+    ],
+    "arrival_time": 5.842210569372011,
+    "prep_time": 0,
+    "prep_ready_time": 5.842210569372011,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 36.879080986625155,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6258,
+    "restaurant_id": 67,
+    "destination_zone_id": 7,
+    "destination": [
+      126.54769,
+      43.79478
+    ],
+    "arrival_time": 6.861215760676127,
+    "prep_time": 0,
+    "prep_ready_time": 6.861215760676127,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 38.32881216464392,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6259,
+    "restaurant_id": 67,
+    "destination_zone_id": 6,
+    "destination": [
+      126.60478,
+      43.82964
+    ],
+    "arrival_time": 7.276868806129058,
+    "prep_time": 0,
+    "prep_ready_time": 7.276868806129058,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 37.879080986625155,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6260,
+    "restaurant_id": 67,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55103,
+      43.80921
+    ],
+    "arrival_time": 7.976608896499881,
+    "prep_time": 0,
+    "prep_ready_time": 7.976608896499881,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 34.62848797941717,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6261,
+    "restaurant_id": 67,
+    "destination_zone_id": 3,
+    "destination": [
+      126.54583,
+      43.82265
+    ],
+    "arrival_time": 10.10223226069599,
+    "prep_time": 0,
+    "prep_ready_time": 10.10223226069599,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 35.62848797941717,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6262,
+    "restaurant_id": 67,
+    "destination_zone_id": 5,
+    "destination": [
+      126.5944,
+      43.77518
+    ],
+    "arrival_time": 11.307147976623686,
+    "prep_time": 0,
+    "prep_ready_time": 11.307147976623686,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 39.59292537444121,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6263,
+    "restaurant_id": 67,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57582,
+      43.82823
+    ],
+    "arrival_time": 11.510064884055353,
+    "prep_time": 0,
+    "prep_ready_time": 11.510064884055353,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 38.879080986625155,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6264,
+    "restaurant_id": 54,
+    "destination_zone_id": 7,
+    "destination": [
+      126.5223,
+      43.8038
+    ],
+    "arrival_time": 2.285782149863107,
+    "prep_time": 0,
+    "prep_ready_time": 2.285782149863107,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 17.440415163936528,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6265,
+    "restaurant_id": 54,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56778,
+      43.8076
+    ],
+    "arrival_time": 2.98767254855206,
+    "prep_time": 0,
+    "prep_ready_time": 2.98767254855206,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 15.548519083748916,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6266,
+    "restaurant_id": 62,
+    "destination_zone_id": 6,
+    "destination": [
+      126.60464,
+      43.82716
+    ],
+    "arrival_time": 0.4394934745577769,
+    "prep_time": 0,
+    "prep_ready_time": 0.4394934745577769,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 27.781761452159653,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6267,
+    "restaurant_id": 62,
+    "destination_zone_id": 7,
+    "destination": [
+      126.53687,
+      43.80711
+    ],
+    "arrival_time": 2.8251693206622854,
+    "prep_time": 0,
+    "prep_ready_time": 2.8251693206622854,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 29.93167184483258,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6268,
+    "restaurant_id": 62,
+    "destination_zone_id": 5,
+    "destination": [
+      126.59634,
+      43.77835
+    ],
+    "arrival_time": 4.549999171325785,
+    "prep_time": 0,
+    "prep_ready_time": 4.549999171325785,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 31.019110161290254,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6269,
+    "restaurant_id": 62,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55511,
+      43.80742
+    ],
+    "arrival_time": 5.27045499240634,
+    "prep_time": 0,
+    "prep_ready_time": 5.27045499240634,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 25.233101684926904,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6270,
+    "restaurant_id": 62,
+    "destination_zone_id": 5,
+    "destination": [
+      126.5874,
+      43.78204
+    ],
+    "arrival_time": 6.260331584109704,
+    "prep_time": 0,
+    "prep_ready_time": 6.260331584109704,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 32.01911016129026,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6271,
+    "restaurant_id": 73,
+    "destination_zone_id": 6,
+    "destination": [
+      126.60099,
+      43.8305
+    ],
+    "arrival_time": 0.15536193849275332,
+    "prep_time": 0,
+    "prep_ready_time": 0.15536193849275332,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 45.57604209178234,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6272,
+    "restaurant_id": 73,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57084,
+      43.8309
+    ],
+    "arrival_time": 0.6969190801994769,
+    "prep_time": 0,
+    "prep_ready_time": 0.6969190801994769,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 46.57604209178234,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6273,
+    "restaurant_id": 73,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56267,
+      43.82691
+    ],
+    "arrival_time": 1.391240229244008,
+    "prep_time": 0,
+    "prep_ready_time": 1.391240229244008,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 43.72580751388267,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6274,
+    "restaurant_id": 73,
+    "destination_zone_id": 6,
+    "destination": [
+      126.5691,
+      43.82827
+    ],
+    "arrival_time": 1.4788878815972075,
+    "prep_time": 0,
+    "prep_ready_time": 1.4788878815972075,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 47.57604209178234,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6275,
+    "restaurant_id": 73,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57232,
+      43.81051
+    ],
+    "arrival_time": 1.7371986176502725,
+    "prep_time": 0,
+    "prep_ready_time": 1.7371986176502725,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 44.72580751388267,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6276,
+    "restaurant_id": 73,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55093,
+      43.80908
+    ],
+    "arrival_time": 2.28092053798318,
+    "prep_time": 0,
+    "prep_ready_time": 2.28092053798318,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 45.72580751388267,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6277,
+    "restaurant_id": 73,
+    "destination_zone_id": 7,
+    "destination": [
+      126.53636,
+      43.80437
+    ],
+    "arrival_time": 2.7100088295457754,
+    "prep_time": 0,
+    "prep_ready_time": 2.7100088295457754,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 47.032194552678874,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6278,
+    "restaurant_id": 73,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55171,
+      43.81189
+    ],
+    "arrival_time": 2.751194822397627,
+    "prep_time": 0,
+    "prep_ready_time": 2.751194822397627,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 46.72580751388267,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6279,
+    "restaurant_id": 73,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57171,
+      43.82828
+    ],
+    "arrival_time": 3.7739364203253185,
+    "prep_time": 0,
+    "prep_ready_time": 3.7739364203253185,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 48.57604209178234,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6280,
+    "restaurant_id": 72,
+    "destination_zone_id": 3,
+    "destination": [
+      126.54291,
+      43.82402
+    ],
+    "arrival_time": 2.9829205517719033,
+    "prep_time": 0,
+    "prep_ready_time": 2.9829205517719033,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 43.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6281,
+    "restaurant_id": 72,
+    "destination_zone_id": 6,
+    "destination": [
+      126.56705,
+      43.83216
+    ],
+    "arrival_time": 4.502563218097458,
+    "prep_time": 0,
+    "prep_ready_time": 4.502563218097458,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 43.97640052109065,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6282,
+    "restaurant_id": 72,
+    "destination_zone_id": 3,
+    "destination": [
+      126.54311,
+      43.82393
+    ],
+    "arrival_time": 6.422957242240884,
+    "prep_time": 0,
+    "prep_ready_time": 6.422957242240884,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 44.37640474754234,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6283,
+    "restaurant_id": 56,
+    "destination_zone_id": 6,
+    "destination": [
+      126.59406,
+      43.84157
+    ],
+    "arrival_time": 1.148165213469559,
+    "prep_time": 0,
+    "prep_ready_time": 1.148165213469559,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 22.097178850981663,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6284,
+    "restaurant_id": 56,
+    "destination_zone_id": 5,
+    "destination": [
+      126.57818,
+      43.77845
+    ],
+    "arrival_time": 1.9530668646290485,
+    "prep_time": 0,
+    "prep_ready_time": 1.9530668646290485,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 24.255216436341332,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6285,
+    "restaurant_id": 56,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57222,
+      43.82442
+    ],
+    "arrival_time": 4.725584065354517,
+    "prep_time": 0,
+    "prep_ready_time": 4.725584065354517,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 18.88194489326549,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6286,
+    "restaurant_id": 56,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52389,
+      43.79962
+    ],
+    "arrival_time": 6.64483716041941,
+    "prep_time": 0,
+    "prep_ready_time": 6.64483716041941,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 22.580515053171165,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6287,
+    "restaurant_id": 56,
+    "destination_zone_id": 6,
+    "destination": [
+      126.578,
+      43.8298
+    ],
+    "arrival_time": 6.956218909846963,
+    "prep_time": 0,
+    "prep_ready_time": 6.956218909846963,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 23.097178850981663,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6288,
+    "restaurant_id": 61,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56791,
+      43.81996
+    ],
+    "arrival_time": 0.4454801622692601,
+    "prep_time": 0,
+    "prep_ready_time": 0.4454801622692601,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 25.138985323842203,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6289,
+    "restaurant_id": 61,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56603,
+      43.82756
+    ],
+    "arrival_time": 0.9086045417607089,
+    "prep_time": 0,
+    "prep_ready_time": 0.9086045417607089,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 26.138985323842203,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6290,
+    "restaurant_id": 61,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56573,
+      43.82681
+    ],
+    "arrival_time": 2.7464457497639776,
+    "prep_time": 0,
+    "prep_ready_time": 2.7464457497639776,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 27.138985323842203,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6291,
+    "restaurant_id": 61,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56952,
+      43.81892
+    ],
+    "arrival_time": 3.006938475117383,
+    "prep_time": 0,
+    "prep_ready_time": 3.006938475117383,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 28.138985323842203,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6292,
+    "restaurant_id": 64,
+    "destination_zone_id": 3,
+    "destination": [
+      126.5689,
+      43.81142
+    ],
+    "arrival_time": 1.0020709202777902,
+    "prep_time": 0,
+    "prep_ready_time": 1.0020709202777902,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 29.219653831365367,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6293,
+    "restaurant_id": 64,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56935,
+      43.81261
+    ],
+    "arrival_time": 1.4343054643893702,
+    "prep_time": 0,
+    "prep_ready_time": 1.4343054643893702,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 30.219653831365367,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6294,
+    "restaurant_id": 64,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56951,
+      43.81037
+    ],
+    "arrival_time": 2.165523947091657,
+    "prep_time": 0,
+    "prep_ready_time": 2.165523947091657,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 31.219653831365367,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6295,
+    "restaurant_id": 64,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57313,
+      43.80995
+    ],
+    "arrival_time": 2.1882958045896213,
+    "prep_time": 0,
+    "prep_ready_time": 2.1882958045896213,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 32.21965383136536,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6296,
+    "restaurant_id": 64,
+    "destination_zone_id": 6,
+    "destination": [
+      126.56307,
+      43.83195
+    ],
+    "arrival_time": 3.641767765433311,
+    "prep_time": 0,
+    "prep_ready_time": 3.641767765433311,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 31.687645091074952,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6297,
+    "restaurant_id": 64,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55904,
+      43.80238
+    ],
+    "arrival_time": 3.7822931358209724,
+    "prep_time": 0,
+    "prep_ready_time": 3.7822931358209724,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 33.21965383136536,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6298,
+    "restaurant_id": 64,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55506,
+      43.80754
+    ],
+    "arrival_time": 5.099911654041843,
+    "prep_time": 0,
+    "prep_ready_time": 5.099911654041843,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 34.21965383136536,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6299,
+    "restaurant_id": 58,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57692,
+      43.82286
+    ],
+    "arrival_time": 0.23916797133035791,
+    "prep_time": 0,
+    "prep_ready_time": 0.23916797133035791,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 24.670994064132618,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6300,
+    "restaurant_id": 58,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56538,
+      43.82093
+    ],
+    "arrival_time": 0.45863029211914186,
+    "prep_time": 0,
+    "prep_ready_time": 0.45863029211914186,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 21.233101684926904,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6301,
+    "restaurant_id": 55,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57424,
+      43.81882
+    ],
+    "arrival_time": 0.0965541749323451,
+    "prep_time": 0,
+    "prep_ready_time": 0.0965541749323451,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 17.548519083748914,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6302,
+    "restaurant_id": 55,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57485,
+      43.8197
+    ],
+    "arrival_time": 1.7714527278380512,
+    "prep_time": 0,
+    "prep_ready_time": 1.7714527278380512,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 18.548519083748914,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6303,
+    "restaurant_id": 63,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55234,
+      43.8132
+    ],
+    "arrival_time": 0.8268509733090386,
+    "prep_time": 0,
+    "prep_ready_time": 0.8268509733090386,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 28.27908521307684,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6304,
+    "restaurant_id": 70,
+    "destination_zone_id": 6,
+    "destination": [
+      126.57779,
+      43.8252
+    ],
+    "arrival_time": 1.017621573271452,
+    "prep_time": 0,
+    "prep_ready_time": 1.017621573271452,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 39.784964625540454,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6305,
+    "restaurant_id": 74,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55107,
+      43.80547
+    ],
+    "arrival_time": 0.8246102723472424,
+    "prep_time": 0,
+    "prep_ready_time": 0.8246102723472424,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 45.96619691751705,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6306,
+    "restaurant_id": 82,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52183,
+      43.80015
+    ],
+    "arrival_time": 3.6538895739501633,
+    "prep_time": 0,
+    "prep_ready_time": 3.6538895739501633,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 17.423764136994194,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6307,
+    "restaurant_id": 68,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56812,
+      43.81788
+    ],
+    "arrival_time": 0.12129012997647684,
+    "prep_time": 0,
+    "prep_ready_time": 0.12129012997647684,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 36.236304858307705,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6308,
+    "restaurant_id": 65,
+    "destination_zone_id": 6,
+    "destination": [
+      126.56508,
+      43.83219
+    ],
+    "arrival_time": 1.180369214544361,
+    "prep_time": 0,
+    "prep_ready_time": 1.180369214544361,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 31.82774498030959,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6309,
+    "restaurant_id": 66,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57,
+      43.80923
+    ],
+    "arrival_time": 1.012394371545523,
+    "prep_time": 0,
+    "prep_ready_time": 1.012394371545523,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 32.330421219392406,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6310,
+    "restaurant_id": 66,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56952,
+      43.81087
+    ],
+    "arrival_time": 3.180700869561404,
+    "prep_time": 0,
+    "prep_ready_time": 3.180700869561404,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 33.330421219392406,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6311,
+    "restaurant_id": 81,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55097,
+      43.80919
+    ],
+    "arrival_time": 2.97896535139045,
+    "prep_time": 0,
+    "prep_ready_time": 2.97896535139045,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 13.548519083748916,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6312,
+    "restaurant_id": 57,
+    "destination_zone_id": 3,
+    "destination": [
+      126.56235,
+      43.81693
+    ],
+    "arrival_time": 0.41590746612252455,
+    "prep_time": 0,
+    "prep_ready_time": 0.41590746612252455,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 21.233101684926904,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6313,
+    "restaurant_id": 59,
+    "destination_zone_id": 3,
+    "destination": [
+      126.55241,
+      43.80916
+    ],
+    "arrival_time": 0.7013928155549828,
+    "prep_time": 0,
+    "prep_ready_time": 0.7013928155549828,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 23.138985323842203,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6314,
+    "restaurant_id": 71,
+    "destination_zone_id": 3,
+    "destination": [
+      126.57004,
+      43.8042
+    ],
+    "arrival_time": 0.1754092334706204,
+    "prep_time": 0,
+    "prep_ready_time": 0.1754092334706204,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 38.3923817043661,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6315,
+    "restaurant_id": 71,
+    "destination_zone_id": 5,
+    "destination": [
+      126.58386,
+      43.7818
+    ],
+    "arrival_time": 0.4728198812740022,
+    "prep_time": 0,
+    "prep_ready_time": 0.4728198812740022,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 43.765653247441946,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6316,
+    "restaurant_id": 9,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55848,
+      43.84035
+    ],
+    "arrival_time": 0.6933360145720568,
+    "prep_time": 0,
+    "prep_ready_time": 0.6933360145720568,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 56.53308553118181,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6317,
+    "restaurant_id": 9,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52946,
+      43.8255
+    ],
+    "arrival_time": 0.9347831290272302,
+    "prep_time": 0,
+    "prep_ready_time": 0.9347831290272302,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 61.15158404393142,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6318,
+    "restaurant_id": 9,
+    "destination_zone_id": 1,
+    "destination": [
+      126.53146,
+      43.82762
+    ],
+    "arrival_time": 2.1035488273461835,
+    "prep_time": 0,
+    "prep_ready_time": 2.1035488273461835,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 57.53308553118181,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6319,
+    "restaurant_id": 9,
+    "destination_zone_id": 7,
+    "destination": [
+      126.53178,
+      43.82527
+    ],
+    "arrival_time": 2.3574477146592834,
+    "prep_time": 0,
+    "prep_ready_time": 2.3574477146592834,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 62.15158404393142,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6320,
+    "restaurant_id": 9,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51507,
+      43.80903
+    ],
+    "arrival_time": 3.4188747591175472,
+    "prep_time": 0,
+    "prep_ready_time": 3.4188747591175472,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 63.15158404393142,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6321,
+    "restaurant_id": 9,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51948,
+      43.81601
+    ],
+    "arrival_time": 3.835950065094337,
+    "prep_time": 0,
+    "prep_ready_time": 3.835950065094337,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 64.15158404393142,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6322,
+    "restaurant_id": 25,
+    "destination_zone_id": 1,
+    "destination": [
+      126.5521,
+      43.83875
+    ],
+    "arrival_time": 1.329462896958059,
+    "prep_time": 0,
+    "prep_ready_time": 1.329462896958059,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 78.61647734590085,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6323,
+    "restaurant_id": 25,
+    "destination_zone_id": 1,
+    "destination": [
+      126.54535,
+      43.83671
+    ],
+    "arrival_time": 2.1032943383233995,
+    "prep_time": 0,
+    "prep_ready_time": 2.1032943383233995,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 79.61647734590085,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6324,
+    "restaurant_id": 25,
+    "destination_zone_id": 1,
+    "destination": [
+      126.54875,
+      43.83738
+    ],
+    "arrival_time": 2.5126823806608782,
+    "prep_time": 0,
+    "prep_ready_time": 2.5126823806608782,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 80.61647734590085,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6325,
+    "restaurant_id": 25,
+    "destination_zone_id": 1,
+    "destination": [
+      126.54451,
+      43.83661
+    ],
+    "arrival_time": 2.7516569410337577,
+    "prep_time": 0,
+    "prep_ready_time": 2.7516569410337577,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 81.61647734590085,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6326,
+    "restaurant_id": 25,
+    "destination_zone_id": 5,
+    "destination": [
+      126.59211,
+      43.77722
+    ],
+    "arrival_time": 2.814095300456576,
+    "prep_time": 0,
+    "prep_ready_time": 2.814095300456576,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 88.1010387025182,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6327,
+    "restaurant_id": 25,
+    "destination_zone_id": 1,
+    "destination": [
+      126.54905,
+      43.84068
+    ],
+    "arrival_time": 3.9588477229502583,
+    "prep_time": 0,
+    "prep_ready_time": 3.9588477229502583,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 82.61647734590085,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6328,
+    "restaurant_id": 25,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52065,
+      43.81971
+    ],
+    "arrival_time": 4.394862149536461,
+    "prep_time": 0,
+    "prep_ready_time": 4.394862149536461,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 83.08468328286808,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6329,
+    "restaurant_id": 25,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52115,
+      43.81386
+    ],
+    "arrival_time": 4.985425398924572,
+    "prep_time": 0,
+    "prep_ready_time": 4.985425398924572,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 84.08468328286808,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6330,
+    "restaurant_id": 12,
+    "destination_zone_id": 7,
+    "destination": [
+      126.53062,
+      43.82445
+    ],
+    "arrival_time": 3.1713903697195143,
+    "prep_time": 0,
+    "prep_ready_time": 3.1713903697195143,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 66.27155669932645,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6331,
+    "restaurant_id": 12,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52761,
+      43.82714
+    ],
+    "arrival_time": 4.562202332633019,
+    "prep_time": 0,
+    "prep_ready_time": 4.562202332633019,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 67.27155669932645,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6332,
+    "restaurant_id": 15,
+    "destination_zone_id": 7,
+    "destination": [
+      126.53142,
+      43.82166
+    ],
+    "arrival_time": 0.2023135800419467,
+    "prep_time": 0,
+    "prep_ready_time": 0.2023135800419467,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 70.72781383459099,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6333,
+    "restaurant_id": 15,
+    "destination_zone_id": 7,
+    "destination": [
+      126.5319,
+      43.82439
+    ],
+    "arrival_time": 2.6537970124724457,
+    "prep_time": 0,
+    "prep_ready_time": 2.6537970124724457,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 71.72781383459099,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6334,
+    "restaurant_id": 15,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51539,
+      43.81406
+    ],
+    "arrival_time": 4.033873719729067,
+    "prep_time": 0,
+    "prep_ready_time": 4.033873719729067,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 72.72781383459099,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6335,
+    "restaurant_id": 11,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55451,
+      43.84514
+    ],
+    "arrival_time": 0.41514653314938577,
+    "prep_time": 0,
+    "prep_ready_time": 0.41514653314938577,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 59.53308553118181,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6336,
+    "restaurant_id": 11,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55348,
+      43.84275
+    ],
+    "arrival_time": 1.1002319904423663,
+    "prep_time": 0,
+    "prep_ready_time": 1.1002319904423663,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 60.53308553118181,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6337,
+    "restaurant_id": 11,
+    "destination_zone_id": 1,
+    "destination": [
+      126.54817,
+      43.83969
+    ],
+    "arrival_time": 1.2511258717412561,
+    "prep_time": 0,
+    "prep_ready_time": 1.2511258717412561,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 61.53308553118181,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6338,
+    "restaurant_id": 19,
+    "destination_zone_id": 1,
+    "destination": [
+      126.5501,
+      43.84149
+    ],
+    "arrival_time": 0.5426721025196707,
+    "prep_time": 0,
+    "prep_ready_time": 0.5426721025196707,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 70.70748229791224,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6339,
+    "restaurant_id": 19,
+    "destination_zone_id": 1,
+    "destination": [
+      126.5549,
+      43.84253
+    ],
+    "arrival_time": 0.6715546250109411,
+    "prep_time": 0,
+    "prep_ready_time": 0.6715546250109411,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 71.70748229791224,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6340,
+    "restaurant_id": 19,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55437,
+      43.83977
+    ],
+    "arrival_time": 1.1311706625587439,
+    "prep_time": 0,
+    "prep_ready_time": 1.1311706625587439,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 72.70748229791224,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6341,
+    "restaurant_id": 2,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52019,
+      43.82596
+    ],
+    "arrival_time": 1.3765315047961504,
+    "prep_time": 0,
+    "prep_ready_time": 1.3765315047961504,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 37.24576093834054,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6342,
+    "restaurant_id": 2,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51787,
+      43.82755
+    ],
+    "arrival_time": 1.396582378170101,
+    "prep_time": 0,
+    "prep_ready_time": 1.396582378170101,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 38.24576093834054,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6343,
+    "restaurant_id": 2,
+    "destination_zone_id": 1,
+    "destination": [
+      126.52445,
+      43.83623
+    ],
+    "arrival_time": 4.189233856184124,
+    "prep_time": 0,
+    "prep_ready_time": 4.189233856184124,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 29.821856117862506,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6344,
+    "restaurant_id": 2,
+    "destination_zone_id": 7,
+    "destination": [
+      126.53185,
+      43.82648
+    ],
+    "arrival_time": 4.2819958277033106,
+    "prep_time": 0,
+    "prep_ready_time": 4.2819958277033106,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 39.24576093834054,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6345,
+    "restaurant_id": 2,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51783,
+      43.82731
+    ],
+    "arrival_time": 6.669047924778749,
+    "prep_time": 0,
+    "prep_ready_time": 6.669047924778749,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 40.24576093834054,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6346,
+    "restaurant_id": 2,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52817,
+      43.81824
+    ],
+    "arrival_time": 7.120791467120762,
+    "prep_time": 0,
+    "prep_ready_time": 7.120791467120762,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 41.24576093834054,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6347,
+    "restaurant_id": 2,
+    "destination_zone_id": 1,
+    "destination": [
+      126.51708,
+      43.83157
+    ],
+    "arrival_time": 8.73011304300477,
+    "prep_time": 0,
+    "prep_ready_time": 8.73011304300477,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 30.821856117862506,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6348,
+    "restaurant_id": 2,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52696,
+      43.81577
+    ],
+    "arrival_time": 9.629296701835841,
+    "prep_time": 0,
+    "prep_ready_time": 9.629296701835841,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 42.24576093834054,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6349,
+    "restaurant_id": 2,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51569,
+      43.81417
+    ],
+    "arrival_time": 10.076405781144443,
+    "prep_time": 0,
+    "prep_ready_time": 10.076405781144443,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 43.24576093834054,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6350,
+    "restaurant_id": 2,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51275,
+      43.8142
+    ],
+    "arrival_time": 12.198239780976886,
+    "prep_time": 0,
+    "prep_ready_time": 12.198239780976886,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 44.24576093834054,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6351,
+    "restaurant_id": 21,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51639,
+      43.82541
+    ],
+    "arrival_time": 1.0463649817805898,
+    "prep_time": 0,
+    "prep_ready_time": 1.0463649817805898,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 79.11936634028251,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6352,
+    "restaurant_id": 21,
+    "destination_zone_id": 1,
+    "destination": [
+      126.52056,
+      43.83522
+    ],
+    "arrival_time": 1.348515531561291,
+    "prep_time": 0,
+    "prep_ready_time": 1.348515531561291,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 72.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6353,
+    "restaurant_id": 21,
+    "destination_zone_id": 1,
+    "destination": [
+      126.51582,
+      43.83168
+    ],
+    "arrival_time": 1.6336647396553328,
+    "prep_time": 0,
+    "prep_ready_time": 1.6336647396553328,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 73.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6354,
+    "restaurant_id": 21,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51667,
+      43.81462
+    ],
+    "arrival_time": 1.9829728173361327,
+    "prep_time": 0,
+    "prep_ready_time": 1.9829728173361327,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 80.11936634028251,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6355,
+    "restaurant_id": 17,
+    "destination_zone_id": 1,
+    "destination": [
+      126.54552,
+      43.83645
+    ],
+    "arrival_time": 0.9037103917370082,
+    "prep_time": 0,
+    "prep_ready_time": 0.9037103917370082,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 68.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6356,
+    "restaurant_id": 17,
+    "destination_zone_id": 1,
+    "destination": [
+      126.56259,
+      43.84133
+    ],
+    "arrival_time": 3.4219790948085853,
+    "prep_time": 0,
+    "prep_ready_time": 3.4219790948085853,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 69.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6357,
+    "restaurant_id": 17,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55183,
+      43.83934
+    ],
+    "arrival_time": 5.637762066023127,
+    "prep_time": 0,
+    "prep_ready_time": 5.637762066023127,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 70.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6358,
+    "restaurant_id": 80,
+    "destination_zone_id": 5,
+    "destination": [
+      126.59343,
+      43.77784
+    ],
+    "arrival_time": 2.0156168868283353,
+    "prep_time": 0,
+    "prep_ready_time": 2.0156168868283353,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 26.255216436341332,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6359,
+    "restaurant_id": 77,
+    "destination_zone_id": 4,
+    "destination": [
+      126.47467,
+      43.94503
+    ],
+    "arrival_time": 0.4973074129456646,
+    "prep_time": 0,
+    "prep_ready_time": 0.4973074129456646,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 117.9724036824777,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6360,
+    "restaurant_id": 76,
+    "destination_zone_id": 4,
+    "destination": [
+      126.47443,
+      43.94177
+    ],
+    "arrival_time": 1.989913396988822,
+    "prep_time": 0,
+    "prep_ready_time": 1.989913396988822,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 115.51254565677353,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6361,
+    "restaurant_id": 76,
+    "destination_zone_id": 4,
+    "destination": [
+      126.47386,
+      43.94363
+    ],
+    "arrival_time": 2.4607630695378755,
+    "prep_time": 0,
+    "prep_ready_time": 2.4607630695378755,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 116.51254565677353,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6362,
+    "restaurant_id": 23,
+    "destination_zone_id": 1,
+    "destination": [
+      126.51946,
+      43.83582
+    ],
+    "arrival_time": 3.509918957036633,
+    "prep_time": 0,
+    "prep_ready_time": 3.509918957036633,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 75.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6363,
+    "restaurant_id": 23,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51316,
+      43.80791
+    ],
+    "arrival_time": 4.686577964509455,
+    "prep_time": 0,
+    "prep_ready_time": 4.686577964509455,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 79.8047999926159,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6364,
+    "restaurant_id": 23,
+    "destination_zone_id": 7,
+    "destination": [
+      126.5238,
+      43.82646
+    ],
+    "arrival_time": 7.188686309913434,
+    "prep_time": 0,
+    "prep_ready_time": 7.188686309913434,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 80.8047999926159,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6365,
+    "restaurant_id": 23,
+    "destination_zone_id": 1,
+    "destination": [
+      126.51853,
+      43.83319
+    ],
+    "arrival_time": 7.431128258447847,
+    "prep_time": 0,
+    "prep_ready_time": 7.431128258447847,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 76.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6366,
+    "restaurant_id": 23,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52408,
+      43.81684
+    ],
+    "arrival_time": 7.850960055031417,
+    "prep_time": 0,
+    "prep_ready_time": 7.850960055031417,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 81.8047999926159,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6367,
+    "restaurant_id": 7,
+    "destination_zone_id": 1,
+    "destination": [
+      126.52061,
+      43.83659
+    ],
+    "arrival_time": 1.819638181504933,
+    "prep_time": 0,
+    "prep_ready_time": 1.819638181504933,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 54.72767922345339,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6368,
+    "restaurant_id": 14,
+    "destination_zone_id": 1,
+    "destination": [
+      126.53454,
+      43.8288
+    ],
+    "arrival_time": 2.4003847290728015,
+    "prep_time": 0,
+    "prep_ready_time": 2.4003847290728015,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 65.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6369,
+    "restaurant_id": 14,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51763,
+      43.82707
+    ],
+    "arrival_time": 2.919594316209791,
+    "prep_time": 0,
+    "prep_ready_time": 2.919594316209791,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 70.23687364191203,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6370,
+    "restaurant_id": 14,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55426,
+      43.84314
+    ],
+    "arrival_time": 3.1400159361957303,
+    "prep_time": 0,
+    "prep_ready_time": 3.1400159361957303,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 66.16237158777433,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6371,
+    "restaurant_id": 14,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52855,
+      43.82244
+    ],
+    "arrival_time": 3.502284752200018,
+    "prep_time": 0,
+    "prep_ready_time": 3.502284752200018,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 71.23687364191203,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6372,
+    "restaurant_id": 78,
+    "destination_zone_id": 4,
+    "destination": [
+      126.47766,
+      43.9474
+    ],
+    "arrival_time": 0.09586601197432087,
+    "prep_time": 0,
+    "prep_ready_time": 0.09586601197432087,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 118.51254565677353,
+    "assigned_driver": 113,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6373,
+    "restaurant_id": 79,
+    "destination_zone_id": 4,
+    "destination": [
+      126.47365,
+      43.945
+    ],
+    "arrival_time": 1.6098635463394377,
+    "prep_time": 0,
+    "prep_ready_time": 1.6098635463394377,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 119.15931648184495,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6374,
+    "restaurant_id": 8,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52022,
+      43.82401
+    ],
+    "arrival_time": 0.21215397784693005,
+    "prep_time": 0,
+    "prep_ready_time": 0.21215397784693005,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 59.34476288446675,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6375,
+    "restaurant_id": 6,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55462,
+      43.83946
+    ],
+    "arrival_time": 0.8173196939179594,
+    "prep_time": 0,
+    "prep_ready_time": 0.8173196939179594,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 54.53308553118181,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6376,
+    "restaurant_id": 26,
+    "destination_zone_id": 7,
+    "destination": [
+      126.5046,
+      43.80238
+    ],
+    "arrival_time": 0.4552069995321561,
+    "prep_time": 0,
+    "prep_ready_time": 0.4552069995321561,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 87.84720332584354,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6377,
+    "restaurant_id": 3,
+    "destination_zone_id": 7,
+    "destination": [
+      126.53281,
+      43.82566
+    ],
+    "arrival_time": 0.268293055651395,
+    "prep_time": 0,
+    "prep_ready_time": 0.268293055651395,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 56.7384667672963,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6378,
+    "restaurant_id": 3,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51636,
+      43.80784
+    ],
+    "arrival_time": 0.6892247709515625,
+    "prep_time": 0,
+    "prep_ready_time": 0.6892247709515625,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 57.7384667672963,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6379,
+    "restaurant_id": 13,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51824,
+      43.81819
+    ],
+    "arrival_time": 1.501381512425563,
+    "prep_time": 0,
+    "prep_ready_time": 1.501381512425563,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 67.95699035165984,
+    "assigned_driver": 114,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6380,
+    "restaurant_id": 27,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52074,
+      43.81905
+    ],
+    "arrival_time": 1.3857123887592608,
+    "prep_time": 0,
+    "prep_ready_time": 1.3857123887592608,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 90.97919675934632,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6381,
+    "restaurant_id": 27,
+    "destination_zone_id": 1,
+    "destination": [
+      126.55219,
+      43.84356
+    ],
+    "arrival_time": 2.1092475410260083,
+    "prep_time": 0,
+    "prep_ready_time": 2.1092475410260083,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 84.61647734590085,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6382,
+    "restaurant_id": 10,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52388,
+      43.82446
+    ],
+    "arrival_time": 2.270915313514494,
+    "prep_time": 0,
+    "prep_ready_time": 2.270915313514494,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 61.283577477434214,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6383,
+    "restaurant_id": 4,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52124,
+      43.8088
+    ],
+    "arrival_time": 0.056565707425734635,
+    "prep_time": 0,
+    "prep_ready_time": 0.056565707425734635,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 58.38906400095597,
+    "assigned_driver": 108,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6384,
+    "restaurant_id": 1,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51634,
+      43.80784
+    ],
+    "arrival_time": 1.0109201296872268,
+    "prep_time": 0,
+    "prep_ready_time": 1.0109201296872268,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 15.423764136994194,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6385,
+    "restaurant_id": 20,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51554,
+      43.80941
+    ],
+    "arrival_time": 0.26883253692635495,
+    "prep_time": 0,
+    "prep_ready_time": 0.26883253692635495,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 75.99939368488748,
+    "assigned_driver": 107,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6386,
+    "restaurant_id": 24,
+    "destination_zone_id": 7,
+    "destination": [
+      126.52552,
+      43.81383
+    ],
+    "arrival_time": 0.7577690024663127,
+    "prep_time": 0,
+    "prep_ready_time": 0.7577690024663127,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 82.58627640825236,
+    "assigned_driver": 109,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6387,
+    "restaurant_id": 5,
+    "destination_zone_id": 7,
+    "destination": [
+      126.5314,
+      43.82233
+    ],
+    "arrival_time": 1.5797790323212755,
+    "prep_time": 0,
+    "prep_ready_time": 1.5797790323212755,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 58.88000419363493,
+    "assigned_driver": 111,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6388,
+    "restaurant_id": 18,
+    "destination_zone_id": 1,
+    "destination": [
+      126.535,
+      43.82794
+    ],
+    "arrival_time": 1.1088903706717195,
+    "prep_time": 0,
+    "prep_ready_time": 1.1088903706717195,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 68.70748229791224,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6389,
+    "restaurant_id": 22,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51646,
+      43.82148
+    ],
+    "arrival_time": 0.34503833176156623,
+    "prep_time": 0,
+    "prep_ready_time": 0.34503833176156623,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 79.13138711839026,
+    "assigned_driver": 112,
+    "status": "DELIVERED"
+  },
+  {
+    "order_id": 6390,
+    "restaurant_id": 16,
+    "destination_zone_id": 7,
+    "destination": [
+      126.51567,
+      43.81225
+    ],
+    "arrival_time": 0.18688047404406813,
+    "prep_time": 0,
+    "prep_ready_time": 0.18688047404406813,
+    "profit": 0,
+    "deadline": null,
+    "completion_time": 71.19257252542282,
+    "assigned_driver": 110,
+    "status": "DELIVERED"
+  }
+]

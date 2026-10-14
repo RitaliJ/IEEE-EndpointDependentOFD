@@ -1,0 +1,389 @@
+% Unofficial University of Cambridge Poster Template
+% https://github.com/andiac/gemini-cam
+% a fork of https://github.com/anishathalye/gemini
+% also refer to https://github.com/k4rtik/uchicago-poster
+
+\documentclass[final]{beamer}
+
+% ====================
+% Packages
+% ====================
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
+\usetheme{gemini}
+\usecolortheme{cam}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[numbers]{natbib}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,arrows.meta,positioning,calc,backgrounds}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\usepackage{anyfontsize}
+
+% ====================
+% Increase block heading title size
+% ====================
+\setbeamerfont{block title}{size=\LARGE, series=\bfseries}
+\setbeamerfont{block title example}{size=\large, series=\bfseries}
+\setbeamerfont{block title alerted}{size=\large, series=\bfseries}
+
+% ====================
+% Lengths
+% ====================
+
+% If you have N columns, choose \sepwidth and \colwidth such that
+% (N+1)*\sepwidth + N*\colwidth = \paperwidth
+\newlength{\sepwidth}
+\newlength{\colwidth}
+\setlength{\sepwidth}{0.025\paperwidth}
+\setlength{\colwidth}{0.3\paperwidth}
+
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+
+% ====================
+% Title
+% ====================
+
+\title{Spatial Driver Spreading Cuts Delivery Flow Time in Last-Mile Dispatch}
+
+\author{Jinhuang Zhou \and Miles Gee \and Ritali Jain }
+
+\institute[shortinst]{California Institute of Technology}
+
+% ====================
+% Footer (optional)
+% ====================
+
+
+% (can be left out to remove footer)
+
+% ====================
+% Logo (optional)
+% ====================
+
+% use this to include logos on the left and/or right side of the header:
+% \logoright{\includegraphics[height=7cm]{logo1.pdf}}
+% \logoleft{\includegraphics[height=7cm]{logo2.pdf}}
+
+% ====================
+% Body
+% ====================
+
+\begin{document}
+
+% Refer to https://github.com/k4rtik/uchicago-poster
+% logo: https://www.cam.ac.uk/brand-resources/about-the-logo/logo-downloads
+\addtobeamertemplate{headline}{}
+{
+    % \begin{tikzpicture}[remember picture,overlay]
+    %   \node [anchor=north west, inner sep=3cm] at ([xshift=0.0cm,yshift=1.0cm]current page.north west)
+    %   {\includegraphics[height=4.5cm]{logos/cambridge-reversed-color-logo.eps}}; 
+    % \end{tikzpicture}
+}
+
+\begin{frame}[t]
+\begin{columns}[t]
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+  \begin{block}{The Bottleneck Is Dispatch, Not Distance}
+    Food delivery platforms dispatch millions of orders daily across dynamic fleets of drivers. The core challenge is not distance --- it is \textbf{real-time assignment, batching, and repositioning} under stochastic demand. We ask:
+    \begin{itemize}
+      \item \textbf{Does spatial driver positioning matter more than order batching?}
+      \item \textbf{Does dispatch quality degrade faster than supply when fleets shrink?}
+      \item \textbf{Which dispatch decisions have the highest leverage: assignment, batching, or repositioning?}
+      \item \textbf{How sensitive are dispatch policies to their tuning parameters?}
+      \item \textbf{What are the theoretical limits of online dispatch without future knowledge?}
+    \end{itemize}
+
+    \vspace{0.8em}
+
+  \end{block}
+
+  \begin{block}{We Formalize Dispatch as Online Order Batching with Driver Repositioning}
+
+  
+    \begin{center}
+    \begin{tikzpicture}[scale=2,
+      road/.style={draw=gray!35, line width=2pt},
+      driver/.style={circle, draw=lime!60!black, fill=lime!30, minimum size=0.8cm, font=\small\bfseries},
+      rest/.style={draw=orange!70!black, fill=orange!20, minimum size=0.8cm, font=\small\bfseries, inner sep=3pt},
+      bag/.style={rounded corners=2pt, inner sep=3pt, font=\small},
+      dlv/.style={-latex, line width=1.5pt},
+      repo/.style={-latex, line width=1.5pt, dashed, orange!70!black},
+      ann/.style={font=\small, inner sep=2pt},
+    ]
+
+    %% ---- city grid ----
+    \foreach \x in {0, 2.5, 5, 7.5, 10, 12.5}
+      \draw[road] (\x, -0.3) -- (\x, 7.3);
+    \foreach \y in {0, 2, 4, 6}
+      \draw[road] (-0.3, \y) -- (13, \y);
+
+    %% ---- restaurants ----
+    \node[rest] (r1) at (2.5, 4) {\textbf{R}};
+    \node[rest] (r2) at (7.5, 2) {\textbf{R}};
+    \node[rest] (r3) at (10,  6) {\textbf{R}};
+
+    %% ---- customers — each a distinct color ----
+    \node[circle, draw=blue!70!black,   fill=blue!20,   minimum size=0.75cm, font=\small\bfseries] (c1) at (10,   4)   {C};
+    \node[circle, draw=red!70!black,    fill=red!20,    minimum size=0.75cm, font=\small\bfseries] (c2) at (5,    0.5) {C};
+    \node[circle, draw=violet!70!black, fill=violet!20, minimum size=0.75cm, font=\small\bfseries] (c3) at (12.5, 2)   {C};
+
+    %% ---- driver 1: idle — dashed ring + label ----
+    \node[driver] (d1) at (2.5, 2) {D};
+    \draw[dashed, teal!55, line width=1.2pt] (2.5, 2) circle (0.62cm);
+    \node[ann, text=teal!65] at (2.5, 3.05) {waiting for order};
+
+    %% ---- driver 2: delivering blue-order batch to c1 ----
+    \node[driver] (d2) at (7.5, 4.5) {D};
+    \node[bag, draw=blue!70!black, fill=blue!15] (bx) at (8.75, 4.5) {orders};
+    \draw[dlv, blue!70!black] (9.3, 4.5) -- (c1);
+
+    %% ---- driver 3: repositioning toward r3 ----
+    \node[driver] (d3) at (5, 6) {D};
+    \draw[repo] (d3) -- (r3) node[midway, above, font=\small, text=orange!70!black]{repositioning};
+
+    %% ---- order queue at r2: color matches destination customer ----
+    \node[bag, draw=blue!70!black,   fill=blue!15]   at (8.5, 2.6) {\small$\to$ C1};
+    \node[bag, draw=red!70!black,    fill=red!15]    at (8.5, 1.95) {\small$\to$ C2};
+    \node[bag, draw=violet!70!black, fill=violet!15] at (8.5, 1.3) {\small$\to$ C3};
+
+    %% ---- delivery time bracket ----
+    \draw[<->, purple!60!black, line width=1.5pt]
+      ([xshift=0.1cm]r1.east) to[bend left=30]
+      node[right=3pt, ann, text=purple!60!black]{delivery time}
+      ([xshift=0.1cm]c1.north);
+
+    \end{tikzpicture}
+    \end{center}
+
+  \end{block}
+
+  \begin{block}{A Discrete-Event Simulator Replays Real Cainiao Delivery Data}
+
+  \begin{center}
+    \begin{tikzpicture}[
+      scale=1.5,
+      >=Stealth, thick,
+      cst/.style={circle, draw=blue!70!black, fill=blue!20, minimum size=0.60cm, line width=1.3pt},
+      drv/.style={circle, draw=lime!60!black, fill=lime!30, minimum size=0.60cm, line width=1.3pt},
+      rst/.style={regular polygon, regular polygon sides=5,
+                  draw=red!70!black, fill=red!15, minimum size=0.65cm, line width=1.3pt},
+      dsp/.style={diamond, draw=teal!70!black, fill=teal!12, line width=1.7pt,
+                  minimum width=1.4cm, minimum height=1.1cm, aspect=1.5},
+      flow/.style={->, line width=1.8pt},
+      dflow/.style={->, dashed, line width=1.4pt},
+    ]
+
+    %%  ── LEFT PANEL: Marketplace Dynamics ─────────────────────────────
+    %%  Three stochastic flows → central dispatcher → two decision outputs
+
+    % Stochastic customer demand (left column)
+    \node[cst] (Ca) at (0.0, 4.8) {};
+    \node[cst] (Cb) at (0.0, 3.3) {};
+    \node[cst] (Cc) at (0.0, 1.8) {};
+
+    % Restaurant with prep-delay clock (top-center)
+    \node[rst] (R) at (4.2, 6.5) {};
+    \draw[red!65!black, line width=1.1pt] (5.1, 6.5) circle (0.32cm);
+    \draw[red!65!black, line width=1.1pt] (5.1, 6.5) -- (5.1, 6.80);
+    \draw[red!65!black, line width=1.1pt] (5.1, 6.5) -- (5.34, 6.62);
+
+    % Dispatcher hub (center)
+    \node[dsp] (D) at (4.2, 3.3) {};
+
+    % Courier fleet — spread spatially (right column)
+    \node[drv] (Da) at (8.4, 4.8) {};
+    \node[drv] (Db) at (8.4, 3.3) {};
+    \node[drv] (Dc) at (8.4, 1.8) {};
+
+    % Flow 1: stochastic order arrivals → dispatcher
+    \draw[flow, blue!60!black]
+      (0.65, 3.3) -- (D.west)
+      node[pos=0.42, above=2pt, font=\footnotesize, text=blue!70!black] {};
+    % small burst markers on each customer (new orders)
+    \foreach \cy in {4.8, 3.3, 1.8} {
+      \draw[blue!55!black, line width=0.9pt] (0.55, \cy+0.42) -- (0.75, \cy+0.58);
+      \draw[blue!55!black, line width=0.9pt] (0.55, \cy+0.58) -- (0.75, \cy+0.42);
+    }
+
+    % Flow 2: order ready at restaurant → dispatcher
+    \draw[flow, red!65!black]
+      (R.south) to[out=270, in=90] (D.north);
+
+    % Flow 3: courier locations / availability → dispatcher
+    \draw[flow, lime!60!black]
+      (7.8, 3.3) -- (D.east);
+
+    % Dispatcher output 1: assign courier to order (solid violet)
+    \draw[flow, violet!70!black]
+      (D.north east) to[out=40, in=150] (Da.west);
+
+    % Dispatcher output 2: reposition idle courier (dashed orange)
+    \draw[dflow, orange!70!black]
+      (D.south east) to[out=320, in=200] (Dc.west);
+
+    %%  ── SEPARATOR ─────────────────────────────────────────────────────
+    \draw[gray!35, dashed, line width=0.9pt] (9.6, -0.2) -- (9.6, 8.0);
+
+    %%  ── RIGHT PANEL: Spatial Imbalance ────────────────────────────────
+    %%  Show WHY dispatching is hard: zones are out of balance
+    \def\ox{10.3}
+
+    % Four zones: top-left HOT (demand > supply), bottom-left COLD (supply > demand)
+    \begin{scope}[on background layer]
+      \fill[red!14,  draw=gray!35, line width=0.65pt]
+        (\ox,       3.5) rectangle (\ox+3.1, 7.0);   % HOT zone
+      \fill[blue!11, draw=gray!35, line width=0.65pt]
+        (\ox,       0.0) rectangle (\ox+3.1, 3.5);   % COLD zone
+      \fill[gray!7,  draw=gray!35, line width=0.65pt]
+        (\ox+3.1,   3.5) rectangle (\ox+6.2, 7.0);   % balanced
+      \fill[gray!7,  draw=gray!35, line width=0.65pt]
+        (\ox+3.1,   0.0) rectangle (\ox+6.2, 3.5);   % balanced
+    \end{scope}
+
+    % HOT zone: 4 customers, only 1 driver — demand >> supply
+    \node[cst, minimum size=0.50cm] at (\ox+0.55, 6.35) {};
+    \node[cst, minimum size=0.50cm] at (\ox+1.40, 5.80) {};
+    \node[cst, minimum size=0.50cm] at (\ox+0.60, 4.95) {};
+    \node[cst, minimum size=0.50cm] at (\ox+2.10, 4.60) {};
+    \node[drv, minimum size=0.50cm] at (\ox+1.85, 6.30) {};   % 1 driver only
+
+    % COLD zone: 3 drivers, no customers — supply >> demand
+    \node[drv, minimum size=0.50cm] at (\ox+0.60, 2.75) {};
+    \node[drv, minimum size=0.50cm] at (\ox+1.50, 2.00) {};
+    \node[drv, minimum size=0.50cm] at (\ox+0.65, 1.15) {};
+
+    % Balanced zones (top-right, bottom-right)
+    \node[rst, minimum size=0.62cm] at (\ox+4.30, 5.65) {};
+    \node[cst, minimum size=0.50cm] at (\ox+5.10, 5.00) {};
+    \node[drv, minimum size=0.50cm] at (\ox+3.75, 4.95) {};
+    \node[drv, minimum size=0.50cm] at (\ox+4.50, 2.40) {};
+    \node[cst, minimum size=0.50cm] at (\ox+5.10, 1.75) {};
+
+    % Redistribution: dispatcher routes idle courier from COLD → HOT zone
+    \draw[dflow, orange!70!black, line width=1.7pt]
+      (\ox+1.50, 3.05) to[out=75, in=285] (\ox+1.50, 3.95);
+
+    % Zone border crossing arrow label area (no text, just the prominent arrow)
+    % Marks the dispatch decision bridging the imbalance
+
+    %% ============================================================
+  %% LEGEND (bottom, horizontal)
+  %% ============================================================
+  \def\lyone{-1.2}
+  \def\lytwo{-1.9}
+
+  \node[rst, scale=0.75] at (0.0, \lyone) {};
+  \node[font=\small, anchor=west] at (0.4, \lyone) {Restaurant};
+
+  \node[drv, scale=0.75] at (3.5, \lyone) {};
+  \node[font=\small, anchor=west] at (3.9, \lyone) {Driver};
+
+  \node[cst, scale=0.75] at (6.5, \lyone) {};
+  \node[font=\small, anchor=west] at (6.9, \lyone) {Customer};
+
+  \node[dsp, scale=0.5] at (9.5, \lyone) {};
+  \node[font=\small, anchor=west] at (9.9, \lyone) {Dispatch Policy};
+
+  \draw[flow, lime!60!black]
+    (-0.25, \lytwo) -- ++(0.75, 0);
+\node[font=\small, anchor=west] at (0.35, \lytwo) {Driver Ready};
+
+  \draw[flow, blue!60!black]
+    (3.5, \lytwo) -- ++(0.75, 0);
+  \node[font=\small, anchor=west] at (4.35, \lytwo) {Order Arrive};
+
+  \draw[dflow, orange!70!black]
+    (7.5, \lytwo) -- ++(0.75, 0);
+  \node[font=\small, anchor=west] at (8.35, \lytwo) {Reposition};
+
+  \draw[flow, violet!70!black]
+    (11, \lytwo) -- ++(0.75, 0);
+  \node[font=\small, anchor=west] at (11.75, \lytwo) {Order Assign};
+
+  \draw[flow, red!70!black]
+    (15, \lytwo) -- ++(0.75, 0);
+  \node[font=\small, anchor=west] at (15.75, \lytwo) {Order Ready};
+  
+    \end{tikzpicture}
+    \end{center}
+
+  
+
+  \end{block}
+
+\end{column}
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+  \begin{block}{Greedy Baselines React to Each Order Without Spatial Awareness}
+    We contrast SN with three greedy dispatch policies that react to local demand without optimizing for global spatial positioning. When assigning an idle driver to ready orders at a restaurant, they batch all orders going to the same destination zone selected by the following criteria:
+    \begin{itemize}
+      \item \textbf{Earliest Release First (ERF):} Selects the batch for the zone of the order that arrived earliest.
+      \item \textbf{Earliest Anticipation First (EAF):} Selects the batch for the order that completes earliest if delivered immediately (arrival time + delivery travel time). 
+      \item \textbf{Nearest Neighbor (NN):} Selects the batch for the zone with the shortest driver travel time from the restaurant.
+    \end{itemize}
+    \vspace{0.8em}
+    Idle drivers without local orders are repositioned greedily to the nearest restaurant with pending orders, blindly chasing demand instead of proactively distributing supply.
+  \end{block}
+
+  \begin{block}{SN Cuts Average Flow Time Nearly 6$\times$ Over Nearest Neighbor with Zero Undelivered Orders}
+
+    \vspace{0.5em}
+    \begin{figure}
+      \centering
+      \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{plots/flow_time_vs_supply.png}
+      \end{minipage}%
+      \hfill
+      \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{plots/flow_time_cdf.png}
+      \end{minipage}
+    \end{figure}
+
+    \vspace{0.5em}
+    \begin{figure}
+      \centering
+      \includegraphics[width=0.85\linewidth]{plots/avg_flow_time_comparison.png}
+    \end{figure}
+
+  \end{block}
+
+\end{column}
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+  \begin{exampleblock}{SN: Reserve Busy Drivers and Spread Idle Ones to Fill Spatial Gaps}
+
+  \end{exampleblock}
+
+  \begin{block}{Future Work: Competitive Ratios and Worst-Case Bounds for Online Dispatch}
+
+  \end{block}
+
+  \begin{block}{References}
+
+    \nocite{*}
+    \footnotesize{\bibliographystyle{plainnat}\bibliography{poster}}
+
+  \end{block}
+
+\end{column}
+
+\separatorcolumn
+\end{columns}
+\end{frame}
+
+\end{document}

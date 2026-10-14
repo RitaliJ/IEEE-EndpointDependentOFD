@@ -1,0 +1,32 @@
+master_seed: 42
+num_drivers: 2
+simulation_duration: 3600.0       # seconds
+
+warm_up_duration: 300.0           # exclude first N seconds from metrics
+policy: bundle                    # "bundle" | "eaf" | "erf"
+arrival_generator: poisson        # "poisson" | "real_data"
+base_lambda: 0.05                 # orders/second per (restaurant, zone) stream
+deadline_enabled: false
+two_step_routing: false           # reposition to restaurant zone before pickup
+driver_init: random               # "random" | "proportional"
+empty_wait_W: 0                   # seconds to wait at empty restaurant
+metrics:
+  - avg_flow_time
+  - driver_utilization
+  - competitive_ratio
+
+# Zone layout (default: uniform)
+zone_layout:
+  type: uniform
+  num_zones: 4
+  restaurants_per_zone: 2
+  intra_zone_cost: 1.0
+  inter_zone_cost: 5.0
+
+# Cost function
+cost_function: travel_time
+cost_c: 1.0
+cost_alpha: 0.8                   # batch sublinearity: cost = c * k^alpha
+
+# Real data (set arrival_generator: real_data)
+data_path: None

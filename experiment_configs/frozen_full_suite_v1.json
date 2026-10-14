@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "status": "frozen_pending_execution",
+  "name": "cainiao_full_suite_alpha05_v1",
+  "purpose": "Publication experiment suite; do not change semantic fields after execution begins.",
+  "dataset": {
+    "identifier": "LaDe last-mile delivery dataset, delivery task table",
+    "source_repository": "https://huggingface.co/datasets/Cainiao-AI/LaDe",
+    "subset_field": "ds",
+    "data_day": "0610",
+    "city_files": {
+      "cq": "data/delivery/delivery_cq.csv",
+      "hz": "data/delivery/delivery_hz.csv",
+      "jl": "data/delivery/delivery_jl.csv",
+      "sh": "data/delivery/delivery_sh.csv",
+      "yt": "data/delivery/delivery_yt.csv"
+    },
+    "sha256": {
+      "cq": "114a35e9a31f817a3c9efb8513924688706bcedfa85ccd69df696eb5e8eddea2",
+      "hz": "9969df2a5c79dadc6149c384e3632eccc0417d01a2575a74db2310e786541c22",
+      "jl": "12e2cf4664dd5b4475d39dddee8872f5a03b3082f08f0eece7f103baee6c6e73",
+      "sh": "da875abddbb01ac324106b9b9ce33181e5e8530e77359a12ee68567fd1cc3bbf",
+      "yt": "aa5bca7fdaa8c89d4ab50a2ed2b94fb09f608acc49fc1108a1a612e9c0f5a7ad"
+    },
+    "cities": ["cq", "hz", "jl", "sh", "yt"],
+    "preprocessing": {
+      "drop_rows_with_missing_required_gps": true,
+      "pickup_gps_decimal_places": 4,
+      "driver_position_seed": 20240610,
+      "arrival_process": "Independent Poisson process of rate 1.0 per restaurant; exponential inter-arrivals seeded by (experiment_seed, restaurant_id).",
+      "arrival_rate_per_restaurant": 1.0
+    },
+    "required_preflight": "All five source CSVs must exist before execution. Prepared-data summaries and source paths must be recorded in manifest.json."
+  },
+  "replication": {
+    "seeds": [1, 2, 3],
+    "scenario_identity": "One frozen order trace and shuffled full roster per (city, seed), replayed by every policy and fleet level."
+  },
+  "fleet": {
+    "mode": "nested_supply_sweep",
+    "fractions": [0.1, 0.25, 0.5, 0.75, 1.0],
+    "selection": "Prefix of the once-shuffled full roster.",
+    "size_rule": "max(1, round(full_roster_size * fraction)) using Python round semantics",
+    "full_roster_counts_for_ds_0610": {
+      "cq": 316,
+      "hz": 349,
+      "jl": 11,
+      "sh": 461,
+      "yt": 99
+    }
+  },
+  "policies": [
+    {"name": "erf", "class": "ERF", "parameters": {"max_policy_wait": 5}},
+    {"name": "eaf", "class": "EAF", "parameters": {"max_policy_wait": 5}},
+    {"name": "nearest_neighbor", "class": "NearestNeighbor", "parameters": {"max_policy_wait": 5}},
+    {"name": "cals_noweights", "class": "CALS", "parameters": {"w_a": 0.0, "w_c": 0.0}},
+    {"name": "cals_urgency", "class": "CALS", "parameters": {"w_a": 2.0, "w_c": 0.0}},
+    {"name": "cals_coverage", "class": "CALS", "parameters": {"w_a": 0.0, "w_c": 2.0}},
+    {"name": "cals_mixed", "class": "CALS", "parameters": {"w_a": 2.0, "w_c": 5.0}},
+    {"name": "sn", "class": "SN", "parameters": {"adjuster": 1.0}},
+    {"name": "sn_noreposition", "class": "SNNoReposition", "parameters": {"adjuster": 1.0}}
+  ],
+  "service_model": {
+    "cost_function": "sublinear_intrazone",
+    "definition": "tau(i,j,k) = D[z(i),j] + c(j) * k^alpha",
+    "default_alpha": 0.5,
+    "sensitivity_values": [0.3, 0.5, 0.7],
+    "sensitivity_role": "Completed pilot robustness check; do not multiply these values into the primary full suite.",
+    "beta": 0.714,
+    "zone_scale": "c(j) = beta * sqrt(A_j) / speed_km_per_min",
+    "zone_area_estimator": "destination_bounding_box_km2 with median-positive fallback",
+    "speed_km_per_min": 1.0,
+    "cost_matrix_diagonal": 0.0
+  },
+  "warmup": {
+    "definition": "Exclude orders arriving before 5% of that scenario's arrival horizon.",
+    "fraction_of_arrival_horizon": 0.05,
+    "resolved_duration": "0.05 * horizon, calculated separately for each (city, seed)",
+    "absolute_override": null
+  },
+  "evaluation": {
+    "arrival_horizon": "Ceiling of the latest generated order-arrival time in the scenario.",
+    "measurement_population": "Orders with arrival_time >= warmup_duration; every generated arrival is <= arrival_horizon.",
+    "completion_policy": "Drain the event queue after the arrival horizon until empty.",
+    "flow_time": {
+      "unit": "simulation minutes",
+      "definition": "Per-order completion_time - arrival_time.",
+      "completion_time": "The time that the individual order is delivered, not the completion time of the entire assigned batch.",
+      "required_completion": "Every measured arrival must be delivered; undelivered_orders must equal zero in every run."
+    },
+    "utilization": {
+      "primary": "driver_utilization_makespan",
+      "primary_definition": "For each driver, measure the union of non-idle intervals clipped to [warmup_duration, last_order_completion], divided by that window length; summarize across drivers.",
+      "diagnostic": "driver_utilization",
+      "diagnostic_definition": "For each driver, measure the union of non-idle intervals clipped to [warmup_duration, arrival_horizon], divided by that window length; retain as a saturation diagnostic.",
+      "valid_range": [0.0, 1.0],
+      "busy_work_included": ["travel_to_restaurant", "batch_delivery", "repositioning"]
+    }
+  },
+  "pairing": {
+    "baseline": "erf",
+    "keys": [
+      "city",
+      "supply_fraction",
+      "num_drivers",
+      "trace_hash",
+      "roster_hash",
+      "warmup_duration",
+      "warmup_fraction",
+      "cost_signature",
+      "seed"
+    ],
+    "cost_signature_contents": ["all cost_params", "cost_matrix_sha"],
+    "percentage_change": "100 * (policy_metric - erf_metric) / erf_metric; negative flow-time change is improvement."
+  },
+  "aggregation": {
+    "long_table": "One row per (city, seed, supply_fraction, policy).",
+    "summary_group_keys": ["city", "supply_fraction", "num_drivers", "warmup_config", "cost_signature", "policy"],
+    "summary_statistics": ["mean", "sample_standard_deviation", "two_sided_95_percent_t_interval"],
+    "replicate_unit": "seed",
+    "t_interval": "t_(0.975,n-1) * sample_sd / sqrt(n); for n=3, multiplier 4.303.",
+    "paired_table": "One policy-versus-ERF percentage change per matching seed and pairing cell.",
+    "no_cross_seed_pairing": true,
+    "no_cross_alpha_pairing": true
+  },
+  "run_count": {
+    "formula": "5 cities * 3 seeds * 5 fleet fractions * 9 policies",
+    "expected_primary_runs": 675,
+    "expected_summary_rows": 225,
+    "expected_paired_rows": 600,
+    "sensitivity_pilot_runs_not_included": 81
+  },
+  "outputs": {
+    "suite_root": "results/canonical_alpha05_warmup05",
+    "plots_during_run": false,
+    "full_artifacts": false,
+    "required_top_level": {
+      "manifest.json": "Resolved command, code provenance, configurations, data summaries, and scenario manifests.",
+      "prepared/<city>/": ["filtered.csv", "zones.json", "orders.json", "drivers.json", "cost_matrix.json"],
+      "scenarios/<city>_seed<seed>.json": "Frozen trace, roster, hashes, warm-up, and cost parameters.",
+      "runs/<city>/seed<seed>/frac<percent>/<policy>/": ["metrics.json", "experiment_config.json", "runtime.json", "completed_orders.json", "drivers.json", "batches.json"],
+      "aggregate/results_long.csv": "One row per run, including metric and runtime fields.",
+      "aggregate/results_summary.csv": "Across-seed means, standard deviations, and 95% t intervals.",
+      "aggregate/results_paired.csv": "Seed-paired percentage changes from ERF.",
+      "validation_report.md": "All checks must pass before results are used."
+    },
+    "metrics_json_required_fields": [
+      "total_orders",
+      "arrived_orders",
+      "delivered_orders",
+      "undelivered_orders",
+      "completion_rate",
+      "flow_time",
+      "travel_time",
+      "makespan",
+      "avg_batch_size",
+      "batch_efficiency",
+      "driver_utilization",
+      "driver_utilization_makespan"
+    ],
+    "distribution_summary_fields": ["avg", "min", "max", "p90", "p95", "p99"],
+    "runtime_json_required_fields": ["runtime_seconds", "simulation_runtime_seconds"]
+  },
+  "validation_requirements": [
+    "Exactly one run for every declared experimental cell.",
+    "Identical trace, arrival count, and horizon across policies in a cell.",
+    "Identical driver roster across policies in a cell.",
+    "Driver supply levels are nested.",
+    "Every per-driver utilization is in [0,1].",
+    "Cost parameters are identical across policies in a cell.",
+    "Delivered plus undelivered equals arrived.",
+    "No policy leaves an order unfinished."
+  ],
+  "software": {
+    "python": "3.14.4",
+    "uv": "0.11.11",
+    "platform_used_to_freeze": "macOS arm64",
+    "lockfile": "uv.lock",
+    "lockfile_sha256": "51ad48b009cee1effb523602e4a1a893bb59ab67dacbdfd96317c902954e946c",
+    "direct_dependencies": {
+      "folium": "0.20.0",
+      "git-filter-repo": "2.47.0",
+      "matplotlib": "3.10.9",
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "pyyaml": "6.0.3",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.1",
+      "tqdm": "4.67.3",
+      "pytest_dev": "9.1.1"
+    },
+    "environment_reproduction": "uv sync --frozen",
+    "code_provenance_requirement": "Execute only from a clean committed working tree; generated manifest.json must record that commit and working_tree_dirty=false."
+  },
+  "execution": {
+    "command": ".venv/bin/python -m mvp_sim.experiments.run_suite --output results/canonical_alpha05_warmup05 --data-root . --cities cq hz jl sh yt --seeds 1 2 3 --driver-sweep --day 0610 --warmup-fraction 0.05 --cost-function sublinear_intrazone --batch-alpha 0.5 --speed 1.0 --baseline erf --jobs 8",
+    "preconditions": [
+      "This frozen configuration is committed.",
+      "The working tree is clean.",
+      "All five city CSVs exist at the declared paths.",
+      "uv sync --frozen and the full test suite pass.",
+      "The output directory does not already exist."
+    ]
+  }
+}

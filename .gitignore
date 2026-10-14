@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+data/
+des_architecture.tex
+.DS_Store
+
+# Generated experiment artifacts. Commit only curated summaries under
+# reported_results/; raw runs include large logs, JSON payloads, and plots.
+pilot_outputs/
+results/
+data/
+june_results_cq/
+results/
+experimental_results/
+data/
+june_results_cq/
+june_results_yt/
+ds_oct_results_hz/
+ds_oct_results_sh/
+ds_oct_results_cq/
+oct_results_sh/
+oct_results_hz/

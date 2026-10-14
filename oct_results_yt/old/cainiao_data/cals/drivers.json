@@ -1,0 +1,2241 @@
+[
+  {
+    "driver_id": 397,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.49555,
+      37.41782
+    ],
+    "cum_delivering_time": 35.918992503590346,
+    "next_available_time": 113.05320113048133,
+    "processed_orders": [
+      4903,
+      4744,
+      4251
+    ]
+  },
+  {
+    "driver_id": 398,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.50455,
+      37.41646
+    ],
+    "cum_delivering_time": 22.928696984369182,
+    "next_available_time": 115.99067010613766,
+    "processed_orders": [
+      4261,
+      4265,
+      4267,
+      4227
+    ]
+  },
+  {
+    "driver_id": 399,
+    "curr_zone_id": 25,
+    "curr_pt": [
+      121.06155,
+      37.66054
+    ],
+    "cum_delivering_time": 68.52655973073345,
+    "next_available_time": 116.4268334505998,
+    "processed_orders": [
+      4392,
+      4354,
+      4386,
+      4399,
+      4481,
+      4482,
+      4483,
+      4484,
+      4486,
+      4487,
+      4488,
+      4496,
+      4497,
+      4498,
+      4556,
+      4532,
+      4533,
+      4567,
+      4569,
+      4570,
+      4575,
+      4557,
+      4355,
+      4435,
+      4441
+    ]
+  },
+  {
+    "driver_id": 400,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.15627,
+      37.19119
+    ],
+    "cum_delivering_time": 48.508546308251354,
+    "next_available_time": 116.65123793547134,
+    "processed_orders": [
+      4954
+    ]
+  },
+  {
+    "driver_id": 401,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.55185,
+      37.42219
+    ],
+    "cum_delivering_time": 29.074886077311888,
+    "next_available_time": 123.53392078271344,
+    "processed_orders": [
+      4306,
+      4218,
+      4219,
+      4220,
+      4224,
+      4225,
+      4285
+    ]
+  },
+  {
+    "driver_id": 402,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.37518,
+      37.48424
+    ],
+    "cum_delivering_time": 31.846921227322106,
+    "next_available_time": 201.20085932369383,
+    "processed_orders": [
+      4710,
+      4703,
+      4704,
+      4705,
+      4701,
+      4713,
+      4697,
+      4834,
+      4836,
+      4825,
+      5092,
+      5093,
+      5094,
+      4896
+    ]
+  },
+  {
+    "driver_id": 403,
+    "curr_zone_id": 9,
+    "curr_pt": [
+      121.25343,
+      37.49912
+    ],
+    "cum_delivering_time": 1.0,
+    "next_available_time": 124.42201343366773,
+    "processed_orders": [
+      4373
+    ]
+  },
+  {
+    "driver_id": 404,
+    "curr_zone_id": 3,
+    "curr_pt": [
+      121.42808,
+      37.45513
+    ],
+    "cum_delivering_time": 41.19405084983304,
+    "next_available_time": 116.58100844487944,
+    "processed_orders": [
+      4894,
+      4867,
+      4868,
+      4869,
+      4874,
+      4875,
+      4897,
+      4898,
+      4901,
+      4297,
+      4299,
+      4300,
+      4301,
+      4302,
+      4294
+    ]
+  },
+  {
+    "driver_id": 405,
+    "curr_zone_id": 16,
+    "curr_pt": [
+      121.45638,
+      37.43085
+    ],
+    "cum_delivering_time": 18.451657999987404,
+    "next_available_time": 123.89955928676078,
+    "processed_orders": [
+      4396,
+      4560,
+      4562,
+      4292,
+      4295
+    ]
+  },
+  {
+    "driver_id": 406,
+    "curr_zone_id": 11,
+    "curr_pt": [
+      120.50737,
+      37.65306
+    ],
+    "cum_delivering_time": 1.0,
+    "next_available_time": 117.77897929881698,
+    "processed_orders": [
+      4835
+    ]
+  },
+  {
+    "driver_id": 407,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.52628,
+      37.40969
+    ],
+    "cum_delivering_time": 18.330533142994568,
+    "next_available_time": 202.1626497652533,
+    "processed_orders": [
+      4838,
+      5116,
+      4298
+    ]
+  },
+  {
+    "driver_id": 408,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.77211,
+      37.81055
+    ],
+    "cum_delivering_time": 16.594223106502692,
+    "next_available_time": 193.42661695937375,
+    "processed_orders": [
+      4341,
+      4334,
+      4328,
+      4338,
+      4340,
+      4329,
+      5075
+    ]
+  },
+  {
+    "driver_id": 409,
+    "curr_zone_id": 3,
+    "curr_pt": [
+      121.42203,
+      37.45676
+    ],
+    "cum_delivering_time": 59.23900796810694,
+    "next_available_time": 123.90986415935897,
+    "processed_orders": [
+      4624,
+      4647,
+      4775,
+      4776,
+      4777,
+      4778,
+      4781,
+      4782,
+      4784,
+      4785,
+      4786,
+      4737,
+      4739,
+      4741,
+      4742,
+      4745,
+      4945,
+      4946,
+      4947,
+      4948,
+      4949,
+      4950,
+      4923,
+      4924,
+      4985,
+      4987,
+      4989,
+      4975,
+      4977,
+      4983,
+      5035,
+      4480,
+      4580,
+      4240,
+      4243
+    ]
+  },
+  {
+    "driver_id": 410,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.76332,
+      37.81885
+    ],
+    "cum_delivering_time": 10.470184482677851,
+    "next_available_time": 127.75861408110985,
+    "processed_orders": [
+      4698,
+      4830,
+      5082
+    ]
+  },
+  {
+    "driver_id": 411,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.34721,
+      37.49625
+    ],
+    "cum_delivering_time": 55.525060163528565,
+    "next_available_time": 133.8241993598988,
+    "processed_orders": [
+      4966,
+      4955,
+      4956,
+      4957,
+      4958,
+      4960,
+      4964,
+      4959,
+      4961,
+      4962,
+      4880,
+      4881,
+      4882
+    ]
+  },
+  {
+    "driver_id": 412,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.52569,
+      37.44144
+    ],
+    "cum_delivering_time": 87.67792688087306,
+    "next_available_time": 149.28680053815762,
+    "processed_orders": [
+      4401,
+      4578,
+      4579,
+      4519,
+      4523,
+      4524,
+      4561,
+      4564,
+      4565,
+      4568,
+      4535,
+      4537,
+      4540,
+      4572,
+      4574,
+      4576,
+      4577,
+      4425,
+      4438,
+      4444,
+      4410,
+      4420,
+      4421,
+      4403,
+      4404,
+      4405,
+      4409,
+      4414,
+      4415,
+      4416,
+      4417,
+      4419,
+      4426,
+      4427,
+      4428,
+      4429,
+      4430,
+      4431,
+      4439,
+      4446,
+      4452,
+      4597,
+      4492,
+      4495,
+      4591,
+      4311
+    ]
+  },
+  {
+    "driver_id": 413,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.3683,
+      37.50714
+    ],
+    "cum_delivering_time": 34.73216483489951,
+    "next_available_time": 120.09551823359968,
+    "processed_orders": [
+      4233,
+      4627,
+      4870,
+      4872,
+      4873,
+      4876,
+      4877
+    ]
+  },
+  {
+    "driver_id": 414,
+    "curr_zone_id": 3,
+    "curr_pt": [
+      121.42803,
+      37.44957
+    ],
+    "cum_delivering_time": 25.679154801730952,
+    "next_available_time": 192.42674002592196,
+    "processed_orders": [
+      4699,
+      4694,
+      4695,
+      4707,
+      4708,
+      4700,
+      4711,
+      4820,
+      4821,
+      5119,
+      5120,
+      5121,
+      5122,
+      5123,
+      4268
+    ]
+  },
+  {
+    "driver_id": 415,
+    "curr_zone_id": 16,
+    "curr_pt": [
+      121.4266,
+      37.44803
+    ],
+    "cum_delivering_time": 56.97135961045151,
+    "next_available_time": 128.0063981005722,
+    "processed_orders": [
+      4588,
+      4553,
+      4459,
+      4460,
+      4462,
+      4463,
+      4467,
+      4469,
+      4473,
+      4475,
+      4476,
+      4477,
+      4478,
+      4479,
+      4449,
+      4450,
+      4457,
+      4458,
+      4466,
+      4474,
+      4559,
+      4563,
+      4536,
+      4539,
+      4541,
+      4573,
+      4594,
+      4279
+    ]
+  },
+  {
+    "driver_id": 416,
+    "curr_zone_id": 16,
+    "curr_pt": [
+      121.41155,
+      37.42244
+    ],
+    "cum_delivering_time": 50.84288855949496,
+    "next_available_time": 127.4048869150297,
+    "processed_orders": [
+      4368,
+      4381,
+      4349,
+      4393,
+      4394,
+      4380,
+      4350,
+      4582,
+      4581,
+      4549,
+      4550,
+      4551,
+      4552,
+      4485,
+      4490,
+      4491,
+      4512,
+      4589,
+      4248
+    ]
+  },
+  {
+    "driver_id": 417,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.52437,
+      37.42175
+    ],
+    "cum_delivering_time": 26.721530500358618,
+    "next_available_time": 121.65728475972281,
+    "processed_orders": [
+      5044,
+      5019,
+      4249
+    ]
+  },
+  {
+    "driver_id": 418,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.34543,
+      37.49944
+    ],
+    "cum_delivering_time": 20.64366404326805,
+    "next_available_time": 118.73576675210184,
+    "processed_orders": [
+      4247,
+      4840,
+      4841,
+      4904
+    ]
+  },
+  {
+    "driver_id": 419,
+    "curr_zone_id": 31,
+    "curr_pt": [
+      121.36041,
+      37.48235
+    ],
+    "cum_delivering_time": 4.632676932731927,
+    "next_available_time": 134.4208084874819,
+    "processed_orders": [
+      4893
+    ]
+  },
+  {
+    "driver_id": 420,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.40572,
+      37.34895
+    ],
+    "cum_delivering_time": 6.0,
+    "next_available_time": 126.95996370757487,
+    "processed_orders": [
+      5222,
+      5212,
+      5213,
+      5227,
+      5099,
+      5100
+    ]
+  },
+  {
+    "driver_id": 421,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.34875,
+      37.49828
+    ],
+    "cum_delivering_time": 44.929288505393046,
+    "next_available_time": 142.2345277619338,
+    "processed_orders": [
+      4555,
+      4503,
+      4595,
+      4596,
+      4538,
+      4865
+    ]
+  },
+  {
+    "driver_id": 422,
+    "curr_zone_id": 9,
+    "curr_pt": [
+      121.33135,
+      37.48639
+    ],
+    "cum_delivering_time": 15.41074043921461,
+    "next_available_time": 119.66760348205236,
+    "processed_orders": [
+      4312,
+      4905,
+      4906
+    ]
+  },
+  {
+    "driver_id": 423,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.36153,
+      37.50378
+    ],
+    "cum_delivering_time": 15.448472387163774,
+    "next_available_time": 120.95316258253376,
+    "processed_orders": [
+      4790,
+      4883,
+      4884,
+      4886
+    ]
+  },
+  {
+    "driver_id": 424,
+    "curr_zone_id": 31,
+    "curr_pt": [
+      121.36985,
+      37.48137
+    ],
+    "cum_delivering_time": 50.82972802991243,
+    "next_available_time": 118.49022440756954,
+    "processed_orders": [
+      4864,
+      4370,
+      4371,
+      4489,
+      4505,
+      4507,
+      4509,
+      4510,
+      4511,
+      4513,
+      4566,
+      4377,
+      4895
+    ]
+  },
+  {
+    "driver_id": 425,
+    "curr_zone_id": 33,
+    "curr_pt": [
+      121.17408,
+      36.77807
+    ],
+    "cum_delivering_time": 2.1165763418455934,
+    "next_available_time": 126.44041548397536,
+    "processed_orders": [
+      5229
+    ]
+  },
+  {
+    "driver_id": 426,
+    "curr_zone_id": 10,
+    "curr_pt": [
+      121.36372,
+      37.55463
+    ],
+    "cum_delivering_time": 1.0,
+    "next_available_time": 131.75739087374495,
+    "processed_orders": [
+      4922
+    ]
+  },
+  {
+    "driver_id": 427,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.51914,
+      37.40573
+    ],
+    "cum_delivering_time": 60.68512556430153,
+    "next_available_time": 118.54665894869831,
+    "processed_orders": [
+      5034,
+      4911,
+      4912,
+      4913,
+      4914,
+      4915,
+      4916,
+      4917,
+      4918,
+      4919,
+      4920,
+      4921,
+      4937,
+      4938,
+      4939,
+      4940,
+      4941,
+      4943,
+      4944,
+      4951,
+      4952,
+      4953,
+      5008,
+      5011,
+      5012,
+      5017,
+      5020,
+      5022,
+      5023,
+      5024,
+      5025,
+      4804,
+      4310,
+      4256,
+      4257,
+      4258,
+      4308
+    ]
+  },
+  {
+    "driver_id": 428,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.53823,
+      37.44117
+    ],
+    "cum_delivering_time": 51.09552792727881,
+    "next_available_time": 145.65200054959976,
+    "processed_orders": [
+      4375,
+      4383,
+      4515,
+      4516,
+      4525,
+      4528,
+      4499,
+      4584,
+      4418,
+      4314
+    ]
+  },
+  {
+    "driver_id": 429,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      120.20392,
+      37.13198
+    ],
+    "cum_delivering_time": 3.6504291174185552,
+    "next_available_time": 134.0128971455911,
+    "processed_orders": [
+      4346
+    ]
+  },
+  {
+    "driver_id": 430,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.36391,
+      37.49985
+    ],
+    "cum_delivering_time": 24.11080128907964,
+    "next_available_time": 115.31961893954744,
+    "processed_orders": [
+      4232,
+      4843,
+      4845,
+      4888,
+      4892
+    ]
+  },
+  {
+    "driver_id": 431,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.59302,
+      37.19658
+    ],
+    "cum_delivering_time": 51.617570660772465,
+    "next_available_time": 207.6197121105313,
+    "processed_orders": [
+      4829,
+      5085,
+      4590
+    ]
+  },
+  {
+    "driver_id": 432,
+    "curr_zone_id": 3,
+    "curr_pt": [
+      121.4317,
+      37.4538
+    ],
+    "cum_delivering_time": 37.07760364188928,
+    "next_available_time": 191.43164827548628,
+    "processed_orders": [
+      4837,
+      4809,
+      4812,
+      4822,
+      4823,
+      4808,
+      4831,
+      4832,
+      4827,
+      4805,
+      4826,
+      4810,
+      4813,
+      4811,
+      4814,
+      4807,
+      5089,
+      5090,
+      5091,
+      4252
+    ]
+  },
+  {
+    "driver_id": 433,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.51938,
+      37.41704
+    ],
+    "cum_delivering_time": 74.76586326583262,
+    "next_available_time": 125.54539679853872,
+    "processed_orders": [
+      4967,
+      5002,
+      5003,
+      5004,
+      5005,
+      5006,
+      5007,
+      5009,
+      5010,
+      4991,
+      4992,
+      4993,
+      4994,
+      4996,
+      4998,
+      4999,
+      5013,
+      5014,
+      5015,
+      5016,
+      5018,
+      5021,
+      5026,
+      4974,
+      4976,
+      4978,
+      4979,
+      4981,
+      4982,
+      5028,
+      5029,
+      5030,
+      5031,
+      5033,
+      5038,
+      5039,
+      5040,
+      5037,
+      5041,
+      5042,
+      5043,
+      4933,
+      4681,
+      4682,
+      4603,
+      4226,
+      4231
+    ]
+  },
+  {
+    "driver_id": 434,
+    "curr_zone_id": 25,
+    "curr_pt": [
+      121.10977,
+      37.62731
+    ],
+    "cum_delivering_time": 46.637189443423885,
+    "next_available_time": 129.382020503386,
+    "processed_orders": [
+      4714,
+      4779,
+      4984,
+      4986,
+      4988,
+      4990,
+      4518,
+      4387,
+      4395,
+      4502
+    ]
+  },
+  {
+    "driver_id": 435,
+    "curr_zone_id": 9,
+    "curr_pt": [
+      121.25946,
+      37.4867
+    ],
+    "cum_delivering_time": 28.14561025729355,
+    "next_available_time": 188.50659156787725,
+    "processed_orders": [
+      4706,
+      4400
+    ]
+  },
+  {
+    "driver_id": 436,
+    "curr_zone_id": 25,
+    "curr_pt": [
+      121.11068,
+      37.62785
+    ],
+    "cum_delivering_time": 26.215584030116887,
+    "next_available_time": 115.44963800200775,
+    "processed_orders": [
+      4547,
+      4493,
+      4494
+    ]
+  },
+  {
+    "driver_id": 437,
+    "curr_zone_id": 9,
+    "curr_pt": [
+      121.32675,
+      37.47621
+    ],
+    "cum_delivering_time": 23.077800305058524,
+    "next_available_time": 135.69516503263839,
+    "processed_orders": [
+      4548,
+      4890,
+      4891
+    ]
+  },
+  {
+    "driver_id": 438,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.52031,
+      37.40323
+    ],
+    "cum_delivering_time": 40.76349074392402,
+    "next_available_time": 123.95657891835606,
+    "processed_orders": [
+      4910,
+      4926,
+      4995,
+      4997,
+      5000,
+      5001,
+      4942,
+      4789,
+      4683,
+      4684,
+      4665,
+      4255
+    ]
+  },
+  {
+    "driver_id": 439,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.50898,
+      37.41589
+    ],
+    "cum_delivering_time": 22.928696984369182,
+    "next_available_time": 116.01623592562729,
+    "processed_orders": [
+      4263,
+      4259,
+      4260,
+      4317
+    ]
+  },
+  {
+    "driver_id": 440,
+    "curr_zone_id": 31,
+    "curr_pt": [
+      121.36628,
+      37.45634
+    ],
+    "cum_delivering_time": 53.32752394610962,
+    "next_available_time": 119.14651098276431,
+    "processed_orders": [
+      5155,
+      5168,
+      5169,
+      5170,
+      5171,
+      5156,
+      5157,
+      5158,
+      5160,
+      5161,
+      5162,
+      5163,
+      5164,
+      5165,
+      5174,
+      5166,
+      5173,
+      5176,
+      5172,
+      4321,
+      4313,
+      4323,
+      4205,
+      4206,
+      4636,
+      4638,
+      4639,
+      4640,
+      4645,
+      4793,
+      4585,
+      4504,
+      4907
+    ]
+  },
+  {
+    "driver_id": 441,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.50824,
+      37.43418
+    ],
+    "cum_delivering_time": 10.404499475491603,
+    "next_available_time": 140.1971634663109,
+    "processed_orders": [
+      4244
+    ]
+  },
+  {
+    "driver_id": 442,
+    "curr_zone_id": 31,
+    "curr_pt": [
+      121.3436,
+      37.48907
+    ],
+    "cum_delivering_time": 14.7216621152269,
+    "next_available_time": 117.5075083367964,
+    "processed_orders": [
+      4554,
+      4391,
+      4889
+    ]
+  },
+  {
+    "driver_id": 443,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.37878,
+      37.48912
+    ],
+    "cum_delivering_time": 73.73576920082752,
+    "next_available_time": 121.32334441344858,
+    "processed_orders": [
+      4732,
+      4748,
+      4749,
+      4750,
+      4753,
+      4755,
+      4756,
+      4757,
+      4759,
+      4760,
+      4761,
+      4792,
+      4794,
+      4795,
+      4796,
+      4797,
+      4798,
+      4799,
+      4800,
+      4802,
+      4751,
+      4752,
+      4754,
+      4758,
+      4762,
+      4767,
+      4771,
+      4928,
+      4929,
+      4930,
+      4931,
+      4932,
+      4934,
+      4935,
+      4968,
+      4969,
+      4971,
+      4972,
+      4973,
+      5036,
+      5045,
+      5046,
+      4736,
+      4319,
+      4228,
+      4229,
+      4230,
+      4266
+    ]
+  },
+  {
+    "driver_id": 444,
+    "curr_zone_id": 14,
+    "curr_pt": [
+      121.25821,
+      37.54462
+    ],
+    "cum_delivering_time": 3.2925658985099115,
+    "next_available_time": 127.25546834718959,
+    "processed_orders": [
+      4500
+    ]
+  },
+  {
+    "driver_id": 445,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.35357,
+      37.50332
+    ],
+    "cum_delivering_time": 14.448472387163774,
+    "next_available_time": 140.0267742917002,
+    "processed_orders": [
+      4963,
+      4397,
+      4900
+    ]
+  },
+  {
+    "driver_id": 446,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.36881,
+      37.50277
+    ],
+    "cum_delivering_time": 68.08944585500934,
+    "next_available_time": 131.19541525213708,
+    "processed_orders": [
+      4382,
+      4358,
+      4362,
+      4378,
+      4379,
+      4351,
+      4353,
+      4374,
+      4385,
+      4365,
+      4366,
+      4433,
+      4434,
+      4436,
+      4437,
+      4442,
+      4443,
+      4447,
+      4451,
+      4534,
+      4542,
+      4543,
+      4517,
+      4521,
+      4527,
+      4529,
+      4530,
+      4461,
+      4472,
+      4271,
+      4272,
+      4273
+    ]
+  },
+  {
+    "driver_id": 447,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.39758,
+      37.3574
+    ],
+    "cum_delivering_time": 6.0,
+    "next_available_time": 127.53382705733156,
+    "processed_orders": [
+      5223,
+      5178,
+      5179,
+      5214,
+      5147,
+      5148
+    ]
+  },
+  {
+    "driver_id": 448,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.36332,
+      37.48857
+    ],
+    "cum_delivering_time": 61.68604885096568,
+    "next_available_time": 118.48027042515044,
+    "processed_orders": [
+      4717,
+      4738,
+      4740,
+      4743,
+      4746,
+      4747,
+      4763,
+      4764,
+      4769,
+      4715,
+      4716,
+      4803,
+      4774,
+      4788,
+      4726,
+      4729,
+      4730,
+      4731,
+      4791,
+      4801,
+      4685,
+      4686,
+      4687,
+      4617,
+      4887,
+      4234,
+      4844
+    ]
+  },
+  {
+    "driver_id": 449,
+    "curr_zone_id": 9,
+    "curr_pt": [
+      121.31827,
+      37.48591
+    ],
+    "cum_delivering_time": 30.009433496279595,
+    "next_available_time": 198.32724402292047,
+    "processed_orders": [
+      4696,
+      4692,
+      4693,
+      4709,
+      4702,
+      4712,
+      4815,
+      4816,
+      4819,
+      5096,
+      5097,
+      5098,
+      4860
+    ]
+  },
+  {
+    "driver_id": 450,
+    "curr_zone_id": 35,
+    "curr_pt": [
+      121.2301,
+      37.56925
+    ],
+    "cum_delivering_time": 3.0433972306614834,
+    "next_available_time": 127.01373998032915,
+    "processed_orders": [
+      4501
+    ]
+  },
+  {
+    "driver_id": 451,
+    "curr_zone_id": 22,
+    "curr_pt": [
+      121.34856,
+      37.50349
+    ],
+    "cum_delivering_time": 30.415486586027725,
+    "next_available_time": 125.49275246983761,
+    "processed_orders": [
+      4322,
+      4320,
+      4235,
+      4236,
+      4237,
+      4238,
+      4239,
+      4866
+    ]
+  },
+  {
+    "driver_id": 452,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.79265,
+      37.80519
+    ],
+    "cum_delivering_time": 5.293364871665582,
+    "next_available_time": 123.4709502751159,
+    "processed_orders": [
+      5047
+    ]
+  },
+  {
+    "driver_id": 453,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.51925,
+      37.44247
+    ],
+    "cum_delivering_time": 29.233615445920595,
+    "next_available_time": 123.14213469505606,
+    "processed_orders": [
+      4936,
+      4927,
+      4281
+    ]
+  },
+  {
+    "driver_id": 454,
+    "curr_zone_id": 24,
+    "curr_pt": [
+      120.87417,
+      37.79351
+    ],
+    "cum_delivering_time": 5.176819611012268,
+    "next_available_time": 117.41134161858614,
+    "processed_orders": [
+      4806,
+      5073
+    ]
+  },
+  {
+    "driver_id": 455,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.48548,
+      37.42877
+    ],
+    "cum_delivering_time": 22.43244181651301,
+    "next_available_time": 115.51298120979884,
+    "processed_orders": [
+      4925,
+      4980,
+      4291
+    ]
+  },
+  {
+    "driver_id": 456,
+    "curr_zone_id": 25,
+    "curr_pt": [
+      121.07849,
+      37.67748
+    ],
+    "cum_delivering_time": 32.797732851414004,
+    "next_available_time": 130.54183684171358,
+    "processed_orders": [
+      4455,
+      4384,
+      4571
+    ]
+  },
+  {
+    "driver_id": 457,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.5364,
+      37.41054
+    ],
+    "cum_delivering_time": 74.79069107346845,
+    "next_available_time": 119.86551590994597,
+    "processed_orders": [
+      4680,
+      4650,
+      4652,
+      4654,
+      4655,
+      4656,
+      4657,
+      4658,
+      4660,
+      4661,
+      4635,
+      4637,
+      4641,
+      4642,
+      4643,
+      4644,
+      4646,
+      4619,
+      4620,
+      4621,
+      4622,
+      4676,
+      4677,
+      4679,
+      4600,
+      4601,
+      4602,
+      4604,
+      4606,
+      4608,
+      4610,
+      4611,
+      4615,
+      4616,
+      4618,
+      4780,
+      4783,
+      4651,
+      4653,
+      4659,
+      4688,
+      4303,
+      4254
+    ]
+  },
+  {
+    "driver_id": 458,
+    "curr_zone_id": 3,
+    "curr_pt": [
+      121.42432,
+      37.45555
+    ],
+    "cum_delivering_time": 75.25517651942532,
+    "next_available_time": 119.26774118629622,
+    "processed_orders": [
+      4264,
+      4908,
+      4211,
+      4212,
+      4214,
+      4207,
+      4208,
+      4209,
+      4290,
+      4296,
+      4269,
+      4270,
+      4274,
+      4275,
+      4276,
+      4277,
+      4278,
+      4846,
+      4847,
+      4848,
+      4849,
+      4850,
+      4851,
+      4871,
+      4878,
+      4879,
+      4222,
+      4250,
+      4282,
+      4223,
+      4858,
+      4859,
+      4862,
+      4852,
+      4853,
+      4854,
+      4855,
+      4856,
+      4857,
+      4861,
+      4863,
+      4280
+    ]
+  },
+  {
+    "driver_id": 459,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.76284,
+      37.81002
+    ],
+    "cum_delivering_time": 14.904179486238611,
+    "next_available_time": 122.27496365450293,
+    "processed_orders": [
+      4833,
+      5051,
+      5052,
+      5054,
+      5055,
+      5056,
+      5057,
+      5058,
+      5060
+    ]
+  },
+  {
+    "driver_id": 460,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.49848,
+      37.44828
+    ],
+    "cum_delivering_time": 12.967014198863952,
+    "next_available_time": 116.30785777292103,
+    "processed_orders": [
+      4623,
+      4315
+    ]
+  },
+  {
+    "driver_id": 461,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.96955,
+      37.19656
+    ],
+    "cum_delivering_time": 3.6504291174185552,
+    "next_available_time": 136.36752344911298,
+    "processed_orders": [
+      4325
+    ]
+  },
+  {
+    "driver_id": 462,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.75351,
+      37.80834
+    ],
+    "cum_delivering_time": 17.24465222392125,
+    "next_available_time": 195.7708161303305,
+    "processed_orders": [
+      4343,
+      4347,
+      4344,
+      4330,
+      5072
+    ]
+  },
+  {
+    "driver_id": 463,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.52251,
+      37.44442
+    ],
+    "cum_delivering_time": 76.22571798714947,
+    "next_available_time": 124.72039644284735,
+    "processed_orders": [
+      4909,
+      4245,
+      4246,
+      4599,
+      4605,
+      4607,
+      4609,
+      4612,
+      4613,
+      4614,
+      4628,
+      4629,
+      4632,
+      4633,
+      4634,
+      4625,
+      4626,
+      4689,
+      4690,
+      4662,
+      4663,
+      4664,
+      4666,
+      4667,
+      4668,
+      4669,
+      4670,
+      4671,
+      4718,
+      5027,
+      5032,
+      4465,
+      4369,
+      4899,
+      4318
+    ]
+  },
+  {
+    "driver_id": 464,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.52132,
+      37.44261
+    ],
+    "cum_delivering_time": 17.764528146555328,
+    "next_available_time": 204.23550640674966,
+    "processed_orders": [
+      4818,
+      5114,
+      5115,
+      4293
+    ]
+  },
+  {
+    "driver_id": 465,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.51371,
+      37.43799
+    ],
+    "cum_delivering_time": 25.558213007473903,
+    "next_available_time": 132.54970710427557,
+    "processed_orders": [
+      4253,
+      4215,
+      4216,
+      4210
+    ]
+  },
+  {
+    "driver_id": 466,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.53382,
+      37.19062
+    ],
+    "cum_delivering_time": 18.0,
+    "next_available_time": 126.76425144730845,
+    "processed_orders": [
+      5191,
+      5185,
+      5186,
+      5187,
+      5188,
+      5189,
+      5190,
+      5201,
+      5202,
+      5203,
+      5204,
+      5217,
+      5218,
+      5219,
+      5224,
+      5226,
+      5152,
+      5153
+    ]
+  },
+  {
+    "driver_id": 467,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.13924,
+      37.41928
+    ],
+    "cum_delivering_time": 52.236695752008636,
+    "next_available_time": 135.08827660021953,
+    "processed_orders": [
+      4326,
+      4348
+    ]
+  },
+  {
+    "driver_id": 468,
+    "curr_zone_id": 25,
+    "curr_pt": [
+      121.00315,
+      37.724
+    ],
+    "cum_delivering_time": 52.61706702713883,
+    "next_available_time": 119.9677899973232,
+    "processed_orders": [
+      5080,
+      5063,
+      5066,
+      5053,
+      5059,
+      5061,
+      5062,
+      5064,
+      5065,
+      5068,
+      5069,
+      5070,
+      5071,
+      5086,
+      5078,
+      5079,
+      5067
+    ]
+  },
+  {
+    "driver_id": 469,
+    "curr_zone_id": 24,
+    "curr_pt": [
+      120.8282,
+      37.79486
+    ],
+    "cum_delivering_time": 2.0,
+    "next_available_time": 117.07166813648874,
+    "processed_orders": [
+      4828,
+      5087
+    ]
+  },
+  {
+    "driver_id": 470,
+    "curr_zone_id": 25,
+    "curr_pt": [
+      121.11083,
+      37.63242
+    ],
+    "cum_delivering_time": 53.42165109549621,
+    "next_available_time": 129.30641970569005,
+    "processed_orders": [
+      4839,
+      4787,
+      4970,
+      4432,
+      4471,
+      4586
+    ]
+  },
+  {
+    "driver_id": 471,
+    "curr_zone_id": 16,
+    "curr_pt": [
+      121.4234,
+      37.42188
+    ],
+    "cum_delivering_time": 5.029651969183937,
+    "next_available_time": 134.83261418205024,
+    "processed_orders": [
+      4316
+    ]
+  },
+  {
+    "driver_id": 472,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.54973,
+      37.42228
+    ],
+    "cum_delivering_time": 65.43586721746419,
+    "next_available_time": 116.83228429037544,
+    "processed_orders": [
+      4649,
+      4719,
+      4720,
+      4721,
+      4722,
+      4723,
+      4724,
+      4725,
+      4727,
+      4728,
+      4733,
+      4734,
+      4735,
+      4765,
+      4766,
+      4768,
+      4770,
+      4772,
+      4773,
+      4672,
+      4673,
+      4674,
+      4675,
+      4678,
+      4630,
+      4631,
+      4213,
+      4217,
+      4221,
+      4241,
+      4242
+    ]
+  },
+  {
+    "driver_id": 473,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.35663,
+      37.40328
+    ],
+    "cum_delivering_time": 26.995920683974994,
+    "next_available_time": 116.216255547186,
+    "processed_orders": [
+      4456,
+      4422,
+      4423,
+      4587,
+      4592,
+      4470,
+      4593,
+      4842
+    ]
+  },
+  {
+    "driver_id": 474,
+    "curr_zone_id": 21,
+    "curr_pt": [
+      121.24759,
+      37.5122
+    ],
+    "cum_delivering_time": 7.089880884126438,
+    "next_available_time": 131.72076902636928,
+    "processed_orders": [
+      4965,
+      4376
+    ]
+  },
+  {
+    "driver_id": 475,
+    "curr_zone_id": 13,
+    "curr_pt": [
+      121.50831,
+      37.43522
+    ],
+    "cum_delivering_time": 12.404499475491603,
+    "next_available_time": 118.37880719628907,
+    "processed_orders": [
+      4324,
+      4304,
+      4305
+    ]
+  },
+  {
+    "driver_id": 476,
+    "curr_zone_id": 24,
+    "curr_pt": [
+      120.85302,
+      37.81289
+    ],
+    "cum_delivering_time": 3.610814614573031,
+    "next_available_time": 113.75808874776293,
+    "processed_orders": [
+      4817,
+      5074
+    ]
+  },
+  {
+    "driver_id": 477,
+    "curr_zone_id": 28,
+    "curr_pt": [
+      121.18405,
+      37.57989
+    ],
+    "cum_delivering_time": 10.422006030803468,
+    "next_available_time": 134.4079678223496,
+    "processed_orders": [
+      4583
+    ]
+  },
+  {
+    "driver_id": 478,
+    "curr_zone_id": 12,
+    "curr_pt": [
+      121.5936,
+      37.40506
+    ],
+    "cum_delivering_time": 1.0,
+    "next_available_time": 114.25675176018987,
+    "processed_orders": [
+      5175
+    ]
+  },
+  {
+    "driver_id": 479,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.41102,
+      37.17612
+    ],
+    "cum_delivering_time": 60.08109866162121,
+    "next_available_time": 226.1326772997109,
+    "processed_orders": [
+      5230,
+      5255,
+      5246,
+      5247,
+      5231,
+      5234,
+      5235,
+      5237,
+      5239,
+      5240,
+      5241,
+      5251,
+      5252,
+      5253,
+      5254,
+      5243,
+      5244,
+      5245,
+      5232,
+      5233,
+      5236,
+      5238,
+      5249,
+      5250,
+      5242,
+      5248,
+      5180,
+      5181,
+      5182,
+      5183,
+      5184,
+      5159
+    ]
+  },
+  {
+    "driver_id": 480,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.41736,
+      37.35137
+    ],
+    "cum_delivering_time": 17.0,
+    "next_available_time": 126.72802296448808,
+    "processed_orders": [
+      5215,
+      5205,
+      5206,
+      5207,
+      5208,
+      5209,
+      5194,
+      5195,
+      5196,
+      5197,
+      5198,
+      5199,
+      5200,
+      5220,
+      5221,
+      5216,
+      5095
+    ]
+  },
+  {
+    "driver_id": 481,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.79523,
+      37.80871
+    ],
+    "cum_delivering_time": 11.470184482677851,
+    "next_available_time": 124.49203065929389,
+    "processed_orders": [
+      4824,
+      5048,
+      5049,
+      5050
+    ]
+  },
+  {
+    "driver_id": 482,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.37204,
+      37.36808
+    ],
+    "cum_delivering_time": 49.00640099321068,
+    "next_available_time": 116.6748798551431,
+    "processed_orders": [
+      4389,
+      4356,
+      4357,
+      4372,
+      4390,
+      4360,
+      4361,
+      4363,
+      4464,
+      4468,
+      4520,
+      4522,
+      4526,
+      4531,
+      4544,
+      4545,
+      4546,
+      4402,
+      4411,
+      4412,
+      4413,
+      4407,
+      4558,
+      4307
+    ]
+  },
+  {
+    "driver_id": 483,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.13866,
+      37.39703
+    ],
+    "cum_delivering_time": 48.58626663459008,
+    "next_available_time": 122.08081716742203,
+    "processed_orders": [
+      4335
+    ]
+  },
+  {
+    "driver_id": 484,
+    "curr_zone_id": 26,
+    "curr_pt": [
+      120.59255,
+      37.19541
+    ],
+    "cum_delivering_time": 66.02207013626406,
+    "next_available_time": 184.55454211770774,
+    "processed_orders": [
+      5167,
+      4283,
+      4284,
+      4286,
+      4287,
+      4288,
+      4289,
+      4506
+    ]
+  },
+  {
+    "driver_id": 485,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.42888,
+      37.3513
+    ],
+    "cum_delivering_time": 6.0,
+    "next_available_time": 127.55701475580074,
+    "processed_orders": [
+      5192,
+      5210,
+      5211,
+      5228,
+      5117,
+      5118
+    ]
+  },
+  {
+    "driver_id": 486,
+    "curr_zone_id": 19,
+    "curr_pt": [
+      121.527,
+      37.44267
+    ],
+    "cum_delivering_time": 61.08090107481251,
+    "next_available_time": 162.26343336799854,
+    "processed_orders": [
+      4398,
+      4508,
+      4514,
+      4440,
+      4445,
+      4448,
+      4453,
+      4454,
+      4406,
+      4408,
+      4424,
+      4309
+    ]
+  },
+  {
+    "driver_id": 487,
+    "curr_zone_id": 7,
+    "curr_pt": [
+      120.37543,
+      37.25779
+    ],
+    "cum_delivering_time": 3.0,
+    "next_available_time": 126.61570731251294,
+    "processed_orders": [
+      5225,
+      5193,
+      5154
+    ]
+  },
+  {
+    "driver_id": 488,
+    "curr_zone_id": 3,
+    "curr_pt": [
+      121.424,
+      37.44939
+    ],
+    "cum_delivering_time": 7.891520576145652,
+    "next_available_time": 191.96654694336343,
+    "processed_orders": [
+      5133,
+      4262
+    ]
+  },
+  {
+    "driver_id": 489,
+    "curr_zone_id": 29,
+    "curr_pt": [
+      121.35567,
+      37.22586
+    ],
+    "cum_delivering_time": 30.616384920160343,
+    "next_available_time": 151.94718217388683,
+    "processed_orders": [
+      4648,
+      4902,
+      5177
+    ]
+  },
+  {
+    "driver_id": 490,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.8,
+      37.76794
+    ],
+    "cum_delivering_time": 1.0,
+    "next_available_time": 118.50622262412921,
+    "processed_orders": [
+      5081
+    ]
+  },
+  {
+    "driver_id": 491,
+    "curr_zone_id": 31,
+    "curr_pt": [
+      121.36118,
+      37.47289
+    ],
+    "cum_delivering_time": 16.952540024268792,
+    "next_available_time": 118.38212423195995,
+    "processed_orders": [
+      4364,
+      4359,
+      4885
+    ]
+  },
+  {
+    "driver_id": 492,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.77378,
+      37.80303
+    ],
+    "cum_delivering_time": 7.293364871665582,
+    "next_available_time": 137.06707906130114,
+    "processed_orders": [
+      4691,
+      5083,
+      5084
+    ]
+  },
+  {
+    "driver_id": 493,
+    "curr_zone_id": 36,
+    "curr_pt": [
+      120.76545,
+      37.81361
+    ],
+    "cum_delivering_time": 19.594223106502692,
+    "next_available_time": 193.80122992726467,
+    "processed_orders": [
+      4342,
+      4337,
+      4339,
+      4345,
+      4331,
+      4332,
+      4333,
+      4336,
+      5076,
+      5077
+    ]
+  },
+  {
+    "driver_id": 494,
+    "curr_zone_id": 30,
+    "curr_pt": [
+      119.9514,
+      37.17217
+    ],
+    "cum_delivering_time": 42.650429117418554,
+    "next_available_time": 127.33454097432659,
+    "processed_orders": [
+      5088,
+      5140,
+      5141,
+      5142,
+      5143,
+      5144,
+      5145,
+      5146,
+      5107,
+      5108,
+      5109,
+      5110,
+      5111,
+      5112,
+      5113,
+      5101,
+      5102,
+      5103,
+      5104,
+      5105,
+      5106,
+      5134,
+      5135,
+      5136,
+      5137,
+      5138,
+      5139,
+      5124,
+      5125,
+      5126,
+      5127,
+      5128,
+      5129,
+      5130,
+      5131,
+      5132,
+      5149,
+      5150,
+      5151,
+      4327
+    ]
+  },
+  {
+    "driver_id": 495,
+    "curr_zone_id": 25,
+    "curr_pt": [
+      121.05961,
+      37.66835
+    ],
+    "cum_delivering_time": 36.29233329320885,
+    "next_available_time": 129.3090901270479,
+    "processed_orders": [
+      4367,
+      4388,
+      4352,
+      4598
+    ]
+  }
+]
